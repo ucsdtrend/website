@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9db40090.css",
+    "main.js": "/static/js/main.52b4ff09.js",
+    "static/js/787.a1eb5d2f.chunk.js": "/static/js/787.a1eb5d2f.chunk.js",
+    "static/media/film-strip-9.jpg": "/static/media/film-strip-9.309996ca017fde448126.jpg",
+    "static/media/film-strip-6.jpg": "/static/media/film-strip-6.16f0165661243b1fdf74.jpg",
+    "static/media/film-strip-4.jpg": "/static/media/film-strip-4.b2114ca8c32fa0cbeca7.jpg",
+    "static/media/who_we_are.jpg": "/static/media/who_we_are.b2114ca8c32fa0cbeca7.jpg",
+    "static/media/film-strip-8.jpg": "/static/media/film-strip-8.e8a2f2fa87fa48329a89.jpg",
+    "static/media/film-strip-5.jpg": "/static/media/film-strip-5.3015aea7e5f4572dfff4.jpg",
+    "static/media/film-strip-10.jpg": "/static/media/film-strip-10.8b75c608fee289bb55bb.jpg",
+    "static/media/film-strip-7.jpg": "/static/media/film-strip-7.69c3c1e83ab3c1e4ba9f.jpg",
+    "static/media/film-strip-1.jpg": "/static/media/film-strip-1.fc927866b6f4a6a50c0c.jpg",
+    "static/media/film-strip-2.jpg": "/static/media/film-strip-2.33cd8377cfcdb0f45b7d.jpg",
+    "static/media/film-strip-3.jpg": "/static/media/film-strip-3.a4cc36f722500566a0ae.jpg",
+    "static/media/danielle-hernandez.jpg": "/static/media/danielle-hernandez.4ab0f6d4d97354a016f5.jpg",
+    "static/media/samantha-phan.jpg": "/static/media/samantha-phan.16f1e88a21fe4de0b654.jpg",
+    "static/media/deyshna-pai.jpg": "/static/media/deyshna-pai.2f5deea03711c2183405.jpg",
+    "static/media/sarah-min.jpg": "/static/media/sarah-min.d124f85ea70889a87eb1.jpg",
+    "static/media/lois-ramilo.jpg": "/static/media/lois-ramilo.8323c92acdec078919fd.jpg",
+    "static/media/sravya-balasa.jpg": "/static/media/sravya-balasa.770827833ee5146b0ec7.jpg",
+    "static/media/david-castillo.jpg": "/static/media/david-castillo.ce2b0a8d8ff84567c221.jpg",
+    "static/media/kelly-bae.jpg": "/static/media/kelly-bae.1fc77fdacb64b93f5732.jpg",
+    "static/media/sydney-wong.jpg": "/static/media/sydney-wong.1309c047dbf86cfeb3d8.jpg",
+    "static/media/harleen-mander.jpg": "/static/media/harleen-mander.c8a9cfd8a916af9c526a.jpg",
+    "static/media/elliot-varon.jpg": "/static/media/elliot-varon.4ab42bd5cd1ce91c8f5f.jpg",
+    "static/media/SourceSansPro-Bold.ttf": "/static/media/SourceSansPro-Bold.18576555c63acf01da1e.ttf",
+    "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
+    "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
+    "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
+    "static/media/tiffany-liang.jpg": "/static/media/tiffany-liang.b470cf01b9d3f0c7c613.jpg",
+    "static/media/film-strip-edge.jpg": "/static/media/film-strip-edge.3adb69fc6a592d940d6a.jpg",
+    "index.html": "/index.html",
+    "main.9db40090.css.map": "/static/css/main.9db40090.css.map",
+    "main.52b4ff09.js.map": "/static/js/main.52b4ff09.js.map",
+    "787.a1eb5d2f.chunk.js.map": "/static/js/787.a1eb5d2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db40090.css",
+    "static/js/main.52b4ff09.js"
+  ]
+}
