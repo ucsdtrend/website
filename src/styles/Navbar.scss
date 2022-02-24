@@ -1,0 +1,45 @@
+@import "./Constants.scss";
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: $spacer-2;
+  padding-right: $spacer-2;
+  padding-top: $spacer-1;
+  padding-bottom: $spacer-1;
+  background-color: $color-white;
+  z-index: 1;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.links-container {
+  display: flex;
+  flex: 1;
+  gap: $spacer-1;
+}
+
+.img-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+#navbar-pages {
+  justify-content: flex-start;
+}
+
+#navbar-socials {
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: $color-black;
+}
+

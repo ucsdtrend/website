@@ -1,0 +1,13 @@
+@import "./Constants.scss";
+
+.featured-issue-container {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: $spacer-2;
+  padding-right: $spacer-2;
+  padding-top: $spacer-1;
+  padding-bottom: $spacer-1;
+  background-color: $color-issues;
+  height: 43.75rem;
+}

@@ -1,0 +1,37 @@
+@import "./Constants.scss";
+// @import Container, Row, Col from "react-grid-system";
+
+.team-grid-section {
+  // margin-top: $spacer-2;
+  // margin-bottom: $spacer-4;
+  margin-left: $spacer-3;
+  margin-right: $spacer-3;
+}
+
+.top-margin-section {
+  padding-top: $spacer-2;
+  padding-bottom: $spacer-1;
+  h2 {
+    color: $color-green;
+  }
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.top-margin-subsection {
+  // padding-top: $spacer-1;
+  padding-left: 15px;
+  padding-right: 15px;
+  h3 {
+    color: $color-green;
+  }
+}
+
+.team {
+  margin-top: $spacer-2;
+}
+
+.team-grid-container {
+  margin: 0;
+  padding: 0;
+}
