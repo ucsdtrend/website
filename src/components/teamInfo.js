@@ -1,11 +1,40 @@
 export const teamInfo = [
   {
+    picture: require("../static/michelle-he.jpg"),
+    name: "Michelle He",
+    position: "Editor in Chief",
+    instagram: "https://www.instagram.com/michellle.he/",
+    instagram: "https://www.instagram.com/madebymish_/",
+    facebook: "https://www.facebook.com/michelllehe/",
+    bio: "",
+  },
+  {
     picture: require("../static/sravya-balasa.jpg"),
     name: "Sravya Balasa",
     position: "Editor in Chief",
     linkedin: "https://www.linkedin.com/in/sravyabalasa",
     instagram: "https://www.instagram.com/photoswithsravya/",
     bio: "I joined TREND my freshman year because I wanted a place to grow as an artist and meet other creatives, especially as a STEM major. My photography and event coordination skills have improved through many shoots, which I'm so thankful for! I'm so excited to be Co-EIC this year and build an amazing community with inspiring creatives."
+  },
+  {
+    picture: require("../static/justin-kim.jpg"),
+    name: "Justin Kim",
+    position: "Internal",
+    spotify: "https://open.spotify.com/user/justinxkim?si=ed094c7df47c4248",
+    bio: "",
+  },
+  {
+    picture: require("../static/kim-lim.jpg"),
+    name: "Kim Lim",
+    position: "External",
+    bio: "I love fashion and see it as a reflection of my personality. Since UCSD is a STEM-based school, I felt that TREND was a community that not only could I express my creativity but also learn from the other creatives as well.",
+  },
+  {
+    picture: require("../static/prisca-suhendra.jpg"),
+    name: "Prisca Suhendra",
+    position: "External",
+    instagram: "https://www.instagram.com/_priscasuhendra/",
+    bio: "I joined trend because I love fashion and art, so I wanted to be apart of a team that shares this passion with me to showcase it to the greater UCSD community through the release of magazine issues and events! I also wanted to try something new and go outside my comfort zone!",
   },
   {
     picture: require("../static/tiffany-liang.jpg"),
@@ -64,6 +93,13 @@ export const teamInfo = [
     position: "Stylist",
     instagram: "https://www.instagram.com/lois_ramilo/",
     bio: "I joined TREND because I wanted to be a part of a community that is creative and constantly challenges the boundaries of art and creative expression!"
+  },
+  {
+    picture: require("../static/vania-liu.jpg"),
+    name: "Vania Liu",
+    position: "Stylist",
+    instagram: "https://www.instagram.com/vaniaaliu/",
+    bio: "I joined TREND to have a creative outlet that lets me meet and work with other creatives."
   },
   {
     picture: require("../static/elliot-varon.jpg"),

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/PolaroidBio.scss";
 // import { teamInfo } from "./teamInfo";
 import { Container, Row, Col } from "react-grid-system";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaSpotify } from "react-icons/fa";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class PolaroidBio extends React.Component {
@@ -44,9 +44,19 @@ class PolaroidBio extends React.Component {
                           <FaInstagram />
                         </a>
                       }
+                      {this.props.facebook && 
+                        <a href={this.props.facebook} target="_blank">
+                          <FaFacebook />
+                        </a>
+                      }
                       {this.props.linkedin &&
                         <a href={this.props.linkedin} target="_blank">
                           <FaLinkedin />
+                        </a>
+                      }
+                      {this.props.spotify &&
+                        <a href={this.props.spotify} target="_blank">
+                          <FaSpotify />
                         </a>
                       }
                     </div>

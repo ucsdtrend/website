@@ -1,38 +1,20 @@
 import React from "react";
+import "../styles/Button.scss";
 
 class Button extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
-  // componentDidMount() {
-  //   this.centerButton();
-  //   window.addEventListener("resize", this.centerButton);
-  // }
-
-  // centerButton() {
-  //   let element = document.getElementsByClassName(`front-button`);
-  //   for (let child of element) {
-  //     let width = -child.clientWidth / 2;
-  //     child.style.marginLeft = `${width}px`;
-  //   }
-
-  //   element = document.getElementsByClassName(`back-button`);
-  //   for (let child of element) {
-  //     let width = -child.clientWidth / 2;
-  //     child.style.marginLeft = `${width}px`;
-  //   }
-  // }
+  constructor(props) {
+    super(props);
+  }
 
   render() {
     return (
-      <div className={this.props.type}>
-        <a href={this.props.toLink} target="_blank">
-          <button className="front-button">
-            <h5>{this.props.text}</h5>
+      <div className="button-container">
+        <a href={this.props.link}>
+          <button className="button-front">
+            <h2>{this.props.text}</h2>
           </button>
-          <div className="back-button">
-            <h5>{this.props.text}</h5>
+          <div className="button-back">
+            <h2 className="text">{this.props.text}</h2>
           </div>
         </a>
       </div>

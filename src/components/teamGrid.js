@@ -63,7 +63,9 @@ class TeamGrid extends React.Component {
                         position={teamMember.position}
                         bio={teamMember.bio}
                         instagram={teamMember.instagram}
+                        facebook={teamMember.facebook}
                         linkedin={teamMember.linkedin}
+                        spotify={teamMember.spotify}
                       />
                     </React.Fragment>
                   );

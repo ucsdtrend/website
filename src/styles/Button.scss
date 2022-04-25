@@ -1,0 +1,23 @@
+@import "./Constants.scss";
+
+.button-front {
+  position: absolute;
+  left: auto;
+  right: auto;
+  height: 5rem;
+  padding: 0 5rem;
+  border: 1px solid $color-white;
+  transition: 0.5s all;
+  z-index: 100;
+}
+
+.button-back {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  height: 5rem;
+  padding: 0 5rem;
+  z-index: 10;
+  pointer-events: none;
+  border: 2px solid $color-black;
+}
