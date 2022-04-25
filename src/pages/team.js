@@ -3,7 +3,7 @@ import FilmStrip from "../components/filmStrip";
 import TeamGrid from "../components/teamGrid";
 import "../styles/Team.scss";
 
-class About extends React.Component {
+class Team extends React.Component {
   render () {
     return (
       <div className="team-page">
@@ -14,4 +14,4 @@ class About extends React.Component {
   }
 }
 
-export default About;
+export default Team;
