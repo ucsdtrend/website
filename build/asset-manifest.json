@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.294da8f7.css",
-    "main.js": "/static/js/main.a20f72e1.js",
+    "main.css": "/static/css/main.05ba12ed.css",
+    "main.js": "/static/js/main.aa618201.js",
     "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
     "static/media/gallery-4.jpg": "/static/media/gallery-4.37abcd8e7b6d3849cd55.jpg",
     "static/media/gallery-3.jpg": "/static/media/gallery-3.82ce45ce4d4e5bd38f50.jpg",
@@ -51,12 +51,12 @@
     "static/media/david-castillo.jpg": "/static/media/david-castillo.c47944868e5d40f65d9c.jpg",
     "static/media/tiffany-liang.jpg": "/static/media/tiffany-liang.4095415e0700f401bdf6.jpg",
     "index.html": "/index.html",
-    "main.294da8f7.css.map": "/static/css/main.294da8f7.css.map",
-    "main.a20f72e1.js.map": "/static/js/main.a20f72e1.js.map",
+    "main.05ba12ed.css.map": "/static/css/main.05ba12ed.css.map",
+    "main.aa618201.js.map": "/static/js/main.aa618201.js.map",
     "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.294da8f7.css",
-    "static/js/main.a20f72e1.js"
+    "static/css/main.05ba12ed.css",
+    "static/js/main.aa618201.js"
   ]
 }
