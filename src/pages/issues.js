@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-grid-system";
+import { Container } from "react-grid-system";
 import Gallery from "../components/gallery";
 import { issuesInfo } from "../components/issuesInfo";
 import IssueDescription from "../components/issueDescription";
-import Button from "../components/button";
 import "../styles/Issues.scss";
 
 class Issues extends React.Component {

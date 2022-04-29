@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/PolaroidBio.scss";
 // import { teamInfo } from "./teamInfo";
-import { Container, Row, Col } from "react-grid-system";
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaSpotify } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaFacebook, FaSpotify } from "react-icons/fa";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class PolaroidBio extends React.Component {

@@ -2,9 +2,6 @@ import React from "react";
 import "../styles/Button.scss";
 
 class Button extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
