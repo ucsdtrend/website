@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-grid-system";
-import Gallery from "../components/gallery";
+import Gallery from "../components/issuesGallery";
 import { issuesInfo } from "../components/issuesInfo";
 import IssueDescription from "../components/issueDescription";
 import "../styles/Issues.scss";

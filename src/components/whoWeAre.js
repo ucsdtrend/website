@@ -11,7 +11,7 @@ class WhoWeAre extends React.Component {
         <div>
           <Container fluid>
             <Row>
-              <Col md={8}>
+              <Col md={7}>
                 <Row>
                   <Col>
                     <h2>Who we are</h2>
@@ -19,11 +19,15 @@ class WhoWeAre extends React.Component {
                 </Row>
                 <Row>
                   <Col>
-                    <h3 className="who-we-are-description">TREND is a student-run fashion, art, and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer.</h3>
+                    <h4 className="who-we-are-description">TREND is a student-run fashion, art, and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer.</h4>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <h4 className="interest-form-description">Interested in joining our 2022-2023 team? Fill out our interest form here!</h4>
                   </Col>
                 </Row>
               </Col>
-                
                 
               <Col>
                 <div className="img-container">

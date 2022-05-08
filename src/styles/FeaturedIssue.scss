@@ -9,5 +9,9 @@
   padding-top: $spacer-1;
   padding-bottom: $spacer-1;
   background-color: $color-issues;
-  height: 43.75rem;
+  height: auto;
+}
+
+.issue-title {
+  margin-top: $spacer-1;
 }
