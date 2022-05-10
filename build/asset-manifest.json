@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29786461.css",
-    "main.js": "/static/js/main.19c669a6.js",
+    "main.js": "/static/js/main.6ab8f60d.js",
     "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
     "static/media/gallery-4.jpg": "/static/media/gallery-4.37abcd8e7b6d3849cd55.jpg",
     "static/media/gallery-3.jpg": "/static/media/gallery-3.82ce45ce4d4e5bd38f50.jpg",
@@ -40,6 +40,7 @@
     "static/media/sarah-min.jpg": "/static/media/sarah-min.8b63849af2f1f92b4ac6.jpg",
     "static/media/vania-liu.jpg": "/static/media/vania-liu.f7724c348b5fe9d6aa80.jpg",
     "static/media/featured-issue-5.jpg": "/static/media/featured-issue-5.71e9d450fae8ed9765d8.jpg",
+    "static/media/featured-issue-3.jpg": "/static/media/featured-issue-3.2641a4554a66d05ce4c6.jpg",
     "static/media/film-strip-3.jpg": "/static/media/film-strip-3.5348984f50d572483b12.jpg",
     "static/media/featured-issue-1.jpg": "/static/media/featured-issue-1.3563a3f9263dfb9e9468.jpg",
     "static/media/harleen-mander.jpg": "/static/media/harleen-mander.067d5e86dbf1e8c8c944.jpg",
@@ -65,11 +66,11 @@
     "static/media/featured-issue-10.jpg": "/static/media/featured-issue-10.15fe4e3a7b5b46175870.jpg",
     "index.html": "/index.html",
     "main.29786461.css.map": "/static/css/main.29786461.css.map",
-    "main.19c669a6.js.map": "/static/js/main.19c669a6.js.map",
+    "main.6ab8f60d.js.map": "/static/js/main.6ab8f60d.js.map",
     "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29786461.css",
-    "static/js/main.19c669a6.js"
+    "static/js/main.6ab8f60d.js"
   ]
 }
