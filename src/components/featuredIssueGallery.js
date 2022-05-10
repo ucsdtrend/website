@@ -3,6 +3,7 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
 import featured1 from "../static/featured-issue/featured-issue-1.jpg";
 import featured2 from "../static/featured-issue/featured-issue-2.jpg";
+import featured3 from "../static/featured-issue/featured-issue-3.jpg";
 import featured4 from "../static/featured-issue/featured-issue-4.jpg";
 import featured5 from "../static/featured-issue/featured-issue-5.jpg";
 import featured6 from "../static/featured-issue/featured-issue-6.jpg";
@@ -32,6 +33,7 @@ class FeaturedIssueGallery extends React.Component {
     const images = [
       featured1,
       featured2,
+      featured3,
       featured4,
       featured5,
       featured6,
@@ -55,9 +57,10 @@ class FeaturedIssueGallery extends React.Component {
           items={featuredIssueImages}
           disableDotsControls
           disableButtonsControls
+          mouseTrackingEnabled
           infinite={true}
           autoPlay={true}
-          autoPlayInterval={1800}
+          autoPlayInterval={1200}
           responsive={responsiveObject}
         />
       </div>
