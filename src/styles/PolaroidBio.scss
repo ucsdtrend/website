@@ -10,18 +10,36 @@
   background-color: $color-green-transparent;
 }
 
-.bio-outer-frame {
-  z-index: 2;
-  position: fixed;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  left: 35%;
-  right: 35%;
-  top: 5%;
-  bottom: 5%;
-  border: solid $color-black;
-  background-color: $color-white;
+@media screen and (min-width: $md){
+  .bio-outer-frame {
+    z-index: 2;
+    position: fixed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    left: 35%;
+    right: 35%;
+    top: 5%;
+    bottom: 5%;
+    border: solid $color-black;
+    background-color: $color-white;
+  }
+}
+
+@media screen and (max-width: $md){
+  .bio-outer-frame {
+    z-index: 2;
+    position: fixed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    left: 15%;
+    right: 15%;
+    top: 25%;
+    bottom: 25%;
+    border: solid $color-black;
+    background-color: $color-white;
+  }
 }
 
 .bio-inner-frame {

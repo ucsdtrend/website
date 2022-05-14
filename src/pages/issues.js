@@ -6,20 +6,13 @@ import IssueDescription from "../components/issueDescription";
 import "../styles/Issues.scss";
 
 class Issues extends React.Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+  
   render () {
     return (
       <div className="issues-page">
-        {/* <Container className="issue-button-container">
-          <Row justify="center">
-            <Col>
-              <Button 
-                text="Read Our Issues" 
-                link="https://issuu.com/trenducsd"
-              />
-            </Col>
-          </Row>
-        </Container> */}
-        
         <Gallery />
         <Container>
             {issuesInfo.map((issue, idx) => {

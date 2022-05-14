@@ -16,7 +16,6 @@ import featured12 from "../static/featured-issue/featured-issue-12.jpg";
 import featured13 from "../static/featured-issue/featured-issue-13.jpg";
 import featured14 from "../static/featured-issue/featured-issue-14.jpg";
 import "../styles/FeaturedIssueGallery.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 class FeaturedIssueGallery extends React.Component {
   render() {

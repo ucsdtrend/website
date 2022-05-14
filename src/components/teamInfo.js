@@ -108,6 +108,13 @@ export const teamInfo = [
     instagram: "https://www.instagram.com/elliotvaron/",
   },
   {
+    picture: require("../static/angelina-dyrnaes.jpg"),
+    name: "Angelina Dyrnaes",
+    position: "Photographer",
+    instagram: "https://www.instagram.com/h.m.captures/",
+    bio: "I joined TREND to find a community who values art and to explore different forms of art through collaboration."
+  },
+  {
     picture: require("../static/harleen-mander.jpg"),
     name: "Harleen Mander",
     position: "Photographer",

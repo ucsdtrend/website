@@ -15,3 +15,9 @@
 .issue-title {
   margin-top: $spacer-1;
 }
+
+h2, p {
+  display: inline-block;
+  padding-right: 1%;
+  padding-left: 1%;
+}

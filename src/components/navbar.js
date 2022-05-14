@@ -33,25 +33,6 @@ class Navbar extends React.Component {
     
     return (
       <div className='navbar-container'>
-        {/* <Menu>
-          <NavLink to="/issues">
-            <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
-          </NavLink>
-          <NavLink to="/team">
-            <h4><a href={"../pages/team.js"}>TEAM</a></h4>
-          </NavLink>
-            <div className="vertical-links-container">
-              <a href={instagram}>
-                <BsInstagram />
-              </a>
-              <a href={facebook}>
-                <BsFacebook />
-              </a>
-              <a href={medium}> 
-                <FaMedium />
-              </a>
-            </div>
-          </Menu> */}
           {windowWidth > 800 ? (
             <div className='horizontal-content-container'>
               <div className='horizontal-links-container' id="navbar-pages">
@@ -85,13 +66,6 @@ class Navbar extends React.Component {
             </div>
           ):(
             <div className='vertical-content-container'>
-              <div className='logo-container'>
-                <NavLink to="/">
-                  <a href={"../pages/home.js"}>
-                    <h1>TREND</h1>
-                  </a>
-                </NavLink>
-              </div>
 
               <Menu className='burger-menu'>
                 <NavLink to="/issues">
@@ -112,6 +86,15 @@ class Navbar extends React.Component {
                   </a>
                 </div>
               </Menu>
+
+              <div className='logo-container'>
+                <NavLink to="/">
+                  <a href={"../pages/home.js"}>
+                    <h1>TREND</h1>
+                  </a>
+                </NavLink>
+              </div>
+
             </div>
           )}
       </div>
