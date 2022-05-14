@@ -10,17 +10,7 @@
 }
 
 .polaroid-image {
-  // box-shadow: 10px 10px 0px -5px $color-purple-lightest;
   width: 100%;
-  // z-index: 100;
-  // position: relative;
-  // top: 0;
-  // left: 0;
-  // cursor: pointer;
-  // transition: 0.6s all;
-  // &:hover {
-  //   transform: translate(7px, 7px);
-  // }
 }
 
 .image-frame {
@@ -33,9 +23,6 @@
   text-align: center;
   padding-top: $spacer-base;
   padding-bottom: $spacer-base;
-  // h3 {
-  //   padding-bottom: $spacer-base;
-  // }
 }
 
 .polaroid-position {

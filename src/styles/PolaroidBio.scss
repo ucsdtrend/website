@@ -10,7 +10,7 @@
   background-color: $color-green-transparent;
 }
 
-@media screen and (min-width: $md){
+@media screen and (min-width: $lg){
   .bio-outer-frame {
     z-index: 2;
     position: fixed;
@@ -19,6 +19,22 @@
     padding-left: 2rem;
     left: 35%;
     right: 35%;
+    top: 5%;
+    bottom: 5%;
+    border: solid $color-black;
+    background-color: $color-white;
+  }
+}
+
+@media screen and (min-width: $md) and (max-width: $lg){
+  .bio-outer-frame {
+    z-index: 2;
+    position: fixed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    left: 30%;
+    right: 30%;
     top: 5%;
     bottom: 5%;
     border: solid $color-black;
@@ -35,8 +51,8 @@
     padding-left: 2rem;
     left: 15%;
     right: 15%;
-    top: 25%;
-    bottom: 25%;
+    top: 15%;
+    bottom: 15%;
     border: solid $color-black;
     background-color: $color-white;
   }
@@ -52,20 +68,12 @@
 .close-modal {
   background: none;
   border: none;
-  // display: inline-block;
   cursor: pointer;
-  // position: absolute;
-  // top: 2%;
-  // right: 2%;
   transition: 0.6s all;
 }
 
 .bio-position {
   transform: rotateZ(90deg);
-  // display: inline-block;
-  // position: absolute;
-  // top: 25%;
-  // right: 0%;
 }
 
 .bio-side {
@@ -79,6 +87,9 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  a {
     font-size: 3.6rem;
   }
 }

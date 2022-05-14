@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a7cf9fe.css",
-    "main.js": "/static/js/main.36460a61.js",
+    "main.css": "/static/css/main.e3bf2b10.css",
+    "main.js": "/static/js/main.4af20ed1.js",
     "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
     "static/media/gallery-4.jpg": "/static/media/gallery-4.37abcd8e7b6d3849cd55.jpg",
     "static/media/gallery-3.jpg": "/static/media/gallery-3.82ce45ce4d4e5bd38f50.jpg",
@@ -32,6 +32,7 @@
     "static/media/kim-lim.jpg": "/static/media/kim-lim.e71371f16313486b11fd.jpg",
     "static/media/elliot-varon.jpg": "/static/media/elliot-varon.da5c585add715d873761.jpg",
     "static/media/danielle-hernandez.jpg": "/static/media/danielle-hernandez.4eb5309aabb477877ba5.jpg",
+    "static/media/shimika-basuroy.jpg": "/static/media/shimika-basuroy.ecfb1493c6229e5bd2ba.jpg",
     "static/media/prisca-suhendra.jpg": "/static/media/prisca-suhendra.4e4205ef6f7eb5e03589.jpg",
     "static/media/SourceSansPro-Bold.ttf": "/static/media/SourceSansPro-Bold.18576555c63acf01da1e.ttf",
     "static/media/sravya-balasa.jpg": "/static/media/sravya-balasa.38d8eade2f80b7b9e347.jpg",
@@ -66,12 +67,12 @@
     "static/media/featured-issue-13.jpg": "/static/media/featured-issue-13.d24301102e3baf0e6b8d.jpg",
     "static/media/featured-issue-10.jpg": "/static/media/featured-issue-10.15fe4e3a7b5b46175870.jpg",
     "index.html": "/index.html",
-    "main.9a7cf9fe.css.map": "/static/css/main.9a7cf9fe.css.map",
-    "main.36460a61.js.map": "/static/js/main.36460a61.js.map",
+    "main.e3bf2b10.css.map": "/static/css/main.e3bf2b10.css.map",
+    "main.4af20ed1.js.map": "/static/js/main.4af20ed1.js.map",
     "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a7cf9fe.css",
-    "static/js/main.36460a61.js"
+    "static/css/main.e3bf2b10.css",
+    "static/js/main.4af20ed1.js"
   ]
 }

@@ -41,7 +41,7 @@ class FilmStrip extends React.Component {
     ];
 
     const filmStripImages = images.map(img => <div className="img-container">
-      <LazyLoadImage className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
+      <img className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)
 
     return (
@@ -54,7 +54,7 @@ class FilmStrip extends React.Component {
           mouseTrackingEnabled
           infinite={true}
           autoPlay={true}
-          autoPlayInterval={1200}
+          autoPlayInterval={1500}
           responsive={responsiveObject}
         />
         <LazyLoadImage className="film-strip-edge" src={filmStripEdge} />

@@ -24,7 +24,7 @@ class WhoWeAre extends React.Component {
                 </Row>
                 <Row>
                   <Col>
-                    <h4 className="interest-form-description">Interested in joining our 2022-2023 team? Fill out our interest form here!</h4>
+                    <h4 className="interest-form-description">Interested in joining our 2022-2023 team? Fill out our interest form <a className="interest-form-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfGeGLoM6nZdLjKUUaBmA9U0NG9JU3B-DFYgGoC1NGgswt6-w/viewform" target="_blank">here</a>!</h4>
                   </Col>
                 </Row>
               </Col>

@@ -59,7 +59,7 @@ class FeaturedIssueGallery extends React.Component {
           mouseTrackingEnabled
           infinite={true}
           autoPlay={true}
-          autoPlayInterval={1200}
+          autoPlayInterval={1500}
           responsive={responsiveObject}
         />
       </div>

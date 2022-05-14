@@ -24,6 +24,12 @@ export const teamInfo = [
     bio: "",
   },
   {
+    picture: require("../static/justin-kim.jpg"),
+    name: "Shauna Huang",
+    position: "External Lead",
+    bio: "I joined TREND because I wanted a creative outlet, and for me that is creating and planning events for the UCSD community. I find the process of event planning to be extremely rewarding because I am able to witness a simple idea transform into something tangible. Also, I wanted the opportunity to meet new people!",
+  },
+  {
     picture: require("../static/kim-lim.jpg"),
     name: "Kim Lim",
     position: "External",
@@ -88,6 +94,12 @@ export const teamInfo = [
     bio: "I joined TREND because I wanted a chance to create and share art and to build community with other people passionate about expression."
   },
   {
+    picture: require("../static/shimika-basuroy.jpg"),
+    name: "Shimika Basuroy",
+    position: "Writer",
+    bio: "I joined TREND to find a creative outlet on campus and meet new people with similar interests!"
+  },
+  {
     picture: require("../static/lois-ramilo.jpg"),
     name: "Lois Ramilo",
     position: "Stylist",
@@ -108,11 +120,17 @@ export const teamInfo = [
     instagram: "https://www.instagram.com/elliotvaron/",
   },
   {
+    picture: require("../static/elliot-varon.jpg"),
+    name: "Deepti Rema",
+    position: "Stylist",
+    bio: "I joined TREND because I wanted to get a chance to express my creative side!"
+  },
+  {
     picture: require("../static/angelina-dyrnaes.jpg"),
     name: "Angelina Dyrnaes",
     position: "Photographer",
-    instagram: "https://www.instagram.com/h.m.captures/",
-    bio: "I joined TREND to find a community who values art and to explore different forms of art through collaboration."
+    bio: "I joined TREND to find a community who values art and to explore different forms of art through collaboration.",
+    instagram: "https://www.instagram.com/angiedyr/",
   },
   {
     picture: require("../static/harleen-mander.jpg"),

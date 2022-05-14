@@ -14,14 +14,12 @@ class TeamGrid extends React.Component {
   }
 
   openModal = value => {
-    // document.getElementById("opaque-filler").style.display = "block";
     this.setState({
       showModal: value
     });
   };
 
   hideModal = value => {
-    // document.getElementById("opaque-filler").style.display = "none";
     this.setState({
       showModal: -1
     });
@@ -43,7 +41,7 @@ class TeamGrid extends React.Component {
               {teamInfo.map((teamMember, idx) => {
                   return (
                     <React.Fragment key={teamMember.name}>
-                      <Col xs={12} sm={6} md={3} l={4} key={idx}>
+                      <Col xs={6} sm={6} md={3} l={4} key={idx}>
                         <div onClick={() => this.openModal(idx)}>
                           <Polaroid
                             picture={teamMember.picture}
