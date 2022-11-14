@@ -2,6 +2,7 @@ import React from "react";
 import FeaturedBlog from "../components/featuredBlog";
 import FeaturedIssue from "../components/featuredIssue";
 import WhoWeAre from "../components/whoWeAre";
+import Footer from "../components/footer";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -14,6 +15,7 @@ class Home extends React.Component {
         <FeaturedIssue/>
         <WhoWeAre/>
         <FeaturedBlog/>
+        <Footer/>
       </div>
     )
   }
