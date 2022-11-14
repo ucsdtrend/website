@@ -1,4 +1,13 @@
 // @import-normalize;
+@import "./styles/Constants.scss";
+
+body {
+  background-color: $color-blog;
+}
+
+// html {
+//   background: $color-blog;
+// }
 
 /* body {
   margin: 0;

@@ -4,6 +4,7 @@ import Gallery from "../components/issuesGallery";
 import { issuesInfo } from "../components/issuesInfo";
 import IssueDescription from "../components/issueDescription";
 import "../styles/Issues.scss";
+import Footer from "../components/footer";
 
 class Issues extends React.Component {
   componentDidMount() {
@@ -31,7 +32,9 @@ class Issues extends React.Component {
               );
             })}
         </Container>
+        <Footer />
       </div>
+      
     )
   }
 }

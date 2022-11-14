@@ -14,7 +14,7 @@ class Home extends React.Component {
       <div>
         <FeaturedIssue/>
         <WhoWeAre/>
-        <FeaturedBlog/>
+        {/* <FeaturedBlog/> */}
         <Footer/>
       </div>
     )

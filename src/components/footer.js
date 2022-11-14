@@ -11,7 +11,7 @@ class Footer extends React.Component {
     const medium = "https://medium.com/@trenducsd";
 
     return (
-      <footer className="home-page" id="footer-section">
+      <div className="footer-container" id="footer-section">
         <div>
           <Container fluid>
             <Row justify="between" debug>
@@ -36,12 +36,12 @@ class Footer extends React.Component {
                   
               </Col>
             </Row>
-            <Row justify="between" debug className='email-container'>
+            <Row justify="right" debug className='email-container'>
               <h4>trenducsd@gmail.com</h4>
             </Row>
           </Container>
         </div>
-      </footer>
+      </div>
     )
     // return(
     //   <div className="home-page" id="who-we-are-section">
