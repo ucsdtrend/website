@@ -20,8 +20,8 @@ class FilmStrip extends React.Component {
     const responsiveObject = {
       0: { items: 1 },
       450: { items: 1 },
-      768: { items: 1 },
-      992: { items: 2 },
+      768: { items: 2 },
+      992: { items: 3 },
       1200: { items: 4 },
     };
 
@@ -41,7 +41,7 @@ class FilmStrip extends React.Component {
     ];
 
     const filmStripImages = images.map(img => <div className="img-container">
-      <LazyLoadImage className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
+      <img className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)
 
     return (
@@ -51,8 +51,10 @@ class FilmStrip extends React.Component {
           items={filmStripImages}
           disableDotsControls
           disableButtonsControls
-          mouseTracking={true}
+          mouseTrackingEnabled
           infinite={true}
+          autoPlay={true}
+          autoPlayInterval={1500}
           responsive={responsiveObject}
         />
         <LazyLoadImage className="film-strip-edge" src={filmStripEdge} />

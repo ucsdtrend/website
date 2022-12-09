@@ -1,11 +1,46 @@
 export const teamInfo = [
   {
+    picture: require("../static/michelle-he.jpg"),
+    name: "Michelle He",
+    position: "Editor in Chief",
+    instagram: "https://www.instagram.com/michellle.he/",
+    instagram: "https://www.instagram.com/madebymish_/",
+    facebook: "https://www.facebook.com/michelllehe/",
+    bio: "",
+  },
+  {
     picture: require("../static/sravya-balasa.jpg"),
     name: "Sravya Balasa",
     position: "Editor in Chief",
     linkedin: "https://www.linkedin.com/in/sravyabalasa",
     instagram: "https://www.instagram.com/photoswithsravya/",
     bio: "I joined TREND my freshman year because I wanted a place to grow as an artist and meet other creatives, especially as a STEM major. My photography and event coordination skills have improved through many shoots, which I'm so thankful for! I'm so excited to be Co-EIC this year and build an amazing community with inspiring creatives."
+  },
+  {
+    picture: require("../static/justin-kim.jpg"),
+    name: "Justin Kim",
+    position: "Internal",
+    spotify: "https://open.spotify.com/user/justinxkim?si=ed094c7df47c4248",
+    bio: "",
+  },
+  {
+    picture: require("../static/justin-kim.jpg"),
+    name: "Shauna Huang",
+    position: "External Lead",
+    bio: "I joined TREND because I wanted a creative outlet, and for me that is creating and planning events for the UCSD community. I find the process of event planning to be extremely rewarding because I am able to witness a simple idea transform into something tangible. Also, I wanted the opportunity to meet new people!",
+  },
+  {
+    picture: require("../static/kim-lim.jpg"),
+    name: "Kim Lim",
+    position: "External",
+    bio: "I love fashion and see it as a reflection of my personality. Since UCSD is a STEM-based school, I felt that TREND was a community that not only could I express my creativity but also learn from the other creatives as well.",
+  },
+  {
+    picture: require("../static/prisca-suhendra.jpg"),
+    name: "Prisca Suhendra",
+    position: "External",
+    instagram: "https://www.instagram.com/_priscasuhendra/",
+    bio: "I joined trend because I love fashion and art, so I wanted to be apart of a team that shares this passion with me to showcase it to the greater UCSD community through the release of magazine issues and events! I also wanted to try something new and go outside my comfort zone!",
   },
   {
     picture: require("../static/tiffany-liang.jpg"),
@@ -59,6 +94,12 @@ export const teamInfo = [
     bio: "I joined TREND because I wanted a chance to create and share art and to build community with other people passionate about expression."
   },
   {
+    picture: require("../static/shimika-basuroy.jpg"),
+    name: "Shimika Basuroy",
+    position: "Writer",
+    bio: "I joined TREND to find a creative outlet on campus and meet new people with similar interests!"
+  },
+  {
     picture: require("../static/lois-ramilo.jpg"),
     name: "Lois Ramilo",
     position: "Stylist",
@@ -66,10 +107,30 @@ export const teamInfo = [
     bio: "I joined TREND because I wanted to be a part of a community that is creative and constantly challenges the boundaries of art and creative expression!"
   },
   {
+    picture: require("../static/vania-liu.jpg"),
+    name: "Vania Liu",
+    position: "Stylist",
+    instagram: "https://www.instagram.com/vaniaaliu/",
+    bio: "I joined TREND to have a creative outlet that lets me meet and work with other creatives."
+  },
+  {
     picture: require("../static/elliot-varon.jpg"),
     name: "Elliot Varon",
     position: "Stylist",
     instagram: "https://www.instagram.com/elliotvaron/",
+  },
+  {
+    picture: require("../static/elliot-varon.jpg"),
+    name: "Deepti Rema",
+    position: "Stylist",
+    bio: "I joined TREND because I wanted to get a chance to express my creative side!"
+  },
+  {
+    picture: require("../static/angelina-dyrnaes.jpg"),
+    name: "Angelina Dyrnaes",
+    position: "Photographer",
+    bio: "I joined TREND to find a community who values art and to explore different forms of art through collaboration.",
+    instagram: "https://www.instagram.com/angiedyr/",
   },
   {
     picture: require("../static/harleen-mander.jpg"),

@@ -1,0 +1,41 @@
+@import "./Constants.scss";
+
+.issue-container {
+  margin-bottom: $spacer-2;
+}
+
+.issue-image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.issue-description-layer {
+  position: absolute;
+  padding-left: $spacer-2;
+  padding-right: $spacer-2;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2
+}
+
+.issue-container:hover .issue-image{
+  opacity: 25%;
+}
+
+.issue-container:hover .issue-description-layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.issue-image {
+  width: 70%;
+  display: block;
+}
+
+.issue-description {
+  padding: $spacer-1;
+  position: relative;
+}
+

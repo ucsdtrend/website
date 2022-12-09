@@ -1,0 +1,19 @@
+@import "./Constants.scss";
+
+.issue-container {
+  margin-top: $spacer-2;
+  margin-bottom: $spacer-2;
+}
+
+.issue-image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.issue-image {
+  width: 70%;
+}
+
+.issue-title {
+  margin-bottom: $spacer-1;
+}
+

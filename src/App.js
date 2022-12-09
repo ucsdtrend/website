@@ -3,7 +3,7 @@ import "./styles/Typography.scss";
 import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Issues from "./pages/issues"
-import About from "./pages/about";
+import Team from "./pages/team";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 // setConfiguration({
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/issues' element={<Issues/>} />
-          <Route path='/about' element={<About/>} />
+          <Route path='/team' element={<Team/>} />
         </Routes>
       </BrowserRouter>
     </div>
