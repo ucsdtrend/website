@@ -38,7 +38,6 @@ class Issues extends React.Component {
           </Row>
           </div>
         </Container>
-        <Footer />
       </div>
       
     )

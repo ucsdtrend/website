@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Home from "./pages/home";
 import Issues from "./pages/issues"
 import Team from "./pages/team";
+import Footer from "./components/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 // setConfiguration({
@@ -23,6 +24,7 @@ function App() {
           <Route path='/team' element={<Team/>} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
