@@ -9,7 +9,7 @@ class Navbar extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { windowWidth: window.innerWidth };
+    this.state = { windowWidth: window.innerWidth, menuOpen: false };
   }
 
   handleResize = (e) => {
@@ -23,6 +23,14 @@ class Navbar extends React.Component {
   componentWillUnmount() {
     window.addEventListener("resize", this.handleResize);
   } 
+
+  handleStateChange = () => {
+    this.setState({menuOpen: this.state.isOpen});
+  };
+
+  handleCloseMenu = () => {
+    this.setState({menuOpen: false})
+  };
   
   render() {
 
@@ -67,11 +75,14 @@ class Navbar extends React.Component {
           ):(
             <div className='vertical-content-container'>
 
-              <Menu className='burger-menu'>
-                <NavLink to="/issues">
+              <Menu className='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
+                <NavLink to="/" onClick={() => this.handleCloseMenu()}>
+                  <h4><a href={"../pages/home.js"}>HOME</a></h4>
+                </NavLink>
+                <NavLink to="/issues" onClick={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
                 </NavLink>
-                <NavLink to="/team">
+                <NavLink to="/team" onClick={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
                 <div className="vertical-links-container">

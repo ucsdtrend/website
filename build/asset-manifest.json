@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3bf2b10.css",
-    "main.js": "/static/js/main.4af20ed1.js",
+    "main.css": "/static/css/main.386c0d15.css",
+    "main.js": "/static/js/main.60e9b7a6.js",
     "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
     "static/media/gallery-4.jpg": "/static/media/gallery-4.37abcd8e7b6d3849cd55.jpg",
     "static/media/gallery-3.jpg": "/static/media/gallery-3.82ce45ce4d4e5bd38f50.jpg",
@@ -44,6 +44,7 @@
     "static/media/featured-issue-3.jpg": "/static/media/featured-issue-3.2641a4554a66d05ce4c6.jpg",
     "static/media/film-strip-3.jpg": "/static/media/film-strip-3.5348984f50d572483b12.jpg",
     "static/media/featured-issue-1.jpg": "/static/media/featured-issue-1.3563a3f9263dfb9e9468.jpg",
+    "static/media/tide.png": "/static/media/tide.83898c506fa3bf5b9c13.png",
     "static/media/harleen-mander.jpg": "/static/media/harleen-mander.067d5e86dbf1e8c8c944.jpg",
     "static/media/film-strip-7.jpg": "/static/media/film-strip-7.3a100bf5047d014c7dd3.jpg",
     "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
@@ -51,6 +52,7 @@
     "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
     "static/media/film-strip-9.jpg": "/static/media/film-strip-9.0280567954bdf93f5d9c.jpg",
     "static/media/film-strip-1.jpg": "/static/media/film-strip-1.5251103540b447a5dbb6.jpg",
+    "static/media/revival.png": "/static/media/revival.864f387fb42c203e0fd3.png",
     "static/media/featured-issue-6.jpg": "/static/media/featured-issue-6.67e9098ff5b45221e54d.jpg",
     "static/media/featured-issue-4.jpg": "/static/media/featured-issue-4.44cc7ac8bbfb78b1c947.jpg",
     "static/media/angelina-dyrnaes.jpg": "/static/media/angelina-dyrnaes.2d598a90b3c9c0746941.jpg",
@@ -67,12 +69,12 @@
     "static/media/featured-issue-13.jpg": "/static/media/featured-issue-13.d24301102e3baf0e6b8d.jpg",
     "static/media/featured-issue-10.jpg": "/static/media/featured-issue-10.15fe4e3a7b5b46175870.jpg",
     "index.html": "/index.html",
-    "main.e3bf2b10.css.map": "/static/css/main.e3bf2b10.css.map",
-    "main.4af20ed1.js.map": "/static/js/main.4af20ed1.js.map",
+    "main.386c0d15.css.map": "/static/css/main.386c0d15.css.map",
+    "main.60e9b7a6.js.map": "/static/js/main.60e9b7a6.js.map",
     "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3bf2b10.css",
-    "static/js/main.4af20ed1.js"
+    "static/css/main.386c0d15.css",
+    "static/js/main.60e9b7a6.js"
   ]
 }

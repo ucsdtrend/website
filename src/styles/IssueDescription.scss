@@ -5,12 +5,29 @@
   margin-bottom: $spacer-2;
 }
 
-.issue-image-container {
+.issue-img-container {
   display: flex;
+  
+}
+
+#large-screen-container {
   justify-content: flex-end;
 }
-.issue-image {
+
+#small-screen-container {
+  justify-content: center;
+}
+
+.issue-img {
   width: 70%;
+}
+
+#small-screen {
+  width: 50%;
+}
+
+.small-screen-row {
+  margin-bottom: $spacer-2;
 }
 
 .issue-title {

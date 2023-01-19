@@ -1,5 +1,17 @@
 export const issuesInfo = [
   {
+    picture: require("../static/issues/tide.png"),
+    title: "Tide",
+    link: "https://issuu.com/trenducsd/docs/tide_issue",
+    description: "Like the alternating rise and fall of the tide itself, the definition of the word “tide” constantly shifts for us. In this issue, we explored how “tide” has showcased itself in both the past and present, whether it be through representation in period cinema or inclusivity in surf culture. For our beloved TREND staff, making this issue come together meant stepping out of the boundaries of our respective roles within the team. For the class of 2022, saying goodbye to the undergrad years and stepping forth into new horizons is both exciting and scary. Above all, we hope that you, our reader, can see and understand our vision of “tide” as synonymous with “seasons of change”.",
+  },
+  {
+    picture: require("../static/issues/revival.png"),
+    title: "Revival",
+    link: "https://issuu.com/trenducsd/docs/revival_issue_fw22",
+    description: "For many, stepping foot back onto campus in September marked a new beginning. Despite walking the same paths and sitting in the same classrooms, we are different people now than who we were nearly two years prior. Returning to campus this fall kickstarted the transformation of our thoughts and dreams into intention and reality — a REVIVAL of our unique space in the universe and what makes us who we are. Revival also marked the resurgence of Trend. After releasing three issues under remote-only operations, we were able to bring back old traditions, like TRENDing at UCSD and pop-up shops, while pursuing new ventures, like collaborating with small-business designers. We built a new team of talented creatives and a community of like-minded artists, dreamers, and students to share our passions with. Whatever Revival means to you, we wish you all the love on your path to rediscovering what makes you YOU.",
+  },
+  {
     picture: require("../static/issues/unveiled.png"),
     title: "Unveiled",
     link: "https://issuu.com/trenducsd/docs/trend_ss21_unveiled",
