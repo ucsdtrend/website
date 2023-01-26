@@ -8,10 +8,12 @@
 .issue-grid-container {
   margin: 0;
   padding: 0;
-  // display: flex;
-  // justify-content: flex-end;
 }
 
 .issues {
   margin-top: $spacer-2;
+}
+
+.issues-page {
+  height: auto;
 }

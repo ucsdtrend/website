@@ -20,6 +20,8 @@
 }
 
 .vertical-content-container {
+  // display: flex;
+  // align-items: center;
   padding-top: $spacer-1;
   padding-bottom: $spacer-1;
 }
@@ -35,9 +37,8 @@
   gap: $spacer-1;
 }
 
-.logo-container {
+.navbar-logo-container {
   display: flex;
-  // flex: 1;
   justify-content: center;
 }
 

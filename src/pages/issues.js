@@ -5,7 +5,6 @@ import { issuesInfo } from "../components/issuesInfo";
 import IssueBlock from "../components/issueBlock";
 import IssueDescription from "../components/issueDescription";
 import "../styles/Issues.scss";
-import Footer from "../components/footer";
 
 class Issues extends React.Component {
   componentDidMount() {

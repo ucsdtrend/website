@@ -52,7 +52,7 @@ class Navbar extends React.Component {
                 </NavLink>
               </div>
               
-              <div className='logo-container'>
+              <div className='navbar-logo-container'>
                 <NavLink to="/">
                   <a href={"../pages/home.js"}>
                     <h1>TREND</h1>
@@ -98,7 +98,7 @@ class Navbar extends React.Component {
                 </div>
               </Menu>
 
-              <div className='logo-container'>
+              <div className='navbar-logo-container'>
                 <NavLink to="/">
                   <a href={"../pages/home.js"}>
                     <h1>TREND</h1>

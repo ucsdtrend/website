@@ -12,13 +12,13 @@ class Footer extends React.Component {
 
     return (
       <div className="footer-container" id="footer-section">
-        <div>
+        {/* <div> */}
           <Container fluid>
             <Row justify="between">
               <Col>
-                <h4>© TREND at University of California, San Diego 2022</h4>
+                <h4>© TREND at UC San Diego 2022</h4>
               </Col>
-              <Col className='logo-container'>
+              <Col className='footer-logo-container'>
                 <Row>
                   <div className="horizontal-links-container" id="navbar-socials">
                     <a href={instagram}>
@@ -40,7 +40,7 @@ class Footer extends React.Component {
               <h4>trenducsd@gmail.com</h4>
             </Row>
           </Container>
-        </div>
+        {/* </div> */}
       </div>
     )
   }
