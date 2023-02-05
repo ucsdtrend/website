@@ -10,7 +10,7 @@ class IssueBlock extends React.Component {
         <a className="issue-image-container" href={this.props.link}>
           <LazyLoadImage className="issue-image" src={this.props.picture} alt={this.props.title} />
           <div className="issue-description-layer">
-            <h4 className="issue-description">{this.props.description}</h4>
+            <div className="issue-description"><h4>{this.props.description}</h4></div>
           </div>
         </a>
       </div>

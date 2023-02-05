@@ -1,19 +1,11 @@
 @import "./Constants.scss";
 
-.issue-button-container {
-  margin-top: $spacer-4;
-  margin-bottom: $spacer-2;
-}
-
-.issue-grid-container {
+.issues-grid-container {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .issues {
   margin-top: $spacer-2;
-}
-
-.issues-page {
-  height: auto;
 }

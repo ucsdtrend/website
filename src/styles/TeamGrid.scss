@@ -1,8 +1,6 @@
 @import "./Constants.scss";
 
 .team-grid-section {
-  // margin-top: $spacer-2;
-  // margin-bottom: $spacer-4;
   margin-left: $spacer-3;
   margin-right: $spacer-3;
 }
@@ -18,7 +16,6 @@
 }
 
 .top-margin-subsection {
-  // padding-top: $spacer-1;
   padding-left: 15px;
   padding-right: 15px;
   h3 {
@@ -33,4 +30,5 @@
 .team-grid-container {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }

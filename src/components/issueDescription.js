@@ -28,11 +28,12 @@ class IssueDescription extends React.Component {
     return (
       <div className="issue-container">
         {windowWidth > 800 ? (
-          <Container>
+          <Container >
             <Row>
               <Col md={8}>
                 <a href={this.props.link}>
                   <h3 className="issue-title" >{this.props.title}</h3> 
+                  {/* <h4 className="issue-date" */}
                 </a>
                 <h4>{this.props.description}</h4>
               </Col>
@@ -44,7 +45,8 @@ class IssueDescription extends React.Component {
             </Row>
           </Container>
         ):(
-          <Container>
+          <Container >
+            <div className="try">
             <Row className="small-screen-row" align="center">
                 <a href={this.props.link}>
                   <h3 className="issue-title" >{this.props.title}</h3> 
@@ -56,6 +58,7 @@ class IssueDescription extends React.Component {
                   <LazyLoadImage className="issue-img" id="small-screen" src={this.props.picture} alt={this.props.title} />
                 </div>
             </Row>
+            </div>
           </Container>
         )}
       </div>
