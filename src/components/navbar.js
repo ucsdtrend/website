@@ -73,8 +73,21 @@ class Navbar extends React.Component {
               </div>
             </div>
           ):(
+            <div>
             <div className='vertical-content-container'>
 
+              
+
+              <div className='navbar-logo-container'>
+                <NavLink to="/">
+                  <a href={"../pages/home.js"}>
+                    <h1>TREND</h1>
+                  </a>
+                </NavLink>
+              </div>
+
+            </div>
+            <div className="side-panel">
               <Menu className='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
                 <NavLink to="/" onClick={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/home.js"}>HOME</a></h4>
@@ -97,15 +110,7 @@ class Navbar extends React.Component {
                   </a>
                 </div>
               </Menu>
-
-              <div className='navbar-logo-container'>
-                <NavLink to="/">
-                  <a href={"../pages/home.js"}>
-                    <h1>TREND</h1>
-                  </a>
-                </NavLink>
-              </div>
-
+            </div>
             </div>
           )}
       </div>
