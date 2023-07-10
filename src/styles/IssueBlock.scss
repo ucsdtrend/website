@@ -1,7 +1,7 @@
 @import "./Constants.scss";
 
 .issue-container {
-  margin-bottom: $spacer-2;
+  margin-bottom: $spacer-3;
 }
 
 .issue-image-container {
@@ -15,6 +15,7 @@
   padding-left: $spacer-2;
   padding-right: $spacer-2;
   opacity: 0;
+  display:inline-block;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2
@@ -31,11 +32,12 @@
 
 .issue-image {
   width: 70%;
-  display: block;
 }
 
 .issue-description {
   padding: $spacer-1;
   position: relative;
+  overflow:auto;
+  height: 25rem;
 }
 

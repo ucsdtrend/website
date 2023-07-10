@@ -1,149 +1,166 @@
 export const teamInfo = [
   {
-    picture: require("../static/michelle-he.jpg"),
-    name: "Michelle He",
+    picture: require("../static/team/angie-dyrnaes.jpg"),
+    name: "Angie Dyrnaes",
     position: "Editor in Chief",
-    instagram: "https://www.instagram.com/michellle.he/",
-    instagram: "https://www.instagram.com/madebymish_/",
-    facebook: "https://www.facebook.com/michelllehe/",
-    bio: "",
+    instagram: "https://www.instagram.com/angiedyr/",
+    bio: "I joined TREND to create with other students who have interests in fashion and art!",
   },
   {
-    picture: require("../static/sravya-balasa.jpg"),
-    name: "Sravya Balasa",
+    picture: require("../static/team/deyshna-pai.jpg"),
+    name: "Deyshna Pai",
     position: "Editor in Chief",
-    linkedin: "https://www.linkedin.com/in/sravyabalasa",
-    instagram: "https://www.instagram.com/photoswithsravya/",
-    bio: "I joined TREND my freshman year because I wanted a place to grow as an artist and meet other creatives, especially as a STEM major. My photography and event coordination skills have improved through many shoots, which I'm so thankful for! I'm so excited to be Co-EIC this year and build an amazing community with inspiring creatives."
+    instagram: "https://www.instagram.com/deyshna/",
+    bio: "I joined TREND to be around other creatives!"
   },
   {
-    picture: require("../static/justin-kim.jpg"),
-    name: "Justin Kim",
-    position: "Internal",
-    spotify: "https://open.spotify.com/user/justinxkim?si=ed094c7df47c4248",
-    bio: "",
-  },
-  {
-    picture: require("../static/justin-kim.jpg"),
-    name: "Shauna Huang",
-    position: "External Lead",
-    bio: "I joined TREND because I wanted a creative outlet, and for me that is creating and planning events for the UCSD community. I find the process of event planning to be extremely rewarding because I am able to witness a simple idea transform into something tangible. Also, I wanted the opportunity to meet new people!",
-  },
-  {
-    picture: require("../static/kim-lim.jpg"),
+    picture: require("../static/team/kim-lim.jpg"),
     name: "Kim Lim",
     position: "External",
-    bio: "I love fashion and see it as a reflection of my personality. Since UCSD is a STEM-based school, I felt that TREND was a community that not only could I express my creativity but also learn from the other creatives as well.",
+    bio: "I joined TREND because I love fashion and I wanted to work with like-minded creative individuals who can inspire me to think outside of the box.",
   },
   {
-    picture: require("../static/prisca-suhendra.jpg"),
+    picture: require("../static/team/prisca-suhendra.jpg"),
     name: "Prisca Suhendra",
     position: "External",
-    instagram: "https://www.instagram.com/_priscasuhendra/",
-    bio: "I joined trend because I love fashion and art, so I wanted to be apart of a team that shares this passion with me to showcase it to the greater UCSD community through the release of magazine issues and events! I also wanted to try something new and go outside my comfort zone!",
+    bio: "I joined TREND because I love everything fashion and art related, so I wanted to be able to be surrounded by people I can talk and express myself to about these things!",
   },
   {
-    picture: require("../static/tiffany-liang.jpg"),
-    name: "Tiffany Liang",
-    position: "Marketing Lead",
-    linkedin: "https://www.linkedin.com/in/tiffanyliang01/",
-    instagram: "https://www.instagram.com/tiffany.liang/",
-    bio: "I am both passionate about fashion and content production, and wanted to become involved in a community with similar interests!"
+    picture: require("../static/team/kayla-mak.jpg"),
+    name: "Kayla Mak",
+    position: "External",
+    bio: "I joined TREND to surround myself with lovers of fashion, art, and serving cunt !!",
   },
   {
-    picture: require("../static/kelly-bae.jpg"),
-    name: "Kelly Bae",
+    picture: require("../static/team/alexander-lau.jpg"),
+    name: "Alexander Lau",
+    position: "External",
+    instagram: "https://www.instagram.com/xander_lau/",
+    bio: "I joined TREND to meet more people interested in fashion!",
+  },
+  {
+    picture: require("../static/team/neharika-makam.jpg"),
+    name: "Neharika Makam",
+    position: "External",
+    instagram: "https://www.instagram.com/nehey_hey_hey/",
+    linkedin: "http://www.linkedin.com/in/neharikam",
+    bio: "I joined TREND because I wanted to learn more about fashion and am constantly inspired by those I work with! I love being a part of Trend!",
+  },
+  {
+    picture: require("../static/team/reece-kelly.jpg"),
+    name: "Reece Kelly",
     position: "Marketing",
-    linkedin: "www.linkedin.com/in/kelly-bae-08223a1a1",
-    instagram: "https://www.instagram.com/_kellybae_/",
-    bio: "I joined TREND in my freshman year of college because I wanted to be part of a community of creatives! It was so cool to be around others who are so talented and passionate about fashion, art, design, etc."
+    instagram: "https://www.instagram.com/reecekellyy_/",
+    bio: "I joined trend because being an influential factor in the countless possibilities for creatvitiy to blossom through the lens of fashion at UCSD was an opportunity I couldn't pass up, and being surrounded in such an artistic enviroment was icing on the stylized cake ! <3",
   },
   {
-    picture: require("../static/deyshna-pai.jpg"),
-    name: "Deyshna Pai",
-    position: "Graphic Design",
-    linkedin: "https://www.linkedin.com/in/deyshna-pai/",
-    instagram: "https://www.instagram.com/deyshna/",
-    bio: "I joined TREND to meet cool people as interested in art and lifestyle as I am!"
+    picture: require("../static/team/andrew-monteilh.jpg"),
+    name: "Andrew Monteilh",
+    position: "Marketing",
+    instagram: "https://instagram.com/andrew_monteilh/",
+    bio: "I joined trend because I wanted to surround myself with other creatives fascinated by art and culture at UCSD.",
   },
   {
-    picture: require("../static/sydney-wong.jpg"),
+    picture: require("../static/team/emma-burward-kunde.jpg"),
+    name: "Emma Burward-Kunde",
+    position: "Marketing",
+    instagram: "https://www.instagram.com/embohbem/",
+    bio: "I joined TREND because I wanted to see what being a part of a magazine is like, and make friends that have the same \"Passion for Fashion.\" Joining TREND seemed to be the perfect experience!"
+  },
+  {
+    picture: require("../static/team/ashley-arizabal.jpg"),
+    name: "Ashley Arizabal",
+    position: "Graphic Designer",
+    instagram: "https://www.instagram.com/ash.ariz/",
+    bio: "I joined TREND because I wanted to have a creative community at UCSD and felt like TREND could be that community for me! And the space gives me an outlet to express my passions for both fashion and design."
+  },
+  {
+    picture: require("../static/team/varsha-sampath.jpg"),
+    name: "Varsha Sampath",
+    position: "Graphic Designer",
+    instagram: "https://www.instagram.com/varsha.sampath/",
+    bio: "I joined TREND because I wanted to be in a space where I could express my creativity and also meet other creatives to create something amazing!"
+  },
+  {
+    picture: require("../static/team/angela-liang.jpg"),
+    name: "Angela Liang",
+    position: "Graphic Designer",
+    instagram: "https://www.instagram.com/angelaxfl/",
+    linkedin: "https://www.linkedin.com/in/angela-x-liang/",
+    bio: "I joined TREND because I love being inspired by likeminded creatives with various talents and I felt like TREND is the perfect community for that! I also wanted to gain experience with designing for a fashion context."
+  },
+  {
+    picture: require("../static/team/sydney-wong.jpg"),
     name: "Sydney Wong",
     position: "Web Developer",
     instagram: "https://www.instagram.com/sydneywong8/",
-    bio: "I joined TREND because I wanted to find an outlet where I could combine my creative interests and computer science background. As campus transitions to in-person, I believe TREND can have a huge impact on campus, and I am excited to build a website that can contribute toward that impact. I am looking forward to collaborating with other creatives and launching a website this year!"
+    bio: "I joined TREND because I wanted to be apart of a creative community and meet people outside of engineering!"
   },
   {
-    picture: require("../static/sarah-min.jpg"),
-    name: "Sarah Min",
-    position: "Writer",
-    instagram: "https://www.instagram.com/internetkimchi/",
-    bio: "I joined trend because I wanted to find a creative community at UCSD. I've always loved art and fashion and thought it'd be so fun to meet other creatives and be able to grow alongside a team working toward a shared creative vision."
-  },
-  {
-    picture: require("../static/samantha-phan.jpg"),
+    picture: require("../static/team/samantha-phan.jpg"),
     name: "Samantha Phan",
     position: "Writer",
     instagram: "https://www.instagram.com/samphantastic/",
-    bio: "I joined TREND because I am really interested in fashion and writing. I wanted to try and write about important topics within fashion and learn more about the styling world!"
+    bio: "I joined TREND because I love learning about fashion history and industry! Plus it's such a cool group of people."
   },
   {
-    picture: require("../static/danielle-hernandez.jpg"),
-    name: "Danielle Hernandez",
+    picture: require("../static/team/yalini-thillakumaran.jpg"),
+    name: "Yalini Thillakumaran",
     position: "Writer",
-    bio: "I joined TREND because I wanted a chance to create and share art and to build community with other people passionate about expression."
   },
   {
-    picture: require("../static/shimika-basuroy.jpg"),
-    name: "Shimika Basuroy",
+    picture: require("../static/team/gigi-fan.jpg"),
+    name: "Gigi Fan",
     position: "Writer",
-    bio: "I joined TREND to find a creative outlet on campus and meet new people with similar interests!"
+    instagram: "https://www.instagram.com/gianinafan/",
+    bio: "I joined TREND because I wanted to get back in touch with making art, in all its forms! I love writing and missed telling stories that feel relevant or special. I'm so happy to have found a home with TREND and all its lovely creators."
   },
   {
-    picture: require("../static/lois-ramilo.jpg"),
-    name: "Lois Ramilo",
-    position: "Stylist",
-    instagram: "https://www.instagram.com/lois_ramilo/",
-    bio: "I joined TREND because I wanted to be a part of a community that is creative and constantly challenges the boundaries of art and creative expression!"
+    picture: require("../static/team/ryan-pocinich.jpg"),
+    name: "Ryan Pocinich",
+    position: "Writer",
   },
   {
-    picture: require("../static/vania-liu.jpg"),
-    name: "Vania Liu",
-    position: "Stylist",
-    instagram: "https://www.instagram.com/vaniaaliu/",
-    bio: "I joined TREND to have a creative outlet that lets me meet and work with other creatives."
-  },
-  {
-    picture: require("../static/elliot-varon.jpg"),
-    name: "Elliot Varon",
-    position: "Stylist",
-    instagram: "https://www.instagram.com/elliotvaron/",
-  },
-  {
-    picture: require("../static/elliot-varon.jpg"),
+    picture: require("../static/team/deepti-rema.jpg"),
     name: "Deepti Rema",
     position: "Stylist",
-    bio: "I joined TREND because I wanted to get a chance to express my creative side!"
   },
   {
-    picture: require("../static/angelina-dyrnaes.jpg"),
-    name: "Angelina Dyrnaes",
-    position: "Photographer",
-    bio: "I joined TREND to find a community who values art and to explore different forms of art through collaboration.",
-    instagram: "https://www.instagram.com/angiedyr/",
+    picture: require("../static/team/elliot-varon.jpg"),
+    name: "Elliot Varon",
+    position: "Stylist",
   },
   {
-    picture: require("../static/harleen-mander.jpg"),
-    name: "Harleen Mander",
-    position: "Photographer",
-    instagram: "https://www.instagram.com/h.m.captures/",
-    bio: "In the midst of all my heavily STEM-focused classes, I really wanted a place where I can keep nourishing my creative side and TREND offers exactly the environment for that."
+    picture: require("../static/team/nick-boll.jpg"),
+    name: "Nick Boll",
+    position: "Stylist",
   },
   {
-    picture: require("../static/david-castillo.jpg"),
-    name: "David Castillo",
+    picture: require("../static/team/nel-satriya.jpg"),
+    name: "Nel Satriya",
+    position: "Stylist",
+    instagram: "https://www.instagram.com/ellucinea/",
+    bio: "I joined TREND to raise the bar."
+  },
+  {
+    picture: require("../static/team/jillian-aliakbar.jpg"),
+    name: "Jillian Aliakbar",
     position: "Photographer",
-    instagram: "https://www.instagram.com/mrelchito/",
-    bio: "I wanted to join Trend because it gave me a space to meet other creatives and artist with the same interests as mine. This organization will also help me bring my artistic visions to life."
+    instagram: "https://www.instagram.com/jillivu/",
+    bio: "I joined TREND becasue I wanted to be a part of a creative group where I could collaborate and meet other creatives within the UCSD community!"
+  },
+  {
+    picture: require("../static/team/vince-hilahan.jpg"),
+    name: "Vince Hilahan",
+    position: "Photographer",
+    instagram: "https://www.instagram.com/vincehilahan/",
+    bio: "I joined TREND because I was looking for a creative outlet, away from the engineering work. I really wanted to meet other creatives that would inspire me to make better work!"
+  },
+  {
+    picture: require("../static/team/jonathan-ly.jpg"),
+    name: "Jonathan Ly",
+    position: "Photographer",
+    instagram: "https://www.instagram.com/jawnuuthin/",
+    bio: "I joined TREND to be inspired."
   },
 ];

@@ -1,12 +1,8 @@
 @import "./Constants.scss";
 
-gallery-container {
-  background-color: $color-black;
-}
-
 .gallery-img {
-	height: 40rem;
-  border-radius: .5rem;
+	height: 30rem;
+  // border-radius: .5rem;
 }
 
 .img-container {

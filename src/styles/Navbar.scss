@@ -20,8 +20,11 @@
 }
 
 .vertical-content-container {
+  // display: flex;
+  // align-items: center;
   padding-top: $spacer-1;
   padding-bottom: $spacer-1;
+  // height: 100%;
 }
 
 .horizontal-links-container {
@@ -35,9 +38,8 @@
   gap: $spacer-1;
 }
 
-.logo-container {
+.navbar-logo-container {
   display: flex;
-  // flex: 1;
   justify-content: center;
 }
 
@@ -67,12 +69,27 @@ a {
   top: $spacer-2;
 }
 
-.bm-menu {
+#burger-menu {
   background: $color-green;
   padding-left: $spacer-1;
   padding-top: $spacer-1;
+  height: 100vh;
+  width: 80%;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+
+}
+
+.side-panel {
   height: 100%;
-  width: 100%;
+}
+
+.bm-overlay {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 100vh;
+  top: 0;
 }
 
 .bm-item {
@@ -81,4 +98,15 @@ a {
 
 .vertical-socials {
   padding-right: $spacer-1;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: $color-black;
 }

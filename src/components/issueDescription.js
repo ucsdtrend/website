@@ -28,13 +28,13 @@ class IssueDescription extends React.Component {
     return (
       <div className="issue-container">
         {windowWidth > 800 ? (
-          <Container>
+          <Container >
             <Row>
               <Col md={8}>
                 <a href={this.props.link}>
                   <h3 className="issue-title" >{this.props.title}</h3> 
                 </a>
-                <h4>{this.props.description}</h4>
+                <p>{this.props.description}</p>
               </Col>
               <Col md={4}>
                 <div className="issue-img-container" id="large-screen-container">
@@ -44,18 +44,20 @@ class IssueDescription extends React.Component {
             </Row>
           </Container>
         ):(
-          <Container>
-            <Row className="small-screen-row" align="center">
-                <a href={this.props.link}>
-                  <h3 className="issue-title" >{this.props.title}</h3> 
-                </a>
-                <h4>{this.props.description}</h4>
-            </Row>
-            <Row align="center">
-                <div className="issue-img-container" id="small-screen-container">
-                  <LazyLoadImage className="issue-img" id="small-screen" src={this.props.picture} alt={this.props.title} />
-                </div>
-            </Row>
+          <Container >
+            <div className="small-screen-container">
+              <Row className="small-screen-row" align="center">
+                  <a href={this.props.link}>
+                    <h3 className="issue-title" >{this.props.title}</h3> 
+                  </a>
+                  <p>{this.props.description}</p>
+              </Row>
+              <Row align="center">
+                  <div className="issue-img-container" id="small-screen-container">
+                    <LazyLoadImage className="issue-img" id="small-screen" src={this.props.picture} alt={this.props.title} />
+                  </div>
+              </Row>
+            </div>
           </Container>
         )}
       </div>

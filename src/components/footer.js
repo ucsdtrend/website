@@ -12,14 +12,12 @@ class Footer extends React.Component {
 
     return (
       <div className="footer-container" id="footer-section">
-        <div>
           <Container fluid>
             <Row justify="between">
-              <Col>
-                <h4>© TREND at University of California, San Diego 2022</h4>
+              <Col className='footer-name-container'>
+                <h5>© TREND at UC San Diego 2022</h5>
               </Col>
-              <Col className='logo-container'>
-                <Row>
+              <Col className='footer-logo-container'>
                   <div className="horizontal-links-container" id="navbar-socials">
                     <a href={instagram}>
                       <BsInstagram />
@@ -31,16 +29,12 @@ class Footer extends React.Component {
                       <FaMedium />
                     </a>
                   </div>
-                </Row>
-               
-                  
               </Col>
             </Row>
-            <Row justify="right" className='email-container'>
-              <h4>trenducsd@gmail.com</h4>
+            <Row justify="end" className='email-container'>
+              <h5>trenducsd@gmail.com</h5>
             </Row>
           </Container>
-        </div>
       </div>
     )
   }

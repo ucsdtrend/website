@@ -12,28 +12,15 @@ class Polaroid extends React.Component {
           </div>
 
           <div className="polaroid-info">
-            <h4>
+            <h5>
               {this.props.name}
-            </h4>
-            <p className="polaroid-position">
+            </h5>
+            <h6 className="polaroid-position">
               {this.props.position}
-            </p>
+            </h6>
           </div>
         </div>
       </div>
-      // <div className="members">
-      //   <div className="member-wrapper">
-      //     <div className="img-background"></div>
-      //     <img className="memberImage" src={this.props.picture} alt={this.props.name} effect="blur"/>
-      //   </div>
-      //   <div className="teamImageBg"></div>
-      //   <div className="teamInfo">
-      //     <h3 className="teamName">
-      //       <b> {this.props.name}</b>{" "}
-      //     </h3>
-      //     <h5 className="teamPosition"> {this.props.position} </h5>
-      //   </div>
-      // </div>
     )
   }
 }

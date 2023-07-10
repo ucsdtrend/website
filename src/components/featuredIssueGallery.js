@@ -1,20 +1,18 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import featured1 from "../static/featured-issue/featured-issue-1.jpg";
-import featured2 from "../static/featured-issue/featured-issue-2.jpg";
-import featured3 from "../static/featured-issue/featured-issue-3.jpg";
-import featured4 from "../static/featured-issue/featured-issue-4.jpg";
-import featured5 from "../static/featured-issue/featured-issue-5.jpg";
-import featured6 from "../static/featured-issue/featured-issue-6.jpg";
-import featured7 from "../static/featured-issue/featured-issue-7.jpg";
-import featured8 from "../static/featured-issue/featured-issue-8.jpg";
-import featured9 from "../static/featured-issue/featured-issue-9.jpg";
-import featured10 from "../static/featured-issue/featured-issue-10.jpg";
-import featured11 from "../static/featured-issue/featured-issue-11.jpg";
-import featured12 from "../static/featured-issue/featured-issue-12.jpg";
-import featured13 from "../static/featured-issue/featured-issue-13.jpg";
-import featured14 from "../static/featured-issue/featured-issue-14.jpg";
+import featured1 from "../static/featured-issue/vault-1.jpg";
+import featured2 from "../static/featured-issue/vault-2.jpg";
+import featured3 from "../static/featured-issue/vault-3.jpg";
+import featured4 from "../static/featured-issue/vault-4.jpg";
+import featured5 from "../static/featured-issue/vault-5.jpg";
+import featured6 from "../static/featured-issue/vault-6.jpg";
+import featured7 from "../static/featured-issue/vault-7.jpg";
+import featured8 from "../static/featured-issue/vault-8.jpg";
+import featured9 from "../static/featured-issue/vault-9.png";
+import featured10 from "../static/featured-issue/vault-10.jpg";
+import featured11 from "../static/featured-issue/vault-11.jpg";
+import featured12 from "../static/featured-issue/vault-12.jpg";
 import "../styles/FeaturedIssueGallery.scss";
 
 class FeaturedIssueGallery extends React.Component {
@@ -42,8 +40,6 @@ class FeaturedIssueGallery extends React.Component {
       featured10,
       featured11,
       featured12,
-      featured13,
-      featured14,
     ];
 
     const featuredIssueImages = images.map(img => <div className="img-container">

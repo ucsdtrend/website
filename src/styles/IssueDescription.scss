@@ -7,7 +7,6 @@
 
 .issue-img-container {
   display: flex;
-  
 }
 
 #large-screen-container {
@@ -19,7 +18,7 @@
 }
 
 .issue-img {
-  width: 70%;
+  width: 75%;
 }
 
 #small-screen {
@@ -34,3 +33,11 @@
   margin-bottom: $spacer-1;
 }
 
+.small-screen-container {
+  padding-left: $spacer-2;
+  padding-right: $spacer-2;
+}
+
+p {
+  padding: 0;
+}

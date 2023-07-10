@@ -52,7 +52,7 @@ class Navbar extends React.Component {
                 </NavLink>
               </div>
               
-              <div className='logo-container'>
+              <div className='navbar-logo-container'>
                 <NavLink to="/">
                   <a href={"../pages/home.js"}>
                     <h1>TREND</h1>
@@ -73,16 +73,29 @@ class Navbar extends React.Component {
               </div>
             </div>
           ):(
+            <div>
             <div className='vertical-content-container'>
 
-              <Menu className='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
-                <NavLink to="/" onClick={() => this.handleCloseMenu()}>
+              
+
+              <div className='navbar-logo-container'>
+                <NavLink to="/">
+                  <a href={"../pages/home.js"}>
+                    <h1>TREND</h1>
+                  </a>
+                </NavLink>
+              </div>
+
+            </div>
+            <div className="side-panel">
+              <Menu id='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
+                <NavLink to="/" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/home.js"}>HOME</a></h4>
                 </NavLink>
-                <NavLink to="/issues" onClick={() => this.handleCloseMenu()}>
+                <NavLink to="/issues" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
                 </NavLink>
-                <NavLink to="/team" onClick={() => this.handleCloseMenu()}>
+                <NavLink to="/team" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
                 <div className="vertical-links-container">
@@ -97,15 +110,7 @@ class Navbar extends React.Component {
                   </a>
                 </div>
               </Menu>
-
-              <div className='logo-container'>
-                <NavLink to="/">
-                  <a href={"../pages/home.js"}>
-                    <h1>TREND</h1>
-                  </a>
-                </NavLink>
-              </div>
-
+            </div>
             </div>
           )}
       </div>

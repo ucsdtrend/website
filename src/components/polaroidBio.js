@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/PolaroidBio.scss";
-// import { teamInfo } from "./teamInfo";
 import { FaLinkedin, FaInstagram, FaFacebook, FaSpotify } from "react-icons/fa";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -70,54 +69,6 @@ class PolaroidBio extends React.Component {
         )}
         
       </div>
-      // <>
-      //   <div className="lightest-background-section">
-      //     {this.props.show && (
-      //       <div
-      //         className="member-popup"
-      //         ref={this.memberRef}
-      //         onLoad={this.positionMember}
-      //       >
-      //         <button className="exitButton" onClick={this.props.onHide}>
-      //           {" "}
-      //           X{" "}
-      //         </button>
-      //         <Row justify="center" type="flex">
-      //           <Col xs={10} md={4}>
-      //             <LazyLoadImage src={all_members[index].picture} alt={all_members[index].name} effect="blur"/>
-      //           </Col>
-      //           <Col xs={10} className="member-popup-info" md={6}>
-      //             <div>
-      //               <h2>{all_members[index].name}</h2>
-      //               <h3>{all_members[index].position}</h3>
-      //               <p>{all_members[index].year}</p>
-      //               <p>{all_members[index].bio}</p>
-      //             </div>
-      //           </Col>
-      //         </Row>
-      //         <Row>
-      //           <Col className="member-popup-socials">
-      //           { all_members[index].github && 
-      //             <a href={all_members[index].github} target="_blank">
-      //               <FaGithub />
-      //             </a>
-      //           }
-      //           { all_members[index].linkedin && 
-      //             <a href={all_members[index].linkedin} target="_blank">
-      //               <FaLinkedinIn />
-      //             </a>
-      //           }
-      //           {all_members[index].instagram && 
-      //             <a href={all_members[index].instagram} target="_blank">
-      //               <FaInstagram />
-      //             </a>
-      //           }
-      //           </Col>
-      //         </Row>
-      //       </div>
-      //     )}
-      //   </div>
-      // </>
     );
   }
 }
