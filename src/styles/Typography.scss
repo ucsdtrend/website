@@ -35,21 +35,6 @@ html {
   src: url("./fonts/Raleway-Regular.ttf") format("truetype");
 }
 
-// @font-face {
-//   font-family: "Montserrat SemiBold";
-//   src: url("./fonts/Montserrat-SemiBold.ttf") format("truetype");
-// }
-
-// @font-face {
-//   font-family: "Montserrat Medium";
-//   src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
-// }
-
-// @font-face {
-//   font-family: "Montserrat Regular";
-//   src: url("./fonts/Montserrat-Regular.ttf") format("truetype");
-// }
-
 h1 {
   font-family: "Source Sans Pro Bold" ;
   font-weight: 700;
@@ -61,7 +46,7 @@ h1 {
 
 h2 {
   font-family: "Raleway SemiBold" ;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 4.8rem;
   line-height: 4.8rem;
   margin-top: 0;
@@ -70,7 +55,7 @@ h2 {
 
 h3 {
   font-family: "Raleway Medium" ;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 3.6rem;
   line-height: 3.6rem;
   margin-top: 0;
@@ -79,17 +64,26 @@ h3 {
 
 h4 {
   font-family: "Raleway Regular" ;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.4rem;
   line-height: 2.4rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-h4 {
+h5 {
   font-family: "Raleway Regular" ;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 1.8rem;
+  line-height: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-family: "Raleway Regular" ;
+  font-weight: 700;
+  font-size: 1.5rem;
   line-height: 1.8rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -97,7 +91,7 @@ h4 {
 
 p {
   font-family: "Raleway Regular" ;
-  font-weight: 400;
+  // font-weight: 700;
   font-size: 1.8rem;
   line-height: 1.8rem;
   margin-top: 0;

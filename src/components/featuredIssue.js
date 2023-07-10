@@ -32,8 +32,8 @@ class FeaturedIssue extends React.Component {
             <Row align="end" justify="end" direction="row">
               <Col align="end" md={6}>
                 <a class="issue-link" href="https://issuu.com/trenducsd/docs/revival_issue_fw22" target="_blank">
-                  <h2 className="issue-title">revival</h2>
-                  <p>FW22</p>
+                  <h2 className="issue-title">vault</h2>
+                  <p>FW23</p>
                 </a>
               </Col>
             </Row>
@@ -41,8 +41,8 @@ class FeaturedIssue extends React.Component {
             <Row align="center" justify="center" direction="row">
               <Col align="center" md={6}>
                 <a class="issue-link" href="https://issuu.com/trenducsd/docs/revival_issue_fw22" target="_blank">
-                  <h2 className="issue-title">revival</h2>
-                  <p>FW22</p>
+                  <h2 className="issue-title">vault</h2>
+                  <p>FW23</p>
                 </a>
               </Col>
             </Row>

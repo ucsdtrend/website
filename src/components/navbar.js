@@ -88,14 +88,14 @@ class Navbar extends React.Component {
 
             </div>
             <div className="side-panel">
-              <Menu className='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
-                <NavLink to="/" onClick={() => this.handleCloseMenu()}>
+              <Menu id='burger-menu' isOpen={this.state.menuOpen} onStateChange={(state) => this.handleStateChange(state)}>
+                <NavLink to="/" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/home.js"}>HOME</a></h4>
                 </NavLink>
-                <NavLink to="/issues" onClick={() => this.handleCloseMenu()}>
+                <NavLink to="/issues" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
                 </NavLink>
-                <NavLink to="/team" onClick={() => this.handleCloseMenu()}>
+                <NavLink to="/team" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
                 <div className="vertical-links-container">

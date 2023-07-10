@@ -10,20 +10,22 @@
   margin-right: $spacer-2;
 }
 
-
-.footer-logo-container {
-  display: flex;
-  justify-content: right;
-}
-
 .email-container {
-  display: flex;
-  justify-content: right;
-  text-align: right;
+  justify-content: end;
+  padding-right: $spacer-1;
+  text-align: end;
 }
 
 .horizontal-links-container {
   display: flex;
+  justify-content: center;
   flex: 1;
   gap: $spacer-2;
 }
+
+// .links-row {
+//   display: flex;
+//   justify-content: center;
+//   margin: 0;
+//   padding: 0;
+// }

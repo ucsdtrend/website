@@ -33,7 +33,11 @@
   margin-bottom: $spacer-1;
 }
 
-.try {
+.small-screen-container {
   padding-left: $spacer-2;
   padding-right: $spacer-2;
+}
+
+p {
+  padding: 0;
 }

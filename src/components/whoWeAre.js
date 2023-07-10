@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import '../styles/WhoWeAre.scss';
-import who_we_are from "../static/who_we_are.jpg";
+import who_we_are from "../static/film-strip/film-strip-8.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 class WhoWeAre extends React.Component {
@@ -19,12 +19,12 @@ class WhoWeAre extends React.Component {
                 </Row>
                 <Row>
                   <Col>
-                    <h4 className="who-we-are-description">TREND is a student-run fashion, art, and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer.</h4>
+                    <p className="who-we-are-description">TREND is a student-run fashion, art, and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer.</p>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
-                    <h4 className="interest-form-description">Interested in joining our 2022-2023 team? Fill out our interest form <a className="interest-form-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfGeGLoM6nZdLjKUUaBmA9U0NG9JU3B-DFYgGoC1NGgswt6-w/viewform" target="_blank">here</a>!</h4>
+                    <p className="issues-description">Read our issues <a className="issues-link" href="https://issuu.com/trenducsd" target="_blank">here</a>!</p>
                   </Col>
                 </Row>
               </Col>
