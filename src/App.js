@@ -14,7 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-testid="App-element">
       
       <BrowserRouter>
         <Navbar/>
