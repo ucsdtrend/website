@@ -1,6 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import '../styles/Polaroid.scss';
+import '../styles/polaroid.scss';
 
 class Polaroid extends React.Component {
   render() {

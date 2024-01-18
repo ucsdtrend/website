@@ -10,10 +10,10 @@ import filmStrip6 from "../static/film-strip/film-strip-6.jpg";
 import filmStrip7 from "../static/film-strip/film-strip-7.jpg";
 import filmStrip8 from "../static/film-strip/film-strip-8.jpg";
 import filmStrip9 from "../static/film-strip/film-strip-9.jpg";
-import filmStrip10 from "../static/film-strip/film-strip-10.jpg";
-import filmStrip11 from "../static/film-strip/film-strip-11.jpg";
-import filmStrip12 from "../static/film-strip/film-strip-12.jpg";
-import filmStrip13 from "../static/film-strip/film-strip-13.jpg";
+// import filmStrip10 from "../static/film-strip/film-strip-10.jpg";
+// import filmStrip11 from "../static/film-strip/film-strip-11.jpg";
+// import filmStrip12 from "../static/film-strip/film-strip-12.jpg";
+// import filmStrip13 from "../static/film-strip/film-strip-13.jpg";
 import filmStripEdge from "../static/film-strip/film-strip-edge.jpg";
 import "../styles/FilmStrip.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -29,9 +29,9 @@ class FilmStrip extends React.Component {
     };
 
     const handleDragStart = (e) => e.preventDefault();
-
-    const images = [
-      filmStrip1,
+    //const images = require.context('../../film-strip', true);
+    //const imageList = images.keys().map(image => images(image));
+    const images = [filmStrip1,
       filmStrip2,
       filmStrip3,
       filmStrip4,
@@ -39,22 +39,18 @@ class FilmStrip extends React.Component {
       filmStrip6,
       filmStrip7,
       filmStrip8,
-      filmStrip9,
-      filmStrip10,
-      filmStrip11,
-      filmStrip12,
-      filmStrip13,
-    ];
+      filmStrip9
+    ]
 
-    const filmStripImages = images.map(img => <div className="img-container">
+      const filmStripImages = images.map(img => <div className="img-container">
       <img className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)
-
     return (
       <div className="film-strip-container">
         <LazyLoadImage className="film-strip-edge" src={filmStripEdge} />
         <AliceCarousel
           items={filmStripImages}
+          //items={imageList}
           disableDotsControls
           disableButtonsControls
           mouseTrackingEnabled
