@@ -1,14 +1,8 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/static/css/main.a62ba2b4.css",
-    "main.js": "/static/js/main.5acc7118.js",
-    "static/js/787.0395afd9.chunk.js": "/static/js/787.0395afd9.chunk.js",
-=======
     "main.css": "/static/css/main.46b15b22.css",
     "main.js": "/static/js/main.2b38310f.js",
     "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
->>>>>>> a09c07aa9e452888f645dc51b7ec0f74da0cda20
     "static/media/tide-2.jpg": "/static/media/tide-2.7b42cc2fb4bbf6dd97c2.jpg",
     "static/media/vault-10.jpg": "/static/media/vault-10.242b3b15a1e7f0f6431d.jpg",
     "static/media/tide-12.jpg": "/static/media/tide-12.78b58e3869e53b619331.jpg",
@@ -104,15 +98,6 @@
     "static/media/Raleway-SemiBold.ttf": "/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
     "static/media/Nimisha_Singh.jpg": "/static/media/Nimisha_Singh.c873338d37afcb4938ea.jpg",
     "index.html": "/index.html",
-<<<<<<< HEAD
-    "main.a62ba2b4.css.map": "/static/css/main.a62ba2b4.css.map",
-    "main.5acc7118.js.map": "/static/js/main.5acc7118.js.map",
-    "787.0395afd9.chunk.js.map": "/static/js/787.0395afd9.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.a62ba2b4.css",
-    "static/js/main.5acc7118.js"
-=======
     "main.46b15b22.css.map": "/static/css/main.46b15b22.css.map",
     "main.2b38310f.js.map": "/static/js/main.2b38310f.js.map",
     "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
@@ -120,6 +105,5 @@
   "entrypoints": [
     "static/css/main.46b15b22.css",
     "static/js/main.2b38310f.js"
->>>>>>> a09c07aa9e452888f645dc51b7ec0f74da0cda20
   ]
 }
