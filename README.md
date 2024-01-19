@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# Steps to create changes to the codebase
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+1. Fork ucsdtrend's repository to your GitHub account
+2. Clone __your__ repository to your local computer
+3. Make changes and push commits to your local repository
+4. Review and create a pull request to ucsdtrend repository
+5. Deploy to the website
+
+__Note__: please consider adding tests to the codebase when making changes and ensure no test fails.
+
+## Download
+https://nodejs.org/en - Node.js to run npm - follow the installation instructions <br >
+Run ```npm i react-scripts``` in Terminal
+
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory (use ```cd``` in Terminal to go to your ```trend``` codebase folder), you can run:
 
 ### `npm start`
 
@@ -39,32 +51,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+Please refer to the "Guide to Web Dev" for deployment instructions.
