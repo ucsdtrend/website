@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import '../styles/WhoWeAre.scss';
-import who_we_are from "../static/film-strip/film-strip-8.jpg";
+import who_we_are from "../static/who_we_are.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 class WhoWeAre extends React.Component {
