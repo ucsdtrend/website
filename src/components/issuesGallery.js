@@ -1,25 +1,21 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import tide1 from "../static/gallery/tide-1.jpg";
-import tide2 from "../static/gallery/tide-2.jpg";
-import tide3 from "../static/gallery/tide-3.jpg";
-import tide4 from "../static/gallery/tide-4.jpg";
-import tide5 from "../static/gallery/tide-5.jpg";
-import tide6 from "../static/gallery/tide-6.jpg";
-import tide7 from "../static/gallery/tide-7.jpg";
-import tide8 from "../static/gallery/tide-8.jpg";
-import tide9 from "../static/gallery/tide-9.jpg";
-import tide10 from "../static/gallery/tide-10.jpg";
-import tide11 from "../static/gallery/tide-11.jpg";
-import tide12 from "../static/gallery/tide-12.jpg";
-import tide13 from "../static/gallery/tide-13.jpg";
-import tide14 from "../static/gallery/tide-14.jpg";
-import tide15 from "../static/gallery/tide-15.jpg";
-import tide16 from "../static/gallery/tide-16.jpg";
-import tide17 from "../static/gallery/tide-17.jpg";
+import featured1 from "../static/featured-issue/vault-1.jpg";
+import featured2 from "../static/featured-issue/vault-2.jpg";
+import featured3 from "../static/featured-issue/vault-3.jpg";
+import featured4 from "../static/featured-issue/vault-4.jpg";
+import featured5 from "../static/featured-issue/vault-5.jpg";
+import featured6 from "../static/featured-issue/vault-6.jpg";
+import featured7 from "../static/featured-issue/vault-7.jpg";
+import featured8 from "../static/featured-issue/vault-8.jpg";
+import featured9 from "../static/featured-issue/vault-9.png";
+import featured10 from "../static/featured-issue/vault-10.jpg";
+import featured11 from "../static/featured-issue/vault-11.jpg";
+import featured12 from "../static/featured-issue/vault-12.jpg";
 import "../styles/Gallery.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import ImageGallery from "./import_images";
 
 class Gallery extends React.Component {
   render() {
@@ -32,27 +28,22 @@ class Gallery extends React.Component {
     };
 
     const handleDragStart = (e) => e.preventDefault();
-
+    
     const images = [
-      tide1,
-      tide2,
-      tide3,
-      tide4,
-      tide5,
-      tide6,
-      tide7,
-      tide8,
-      tide9,
-      tide10,
-      tide11,
-      tide12,
-      tide13,
-      tide14,
-      tide15,
-      tide16,
-      tide17,
+      featured1,
+      featured2,
+      featured3,
+      featured4,
+      featured5,
+      featured6,
+      featured7,
+      featured8,
+      featured9,
+      featured10,
+      featured11,
+      featured12,
     ];
-
+    // const galleryImages = ImageGallery(vault)
     const galleryImages = images.map(img => <div className="img-container">
       <LazyLoadImage className="gallery-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)

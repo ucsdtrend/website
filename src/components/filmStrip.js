@@ -25,9 +25,9 @@ class FilmStrip extends React.Component {
     };
 
     const handleDragStart = (e) => e.preventDefault();
-
-    const images = [
-      filmStrip1,
+    //const images = require.context('../../film-strip', true);
+    //const imageList = images.keys().map(image => images(image));
+    const images = [filmStrip1,
       filmStrip2,
       filmStrip3,
       filmStrip4,
@@ -38,15 +38,15 @@ class FilmStrip extends React.Component {
       filmStrip9,
     ];
 
-    const filmStripImages = images.map(img => <div className="img-container">
+      const filmStripImages = images.map(img => <div className="img-container">
       <img className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)
-
     return (
       <div className="film-strip-container">
         <LazyLoadImage className="film-strip-edge" src={filmStripEdge} />
         <AliceCarousel
           items={filmStripImages}
+          //items={imageList}
           disableDotsControls
           disableButtonsControls
           mouseTrackingEnabled

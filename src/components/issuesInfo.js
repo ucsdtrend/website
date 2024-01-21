@@ -1,15 +1,21 @@
 export const issuesInfo = [
   {
+    picture: require("../static/issues/vault.png"),
+    title: "Vault",
+    link: "https://issuu.com/trenducsd/docs/trend_fw23",
+    description: "Vault celebrates the underground, the deeply personal; items meaningful to us and nonsensical to others are still valued beyond these differences - an artistic act of self-expression. Vault is our enjoyment of the retro, the vintage, and the avant garde.",
+  },
+  {
     picture: require("../static/issues/tide.png"),
     title: "Tide",
     link: "https://issuu.com/trenducsd/docs/tide_issue",
-    description: "Like the alternating rise and fall of the tide itself, the definition of the word “tide” constantly shifts for us. In this issue, we explored how “tide” has showcased itself in both the past and present, whether it be through representation in period cinema or inclusivity in surf culture. For our beloved TREND staff, making this issue come together meant stepping out of the boundaries of our respective roles within the team. For the class of 2022, saying goodbye to the undergrad years and stepping forth into new horizons is both exciting and scary. Above all, we hope that you, our reader, can see and understand our vision of “tide” as synonymous with “seasons of change”.",
+    description: "Like the alternating rise and fall of the tide itself, the definition of “tide” constantly shifts. We explored how “tide” has showcased itself in the past and present, be it through representation in period cinema or inclusivity in surf culture. Above all, we hope that you, our reader, can see and understand our vision of “tide” as synonymous with “seasons of change”.",
   },
   {
     picture: require("../static/issues/revival.png"),
     title: "Revival",
     link: "https://issuu.com/trenducsd/docs/revival_issue_fw22",
-    description: "For many, stepping foot back onto campus in September marked a new beginning. Despite walking the same paths and sitting in the same classrooms, we are different people now than who we were nearly two years prior. Returning to campus this fall kickstarted the transformation of our thoughts and dreams into intention and reality — a REVIVAL of our unique space in the universe and what makes us who we are. Revival also marked the resurgence of Trend. After releasing three issues under remote-only operations, we were able to bring back old traditions, like TRENDing at UCSD and pop-up shops, while pursuing new ventures, like collaborating with small-business designers. We built a new team of talented creatives and a community of like-minded artists, dreamers, and students to share our passions with. Whatever Revival means to you, we wish you all the love on your path to rediscovering what makes you YOU.",
+    description: "Like the alternating rise and fall of the tide itself, the definition of the word “tide” constantly shifts. In this issue, we explored how “tide” has showcased itself in the past and present, be it through representation in period cinema or inclusivity in surf culture. Above all, we hope that you, our reader, can see and understand our vision of “tide” as “seasons of change”.",
   },
   {
     picture: require("../static/issues/unveiled.png"),
@@ -33,18 +39,18 @@ export const issuesInfo = [
     picture: require("../static/issues/duality.png"),
     title: "Duality",
     link: "https://issuu.com/trenducsd/docs/fw20-duality-single-pages",
-    description: ""
+    description: "In this issue, we attempt to unveil the truth behind a reality in which there are polar opposties. In this issue, we explore what happens at the in-between and what it means to us."
   },
   {
     picture: require("../static/issues/the-shift.png"),
     title: "The Shift",
     link: "https://issuu.com/trenducsd/docs/trend_ss19",
-    description: ""
+    description: "As we approach the end of the decade, we wanted to use this issue as an opportunity to document the past ten years. We were faced with this enormous challenege to understand what the past ten years have felt like for the people that have experienced it in many different ways."
   },
   {
     picture: require("../static/issues/sincerely-yours.png"),
     title: "Sincerely Yours",
     link: "https://issuu.com/trenducsd/docs/sincerelyyoursdigital-ilovepdf-comp",
-    description: ""
+    description: "This issue is dedicated to the complexities, joys, and challenges we face in life as we constantly transition from one stage to the next. Look inside for a collection of full stories, fleeting memories and an intimate look at what it means to be human."
   },
 ];
