@@ -85,11 +85,6 @@ export const teamInfo = [
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Ashley_Asadi.jpg"),
-    name: "Ashley Asadi",
-    position: "Graphic Designer"
-  },
-  {
     picture: require("../static/team/Isabelle_Liang.jpg"),
     name: "Isabelle Liang",
     position: "Graphic Designer"
