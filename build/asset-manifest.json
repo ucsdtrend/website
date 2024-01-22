@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46b15b22.css",
-    "main.js": "/static/js/main.98f0c3f1.js",
+    "main.js": "/static/js/main.e8a5d294.js",
     "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
     "static/media/tide-2.jpg": "/static/media/tide-2.7b42cc2fb4bbf6dd97c2.jpg",
     "static/media/vault-10.jpg": "/static/media/vault-10.242b3b15a1e7f0f6431d.jpg",
@@ -27,6 +27,7 @@
     "static/media/sincerely-yours.png": "/static/media/sincerely-yours.ee596e65a18e045bf300.png",
     "static/media/film-strip-7.jpg": "/static/media/film-strip-7.ef5ab2d6873b24c821a9.jpg",
     "static/media/film-strip-1.jpg": "/static/media/film-strip-1.d12f4e334bc18d2e4a02.jpg",
+    "static/media/who_we_are.jpg": "/static/media/who_we_are.d12f4e334bc18d2e4a02.jpg",
     "static/media/unveiled.png": "/static/media/unveiled.5cb67b2c018845446810.png",
     "static/media/dream-theory.png": "/static/media/dream-theory.eb207443da58193d3db3.png",
     "static/media/the-shift.png": "/static/media/the-shift.a9eec10d732c185054a3.png",
@@ -99,11 +100,11 @@
     "static/media/Nimisha_Singh.jpg": "/static/media/Nimisha_Singh.c873338d37afcb4938ea.jpg",
     "index.html": "/index.html",
     "main.46b15b22.css.map": "/static/css/main.46b15b22.css.map",
-    "main.98f0c3f1.js.map": "/static/js/main.98f0c3f1.js.map",
+    "main.e8a5d294.js.map": "/static/js/main.e8a5d294.js.map",
     "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46b15b22.css",
-    "static/js/main.98f0c3f1.js"
+    "static/js/main.e8a5d294.js"
   ]
 }

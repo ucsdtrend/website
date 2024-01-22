@@ -15,7 +15,7 @@ class Footer extends React.Component {
           <Container fluid>
             <Row justify="between">
               <Col className='footer-name-container'>
-                <h5>© TREND at UC San Diego 2022</h5>
+                <h5>© TREND at UC San Diego 2024</h5>
               </Col>
               <Col className='footer-logo-container'>
                   <div className="horizontal-links-container" id="navbar-socials">
