@@ -39,9 +39,9 @@ class FeaturedIssue extends React.Component {
             </Row>
           ):(
             <Row align="center" justify="center" direction="row">
-              <Col align="center" md={6}>
+              <Col align="center" md={5}>
                 <a class="issue-link" href="https://issuu.com/trenducsd/docs/revival_issue_fw22" target="_blank">
-                  <h2 className="issue-title">vault</h2>
+                  <h2 className="issue-title">Vault</h2>
                   <p>FW23</p>
                 </a>
               </Col>
