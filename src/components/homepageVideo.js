@@ -1,5 +1,5 @@
 import React from 'react'
-import video from '../static/fefty.mp4'
+import video from '../static/homepage_video.mp4'
 
 class HomepageVideo extends React.Component {
 
