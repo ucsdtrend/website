@@ -121,7 +121,7 @@ export const teamInfo = [
   },
   {
     picture: require("../static/team/Nimisha_Singh.jpg"),
-    name: "Nimisha_Singh",
+    name: "Nimisha Singh",
     position: "External"
   },
   {
@@ -175,23 +175,6 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Mateo_Ignacio.jpg"),
-    name: "Mateo Ignacio",
-    position: "Web Developer",
-    linkedin: "https://www.linkedin.com/in/mateoign/"
-  },
-  {
-    picture: require("../static/team/Uyen_Tran.jpg"),
-    name: "Uyen Tran",
-    position: "Web Developer",
-    linkedin: "https://www.linkedin.com/in/uyen-tran21/"
-  },
-  {
-    picture: require("../static/team/Ann_Yang.jpg"),
-    name: "Ann Yang",
-    position: "Web Developer"
-  },
-  {
     picture: require("../static/team/Natalie_Marrewa.jpg"),
     name: "Natalie Marrewa",
     position: "Stylist",
@@ -211,6 +194,24 @@ export const teamInfo = [
     name: "Mia Elliott",
     position: "Stylist"
   },
+  {
+    picture: require("../static/team/Mateo_Ignacio.jpg"),
+    name: "Mateo Ignacio",
+    position: "Web Developer",
+    linkedin: "https://www.linkedin.com/in/mateoign/"
+  },
+  {
+    picture: require("../static/team/Uyen_Tran.jpg"),
+    name: "Uyen Tran",
+    position: "Web Developer",
+    linkedin: "https://www.linkedin.com/in/uyen-tran21/"
+  },
+  {
+    picture: require("../static/team/Ann_Yang.jpg"),
+    name: "Ann Yang",
+    position: "Web Developer"
+  },
+  
   // {
   //   picture: require("../static/team/Merav_Price.jpg"),
   //   name: "Merav Price",

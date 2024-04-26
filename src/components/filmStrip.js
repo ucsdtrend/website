@@ -14,14 +14,19 @@ import filmStripEdge from "../static/film-strip/film-strip-edge.jpg";
 import "../styles/FilmStrip.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
+
+// This is where you change the width between images
 class FilmStrip extends React.Component {
   render() {
     const responsiveObject = {
       0: { items: 1 },
-      450: { items: 1 },
-      768: { items: 2 },
-      992: { items: 3 },
-      1200: { items: 4 },
+      450: { items: 2 },
+      1100: { items: 3 },
+      // 0: { items: 1 },
+      // 450: { items: 1 },
+      // 768: { items: 2 },
+      // 992: { items: 3 },
+      //1200: { items: 4 },
     };
 
     const handleDragStart = (e) => e.preventDefault();
@@ -43,10 +48,11 @@ class FilmStrip extends React.Component {
     </div>)
     return (
       <div className="film-strip-container">
-        <LazyLoadImage className="film-strip-edge" src={filmStripEdge} />
+        {/* <LazyLoadImage className="film-strip-edge" src={filmStripEdge} /> */}
         <AliceCarousel
           items={filmStripImages}
-          //items={imageList}
+          autoHeight
+          preservePosition
           disableDotsControls
           disableButtonsControls
           mouseTrackingEnabled
@@ -55,7 +61,7 @@ class FilmStrip extends React.Component {
           autoPlayInterval={1500}
           responsive={responsiveObject}
         />
-        <LazyLoadImage className="film-strip-edge" src={filmStripEdge} />
+        {/* <LazyLoadImage className="film-strip-edge" src={filmStripEdge} /> */}
       </div>
     );
   }

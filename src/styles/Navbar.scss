@@ -1,13 +1,13 @@
 @import "./Constants.scss";
 
 .navbar-container {
-  position: sticky;
+  position: left;
   top: 0;
   left: 0;
   right: 0;
-  background-color: $color-white;
+  background-color: $color-blog;
   z-index: 1;
-  border-bottom: 2px solid $color-black;
+  // border-bottom: 2px solid $color-black;
 }
 
 .horizontal-content-container {
@@ -24,7 +24,8 @@
   // align-items: center;
   padding-top: $spacer-1;
   padding-bottom: $spacer-1;
-  // height: 100%;
+  // height: 100%
+  color: $color-blog;
 }
 
 .horizontal-links-container {
@@ -41,10 +42,11 @@
 .navbar-logo-container {
   display: flex;
   justify-content: center;
+  color: $color-blog;
 }
 
 #navbar-pages {
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 #navbar-socials {
@@ -53,16 +55,17 @@
 
 a {
   text-decoration: none;
-  color: $color-black;
+  color: $color-white;
   font-size: 2.4rem;
 }
 
 .bm-burger-bars {
-  background: $color-black;
+  display: flex;
+  background: $color-white;
 }
 
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 2.4rem;
   height: 2.4rem;
   left: $spacer-2;
@@ -70,7 +73,7 @@ a {
 }
 
 #burger-menu {
-  background: $color-green;
+  background: $color-black;
   padding-left: $spacer-1;
   padding-top: $spacer-1;
   height: 100vh;
@@ -108,5 +111,5 @@ a {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: $color-black;
+  background: $color-white;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import FeaturedIssue from "../components/featuredIssue";
 import WhoWeAre from "../components/whoWeAre";
+import HomepageVideo from "../components/homepageVideo.js"
 
 class Home extends React.Component {
   componentDidMount() {
@@ -10,6 +11,8 @@ class Home extends React.Component {
   render () {
     return (
       <div>
+        {/* <FeaturedIssue/> */}
+        <HomepageVideo/>
         <FeaturedIssue/>
         <WhoWeAre/>
         {/* <FeaturedBlog/> */}

@@ -30,7 +30,7 @@ class TeamGrid extends React.Component {
       <div className="team-grid-section">
         <Container className="team-grid-container">
           <Row className="top-margin-section">
-            <h2>TREND Team</h2>
+            <h4>TREND Team</h4>
           </Row>
           <Row className="top-margin-subsection">
             <h3>2023 - 2024</h3>
@@ -51,19 +51,19 @@ class TeamGrid extends React.Component {
                         </div>
                       </Col>
                       <PolaroidBio
-                        show={this.state.showModal === idx}
-                        onHide={() => {
-                          this.hideModal(idx);
-                        }}
-                        index={idx}
-                        picture={teamMember.picture}
-                        name={teamMember.name}
-                        position={teamMember.position}
-                        bio={teamMember.bio}
-                        instagram={teamMember.instagram}
-                        facebook={teamMember.facebook}
-                        linkedin={teamMember.linkedin}
-                        spotify={teamMember.spotify}
+                        // show={this.state.showModal === idx}
+                        // onHide={() => {
+                        //   this.hideModal(idx);
+                        // }}
+                        // index={idx}
+                        // picture={teamMember.picture}
+                        // name={teamMember.name}
+                        // position={teamMember.position}
+                        // bio={teamMember.bio}
+                        // instagram={teamMember.instagram}
+                        // facebook={teamMember.facebook}
+                        // linkedin={teamMember.linkedin}
+                        // spotify={teamMember.spotify}
                       />
                     </React.Fragment>
                   );
