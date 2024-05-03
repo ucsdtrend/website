@@ -2,15 +2,18 @@
 
 .film-strip-container {
   background-color: $color-black;
+  text-align: center;
 }
 
 .film-strip-img {
-	height: 25rem;
+	height: 30rem;
   border-radius: .5rem;
+  text-align: center;
 }
 
 .img-container {
 	text-align: center;
+  margin-top: .5rem;
 }
 
 .film-strip-edge {

@@ -19,20 +19,20 @@ class WhoWeAre extends React.Component {
                 </Row>
                 <Row>
                   <Col>
-                    <p className="who-we-are-description">TREND is a student-run fashion, art, and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer.</p>
+                    <p className="who-we-are-description">TREND is a student-run fashion and lifestyle magazine at UCSD. As a vibrant collective of student artists, designers, writers, photographers, stylists, and marketing managers, we strive to capture the pulse of campus life and foster an inclusive community of creatives at UCSD. Each academic year, we release two issues—Fall/Winter and Spring/Summer—and organize a fashion show that showcases innovative pieces and compelling narratives, amplifying diverse voices. Explore our issues, meet our team, and discover TREND.</p>
                   </Col>
                 </Row>
                 <Row>
-                  <Col>
-                    <p className="issues-description">Read our issues <a className="issues-link" href="https://issuu.com/trenducsd" target="_blank">here</a>!</p>
-                  </Col>
+                  
+                    <p className="issues-description">Read our issues <a className="issues-link" href="https://issuu.com/trenducsd" target="_blank">here</a>.</p>
+                  
                 </Row>
               </Col>
                 
-              <Col>
-                <div className="img-container">
-                  <LazyLoadImage className="who-we-are-img" src={who_we_are} />
-                </div>
+              <Col align="center" justify="space between" direction="beginning"l>
+                  <div className="img-container">
+                    <LazyLoadImage className="who-we-are-img" src={who_we_are} />
+                  </div>  
               </Col>
               
             </Row>

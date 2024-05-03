@@ -1,10 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import Gallery from "../components/issuesGallery";
+import FeaturedIssue from "../components/featuredIssue";
+
 import { issuesInfo } from "../components/issuesInfo";
 import IssueBlock from "../components/issueBlock";
 import IssueDescription from "../components/issueDescription";
 import "../styles/Issues.scss";
+import FeaturedIssueGallery from "../components/featuredIssueGallery";
 
 class Issues extends React.Component {
   componentDidMount() {
@@ -14,7 +17,7 @@ class Issues extends React.Component {
   render () {
     return (
       <div className="issues-page">
-        <Gallery />
+        <FeaturedIssueGallery/>
         <IssueDescription picture={issuesInfo[0].picture} title={issuesInfo[0].title} link={issuesInfo[0].link} description={issuesInfo[0].description}/>
         <Container className="issues-grid-container" >
           <div className="issues">

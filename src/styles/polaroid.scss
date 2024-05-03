@@ -5,8 +5,9 @@
 }
 
 .polaroid-frame {
-  border: .25rem solid $color-dark-green;
-  background-color: $color-white;
+  // border: .25rem solid $color-black;
+  // background-color: $color-white;
+  color: $color-white;
 }
 
 .polaroid-image {
@@ -23,6 +24,7 @@
   text-align: center;
   padding-top: $spacer-base;
   padding-bottom: $spacer-base;
+  color: $color-white;
 }
 
 .polaroid-position {

@@ -1,5 +1,12 @@
 export const issuesInfo = [
   {
+    picture: require("../static/issues/metamorphosis.png"),
+    title: "METAMORPHOSIS",
+    link: "https://issuu.com/trenducsd/docs/trend_fw23-24_1_",
+    description: "The world changes, and us with it. We are growing every day, our wings strengthening. We become bigger, better versions of who we were yesterday. Metamorphosis is the very essence of worldly context at this very point in time, and us in it. Metamorphosis is our celebration of the past, present, and future. Metamorphosis is a declaration that you can be anything, anyone you want to be. \
+    In this issue, we looked towards nature, to find our strength in the sea and the land. We looked inward at our own change. We looked outward and observed the changes all around us, in fashion, media, and popular culture, even in the faces of generations past. We celebrate Palestine and we celebrate queer identity. We grapple with the aches and pains of growing up. And we marvel at what is to come.",
+  },
+  {
     picture: require("../static/issues/vault.png"),
     title: "Vault",
     link: "https://issuu.com/trenducsd/docs/trend_fw23",
