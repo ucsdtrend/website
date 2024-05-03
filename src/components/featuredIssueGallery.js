@@ -25,7 +25,7 @@ class FeaturedIssueGallery extends React.Component {
     const responsiveObject = {
       0: { items: 1 },
       450: { items: 2 },
-      1200: { items: 3 },
+      1100: { items: 3 },
       //992: { items: 4 },
       //1200: { items: 5 },
     };
