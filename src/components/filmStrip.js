@@ -13,6 +13,8 @@ import filmStrip9 from "../static/film-strip/film-strip-9.jpg";
 import filmStripEdge from "../static/film-strip/film-strip-edge.jpg";
 import "../styles/FilmStrip.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "../styles/FeaturedIssueGallery.scss";
+
 
 
 // This is where you change the width between images
@@ -30,9 +32,9 @@ class FilmStrip extends React.Component {
     };
 
     const handleDragStart = (e) => e.preventDefault();
-    //const images = require.context('../../film-strip', true);
-    //const imageList = images.keys().map(image => images(image));
-    const images = [filmStrip1,
+
+    const images = [
+      filmStrip1,
       filmStrip2,
       filmStrip3,
       filmStrip4,
@@ -43,16 +45,14 @@ class FilmStrip extends React.Component {
       filmStrip9,
     ];
 
-      const filmStripImages = images.map(img => <div className="img-container">
+    const filmStripImages = images.map(img => <div className="img-container">
       <img className="film-strip-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)
+
     return (
-      <div className="film-strip-container">
-        {/* <LazyLoadImage className="film-strip-edge" src={filmStripEdge} /> */}
+      <div className="gallery-container">
         <AliceCarousel
           items={filmStripImages}
-          autoHeight
-          preservePosition
           disableDotsControls
           disableButtonsControls
           mouseTrackingEnabled
@@ -61,7 +61,6 @@ class FilmStrip extends React.Component {
           autoPlayInterval={1500}
           responsive={responsiveObject}
         />
-        {/* <LazyLoadImage className="film-strip-edge" src={filmStripEdge} /> */}
       </div>
     );
   }

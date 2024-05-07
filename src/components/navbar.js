@@ -56,6 +56,8 @@ class Navbar extends React.Component {
                 <NavLink to="/issues">
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
                 </NavLink>
+                <h4><a className="blog" href={medium}> BLOG
+                  </a></h4>
                 <NavLink to="/team">
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
@@ -104,9 +106,12 @@ class Navbar extends React.Component {
                 <NavLink to="/issues" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
                 </NavLink>
+                <h4><a className="blog" href={medium}> BLOG
+                  </a></h4>
                 <NavLink to="/team" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
+                
                 <div className="vertical-links-container">
                   <a className="vertical-socials" href={instagram}>
                     <BsInstagram />
