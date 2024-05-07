@@ -59,9 +59,6 @@ class Navbar extends React.Component {
                 <NavLink to="/team">
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
-                <NavLink to="/flipbook">
-                  <h4><a href={"../pages/flipbook.js"}>FLIPBOOK</a></h4>
-                </NavLink>
               </div>
               
               {/* <div className='navbar-logo-container'>
