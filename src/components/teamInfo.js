@@ -10,6 +10,11 @@ export const teamInfo = [
     position: "Editor in Chief"
   },
   {
+    picture: require("../static/team/Vince_Hilahan.jpg"),
+    name: "Vince Hilahan",
+    position: "Photographer"
+  },
+  {
     picture: require("../static/team/Maya_Rosado.jpg"),
     name: "Maya Rosado",
     position: "Photographer"
@@ -106,7 +111,7 @@ export const teamInfo = [
   },
   {
     picture: require("../static/team/Niko_Perez.jpg"),
-    name: "Niko Perez",
+    name: "Nikolas Perez",
     position: "External"
   },
   {
@@ -135,13 +140,13 @@ export const teamInfo = [
     position: "External"
   },
   {
-    picture: require("../static/team/Reece_Kelly.jpg"),
-    name: "Reece Kelly",
+    picture: require("../static/team/Antonella_Crawley.jpg"),
+    name: "Antonella Crawley",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Antonella_Crawley.jpg"),
-    name: "Antonella Crawley",
+    picture: require("../static/team/Leanna_Gower.jpg"),
+    name: "Leanna Gower",
     position: "Marketing"
   },
   {
@@ -165,13 +170,13 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Leanna_Gower.jpg"),
-    name: "Leanna Gower",
+    picture: require("../static/team/Yu_Ishii.jpg"),
+    name: "Yu Ishii",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Yu_Ishii.jpg"),
-    name: "Yu Ishii",
+    picture: require("../static/team/Reece_Kelly.jpg"),
+    name: "Reece Kelly",
     position: "Marketing"
   },
   {
