@@ -24,11 +24,6 @@ class FilmStrip extends React.Component {
       0: { items: 1 },
       450: { items: 2 },
       1100: { items: 3 },
-      // 0: { items: 1 },
-      // 450: { items: 1 },
-      // 768: { items: 2 },
-      // 992: { items: 3 },
-      //1200: { items: 4 },
     };
 
     const handleDragStart = (e) => e.preventDefault();
