@@ -5,7 +5,6 @@ import Home from "./pages/home";
 import Issues from "./pages/issues"
 import Team from "./pages/team";
 import Footer from "./components/footer";
-import Flipbook from "./pages/flipbook";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 // setConfiguration({
@@ -23,7 +22,6 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/issues' element={<Issues/>} />
           <Route path='/team' element={<Team/>} />
-          <Route path='/flipbook' element={<Flipbook/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>
