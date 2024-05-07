@@ -10,6 +10,11 @@ export const teamInfo = [
     position: "Editor in Chief"
   },
   {
+    picture: require("../static/team/Vince_Hilahan.jpg"),
+    name: "Vince Hilahan",
+    position: "Photographer"
+  },
+  {
     picture: require("../static/team/Maya_Rosado.jpg"),
     name: "Maya Rosado",
     position: "Photographer"
@@ -85,11 +90,6 @@ export const teamInfo = [
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Ashley_Asadi.jpg"),
-    name: "Ashley Asadi",
-    position: "Graphic Designer"
-  },
-  {
     picture: require("../static/team/Isabelle_Liang.jpg"),
     name: "Isabelle Liang",
     position: "Graphic Designer"
@@ -111,7 +111,7 @@ export const teamInfo = [
   },
   {
     picture: require("../static/team/Niko_Perez.jpg"),
-    name: "Niko Perez",
+    name: "Nikolas Perez",
     position: "External"
   },
   {
@@ -126,7 +126,7 @@ export const teamInfo = [
   },
   {
     picture: require("../static/team/Nimisha_Singh.jpg"),
-    name: "Nimisha_Singh",
+    name: "Nimisha Singh",
     position: "External"
   },
   {
@@ -140,13 +140,13 @@ export const teamInfo = [
     position: "External"
   },
   {
-    picture: require("../static/team/Reece_Kelly.jpg"),
-    name: "Reece Kelly",
+    picture: require("../static/team/Antonella_Crawley.jpg"),
+    name: "Antonella Crawley",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Antonella_Crawley.jpg"),
-    name: "Antonella Crawley",
+    picture: require("../static/team/Leanna_Gower.jpg"),
+    name: "Leanna Gower",
     position: "Marketing"
   },
   {
@@ -170,31 +170,14 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Leanna_Gower.jpg"),
-    name: "Leanna Gower",
-    position: "Marketing"
-  },
-  {
     picture: require("../static/team/Yu_Ishii.jpg"),
     name: "Yu Ishii",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Mateo_Ignacio.jpg"),
-    name: "Mateo Ignacio",
-    position: "Web Developer",
-    linkedin: "https://www.linkedin.com/in/mateoign/"
-  },
-  {
-    picture: require("../static/team/Uyen_Tran.jpg"),
-    name: "Uyen Tran",
-    position: "Web Developer",
-    linkedin: "https://www.linkedin.com/in/uyen-tran21/"
-  },
-  {
-    picture: require("../static/team/Ann_Yang.jpg"),
-    name: "Ann Yang",
-    position: "Web Developer"
+    picture: require("../static/team/Reece_Kelly.jpg"),
+    name: "Reece Kelly",
+    position: "Marketing"
   },
   {
     picture: require("../static/team/Natalie_Marrewa.jpg"),
@@ -216,6 +199,24 @@ export const teamInfo = [
     name: "Mia Elliott",
     position: "Stylist"
   },
+  {
+    picture: require("../static/team/Mateo_Ignacio.jpg"),
+    name: "Mateo Ignacio",
+    position: "Web Developer",
+    linkedin: "https://www.linkedin.com/in/mateoign/"
+  },
+  {
+    picture: require("../static/team/Uyen_Tran.jpg"),
+    name: "Uyen Tran",
+    position: "Web Developer",
+    linkedin: "https://www.linkedin.com/in/uyen-tran21/"
+  },
+  {
+    picture: require("../static/team/Ann_Yang.jpg"),
+    name: "Ann Yang",
+    position: "Web Developer"
+  },
+  
   // {
   //   picture: require("../static/team/Merav_Price.jpg"),
   //   name: "Merav Price",

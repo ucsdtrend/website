@@ -14,11 +14,12 @@
 
 .issue-title {
   margin-top: $spacer-1;
-  color: $color-dark-green;
+  color: $color-white;
 }
 
 h2, p {
   display: inline-block;
-  padding-right: 1%;
-  padding-left: 1%;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: $color-white;
 }

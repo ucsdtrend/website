@@ -9,6 +9,7 @@
   border: 1px solid $color-white;
   transition: 0.5s all;
   z-index: 100;
+  color: $color-white;
 }
 
 .button-back {
@@ -19,5 +20,5 @@
   padding: 0 5rem;
   z-index: 10;
   pointer-events: none;
-  border: 2px solid $color-black;
+  border: 2px solid $color-white;
 }

@@ -1,58 +1,44 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import tide1 from "../static/gallery/tide-1.jpg";
-import tide2 from "../static/gallery/tide-2.jpg";
-import tide3 from "../static/gallery/tide-3.jpg";
-import tide4 from "../static/gallery/tide-4.jpg";
-import tide5 from "../static/gallery/tide-5.jpg";
-import tide6 from "../static/gallery/tide-6.jpg";
-import tide7 from "../static/gallery/tide-7.jpg";
-import tide8 from "../static/gallery/tide-8.jpg";
-import tide9 from "../static/gallery/tide-9.jpg";
-import tide10 from "../static/gallery/tide-10.jpg";
-import tide11 from "../static/gallery/tide-11.jpg";
-import tide12 from "../static/gallery/tide-12.jpg";
-import tide13 from "../static/gallery/tide-13.jpg";
-import tide14 from "../static/gallery/tide-14.jpg";
-import tide15 from "../static/gallery/tide-15.jpg";
-import tide16 from "../static/gallery/tide-16.jpg";
-import tide17 from "../static/gallery/tide-17.jpg";
+import featured1 from "../static/featured-issue/featured_1.jpg";
+import featured2 from "../static/featured-issue/featured_2.jpg";
+import featured3 from "../static/featured-issue/featured_3.jpg";
+import featured4 from "../static/featured-issue/featured_4.jpg";
+import featured5 from "../static/featured-issue/featured_5.jpg";
+import featured6 from "../static/featured-issue/featured_6.jpg";
+import featured7 from "../static/featured-issue/featured_7.jpg";
+import featured8 from "../static/featured-issue/featured_8.jpg";
+import featured9 from "../static/featured-issue/featured_9.jpg";
 import "../styles/Gallery.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
+///////////////////
+/// This is where the featured issue is shown
+///////////////////
 
 class Gallery extends React.Component {
   render() {
     const responsiveObject = {
       0: { items: 1 },
-      450: { items: 1 },
-      768: { items: 2 },
-      992: { items: 3 },
-      1200: { items: 5 },
+      450: { items: 2 },
+      1200: { items: 3 },
     };
 
     const handleDragStart = (e) => e.preventDefault();
-
+    
     const images = [
-      tide1,
-      tide2,
-      tide3,
-      tide4,
-      tide5,
-      tide6,
-      tide7,
-      tide8,
-      tide9,
-      tide10,
-      tide11,
-      tide12,
-      tide13,
-      tide14,
-      tide15,
-      tide16,
-      tide17,
+      featured1,
+      featured2,
+      featured3,
+      featured4,
+      featured5,
+      featured6,
+      featured7,
+      featured8,
+      featured9,
     ];
-
+    // const galleryImages = ImageGallery(vault)
     const galleryImages = images.map(img => <div className="img-container">
       <LazyLoadImage className="gallery-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)

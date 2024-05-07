@@ -9,26 +9,29 @@
   margin-left: $spacer-2;
   margin-right: $spacer-2;
   // background-color: $color-blog;
+  color: $color-white;
 }
 
 .who-we-are-description {
-  margin-top: $spacer-1;
+  margin-top: $spacer-2;
+  color: $color-white;
 }
 
 .who-we-are-img {
   height: auto;
-  width: 80%;
+  width: 100%;
   margin-top: 1rem;
 }
 
 .issues-description {
-  margin-top: $spacer-1;
+  margin-top: $spacer-3;
 }
 
 .img-container {
-  margin-top: $spacer-1;
+  margin-top: $spacer-2;
+  
 }
 
 .issues-link {
-  color: $color-dark-green;
+  color: $color-white;
 }

@@ -34,9 +34,24 @@ html {
   font-family: "Raleway Regular";
   src: url("./fonts/Raleway-Regular.ttf") format("truetype");
 }
-
+@font-face {
+  font-family: "Anton Regular";
+  src: url("./fonts/Anton-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  src: url("./fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("./fonts/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat Italic";
+  src: url("./fonts/Montserrat-Italic.ttf") format("truetype");
+}
 h1 {
-  font-family: "Source Sans Pro Bold" ;
+  font-family: "Anton Regular" ;
   font-weight: 700;
   font-size: 7.2rem;
   line-height: 7.2rem;
@@ -45,25 +60,17 @@ h1 {
 }
 
 h2 {
-  font-family: "Raleway SemiBold" ;
+  font-family: "Montserrat Medium" ;
   font-weight: 700;
   font-size: 4.8rem;
   line-height: 4.8rem;
   margin-top: 0;
   margin-bottom: 0;
+  
 }
 
 h3 {
   font-family: "Raleway Medium" ;
-  font-weight: 700;
-  font-size: 3.6rem;
-  line-height: 3.6rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-h4 {
-  font-family: "Raleway Regular" ;
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 2.4rem;
@@ -71,8 +78,18 @@ h4 {
   margin-bottom: 0;
 }
 
+h4 {
+  font-family: "Montserrat ExtraBold" ;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $color-white;
+}
+
 h5 {
-  font-family: "Raleway Regular" ;
+  font-family: "Montserrat Medium" ;
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 1.8rem;
@@ -81,19 +98,28 @@ h5 {
 }
 
 h6 {
-  font-family: "Raleway Regular" ;
+  font-family: "Montserrat Italic" ;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h7 {
+  font-family: "Montserrat Italic" ;
+  font-weight: 700;
+  font-size: 1.8rem;
   line-height: 1.8rem;
   margin-top: 0;
   margin-bottom: 0;
 }
 
+
 p {
   font-family: "Raleway Regular" ;
-  // font-weight: 700;
-  font-size: 1.8rem;
-  line-height: 1.8rem;
+  font-weight: 50;
+  font-size: 2rem;
+  line-height: 3rem;
   margin-top: 0;
   margin-bottom: 0;
 }

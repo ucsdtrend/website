@@ -2,12 +2,18 @@ import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import '../styles/FeaturedIssue.scss';
 import FeaturedIssueGallery from "./featuredIssueGallery";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import cover from "../static/issues/metamorphosis.png";
+
+
 
 class FeaturedIssue extends React.Component {
   constructor(props) {
     super(props);
     this.state = { windowWidth: window.innerWidth };
   }
+
+  
 
   handleResize = (e) => {
     this.setState({ windowWidth: window.innerWidth });
@@ -26,23 +32,41 @@ class FeaturedIssue extends React.Component {
 
     return(
       <div className="featured-issue-container">
-        <FeaturedIssueGallery />
+        {/* <FeaturedIssue/> */}
         <Container className="title-container" fluid>
           {windowWidth > 800 ? (
-            <Row align="end" justify="end" direction="row">
-              <Col align="end" md={6}>
-                <a class="issue-link" href="https://issuu.com/trenducsd/docs/revival_issue_fw22" target="_blank">
-                  <h2 className="issue-title">vault</h2>
-                  <p>FW23</p>
+            <Row align="center" justify="space between" direction="beginning">
+              
+              <Col>
+              <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
+                <div className="img-container">
+                <LazyLoadImage className="who-we-are-img" src={cover} />
+                </div>
+              </a>
+          </Col>
+          <Col align="center" md={6}>
+                <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
+                  <h2 className="issue-title">METAMORPHOSIS</h2>
+                  
+                  <h7>Fall 2023</h7>
                 </a>
               </Col>
             </Row>
+            
           ):(
-            <Row align="center" justify="center" direction="row">
-              <Col align="center" md={6}>
-                <a class="issue-link" href="https://issuu.com/trenducsd/docs/revival_issue_fw22" target="_blank">
-                  <h2 className="issue-title">vault</h2>
-                  <p>FW23</p>
+            <Row align="center" justify="end" direction="row">
+
+              <Col>
+              <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
+                  <div className="img-container">
+                  <LazyLoadImage className="who-we-are-img" src={cover} />
+                  </div>
+              </a>
+          </Col>
+          <Col align="center" md={5}>
+                <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
+                  <h2 className="issue-title">METAMORPHOSIS</h2>
+                  <h7>Fall 2023</h7>
                 </a>
               </Col>
             </Row>

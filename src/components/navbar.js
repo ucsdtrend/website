@@ -43,6 +43,15 @@ class Navbar extends React.Component {
       <div className='navbar-container'>
           {windowWidth > 800 ? (
             <div className='horizontal-content-container'>
+              <div className='navbar-logo-container'>
+                <NavLink to="/">
+                  <a href={"../pages/home.js"}>
+                    <h1>TREND</h1>
+                    {/* <img src="src/static/trend_logo_2024.png" alt = "TREND"></img> */}
+                  </a>
+                </NavLink>
+              </div>
+
               <div className='horizontal-links-container' id="navbar-pages">
                 <NavLink to="/issues">
                   <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
@@ -55,15 +64,15 @@ class Navbar extends React.Component {
                 </NavLink>
               </div>
               
-              <div className='navbar-logo-container'>
+              {/* <div className='navbar-logo-container'>
                 <NavLink to="/">
                   <a href={"../pages/home.js"}>
                     <h1>TREND</h1>
                   </a>
                 </NavLink>
-              </div>
+              </div> */}
               
-              <div className="horizontal-links-container" id="navbar-socials">
+              {/* <div className="horizontal-links-container" id="navbar-socials">
                 <a href={instagram}>
                   <BsInstagram />
                 </a>
@@ -73,7 +82,7 @@ class Navbar extends React.Component {
                 <a href={medium}> 
                   <FaMedium />
                 </a>
-              </div>
+              </div> */}
             </div>
           ):(
             <div>
