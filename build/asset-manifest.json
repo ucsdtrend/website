@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.6977eab0.css",
-    "main.js": "/static/js/main.6f33b8f5.js",
-    "static/js/787.41b42045.chunk.js": "/static/js/787.41b42045.chunk.js",
-
-    "static/media/fefty.mp4": "/static/media/fefty.defd267546dbdab3c627.mp4",
+    "main.css": "/static/css/main.42d6fccd.css",
+    "main.js": "/static/js/main.a3905cba.js",
+    "static/js/787.0395afd9.chunk.js": "/static/js/787.0395afd9.chunk.js",
+    "static/media/homepage_video.mp4": "/static/media/homepage_video.defd267546dbdab3c627.mp4",
     "static/media/featured_9.jpg": "/static/media/featured_9.805e981141ca94e10018.jpg",
     "static/media/featured_2.jpg": "/static/media/featured_2.4142d56f36828067ad78.jpg",
     "static/media/featured_5.jpg": "/static/media/featured_5.3aa4a7bdf27f1965a388.jpg",
@@ -86,12 +85,12 @@
     "static/media/film-strip-5.jpg": "/static/media/film-strip-5.9098ffcfee91d65df124.jpg",
     "static/media/film-strip-6.jpg": "/static/media/film-strip-6.df9a7b886c38aeca2e7a.jpg",
     "index.html": "/index.html",
-    "main.6977eab0.css.map": "/static/css/main.6977eab0.css.map",
-    "main.6f33b8f5.js.map": "/static/js/main.6f33b8f5.js.map",
-    "787.41b42045.chunk.js.map": "/static/js/787.41b42045.chunk.js.map"
+    "main.42d6fccd.css.map": "/static/css/main.42d6fccd.css.map",
+    "main.a3905cba.js.map": "/static/js/main.a3905cba.js.map",
+    "787.0395afd9.chunk.js.map": "/static/js/787.0395afd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6977eab0.css",
-    "static/js/main.6f33b8f5.js"
+    "static/css/main.42d6fccd.css",
+    "static/js/main.a3905cba.js"
   ]
 }
