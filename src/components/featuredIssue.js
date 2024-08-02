@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import '../styles/FeaturedIssue.scss';
 import FeaturedIssueGallery from "./featuredIssueGallery";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import cover from "../static/issues/metamorphosis.png";
+import cover from "../static/issues/out_of_bounds.png";
 
 
 
@@ -38,7 +38,7 @@ class FeaturedIssue extends React.Component {
             <Row align="center" justify="space between" direction="beginning">
               
               <Col>
-              <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
+              <a class="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank">
                 <div className="img-container">
                 <LazyLoadImage className="who-we-are-img" src={cover} />
                 </div>
@@ -46,9 +46,9 @@ class FeaturedIssue extends React.Component {
           </Col>
           <Col align="center" md={6}>
                 <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
-                  <h2 className="issue-title">METAMORPHOSIS</h2>
+                  <h2 className="issue-title">OUT OF BOUDNS</h2>
                   
-                  <h7>Fall 2023</h7>
+                  <h7>Spring/Summer 2024</h7>
                 </a>
               </Col>
             </Row>
@@ -57,16 +57,16 @@ class FeaturedIssue extends React.Component {
             <Row align="center" justify="end" direction="row">
 
               <Col>
-              <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
+              <a class="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank">
                   <div className="img-container">
                   <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>
               </a>
           </Col>
           <Col align="center" md={5}>
-                <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
-                  <h2 className="issue-title">METAMORPHOSIS</h2>
-                  <h7>Fall 2023</h7>
+                <a class="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank">
+                  <h2 className="issue-title">OUT OF BOUNDS</h2>
+                  <h7>Spring/Summer 2024</h7>
                 </a>
               </Col>
             </Row>

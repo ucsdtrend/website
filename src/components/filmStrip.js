@@ -10,7 +10,8 @@ import filmStrip6 from "../static/film-strip/film-strip-6.jpg";
 import filmStrip7 from "../static/film-strip/film-strip-7.jpg";
 import filmStrip8 from "../static/film-strip/film-strip-8.jpg";
 import filmStrip9 from "../static/film-strip/film-strip-9.jpg";
-import filmStripEdge from "../static/film-strip/film-strip-edge.jpg";
+import filmStrip10 from "../static/film-strip/film-strip-10.jpg";
+
 import "../styles/FilmStrip.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/FeaturedIssueGallery.scss";
@@ -22,8 +23,8 @@ class FilmStrip extends React.Component {
   render() {
     const responsiveObject = {
       0: { items: 1 },
-      450: { items: 2 },
-      1100: { items: 3 },
+      568: { items: 2 },
+      1024: { items: 3, itemsFit: "contain"},
     };
 
     const handleDragStart = (e) => e.preventDefault();
@@ -38,6 +39,7 @@ class FilmStrip extends React.Component {
       filmStrip7,
       filmStrip8,
       filmStrip9,
+      filmStrip10
     ];
 
     const filmStripImages = images.map(img => <div className="img-container">
