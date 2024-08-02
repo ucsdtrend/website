@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import '../styles/FeaturedIssue.scss';
 import FeaturedIssueGallery from "./featuredIssueGallery";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import cover from "../static/issues/out_of_bounds.png";
+import cover from "../static/issues/out-of-bounds.png";
 
 
 

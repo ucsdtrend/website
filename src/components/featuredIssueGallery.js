@@ -26,8 +26,8 @@ class FeaturedIssueGallery extends React.Component {
     // I'd like it to be absolute
     const responsiveObject = {
       0: { items: 1 },
-      450: { items: 2 },
-      1100: { items: 3 },
+      500: { items: 2 },
+      900: { items: 3 , itemsFit: 'contain'},
       //992: { items: 4 },
       //1200: { items: 5 },
     };
