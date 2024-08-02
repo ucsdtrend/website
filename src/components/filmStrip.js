@@ -23,8 +23,8 @@ class FilmStrip extends React.Component {
   render() {
     const responsiveObject = {
       0: { items: 1 },
-      568: { items: 2 },
-      1024: { items: 3, itemsFit: "contain"},
+      500: { items: 2 },
+      900: { items: 3, itemsFit: "contain"},
     };
 
     const handleDragStart = (e) => e.preventDefault();

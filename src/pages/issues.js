@@ -1,8 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
-import Gallery from "../components/issuesGallery";
-import FeaturedIssue from "../components/featuredIssue";
-
 import { issuesInfo } from "../components/issuesInfo";
 import IssueBlock from "../components/issueBlock";
 import IssueDescription from "../components/issueDescription";
