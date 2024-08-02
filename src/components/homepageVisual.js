@@ -65,8 +65,8 @@ class FeaturedOnHome extends React.Component {
           </Col>
           <Col align="center" md={5}>
                 <a class="issue-link" href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_" target="_blank">
-                  <h2 className="issue-title">METAMORPHOSIS</h2>
-                  <h7>Fall 2023</h7>
+                  <h2 className="issue-title">Out of Bounds</h2>
+                  <h7>Spring/Summer 2024</h7>
                 
                 </a>
               </Col>

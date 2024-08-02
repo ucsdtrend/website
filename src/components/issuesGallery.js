@@ -10,6 +10,9 @@ import featured6 from "../static/featured-issue/featured_6.jpg";
 import featured7 from "../static/featured-issue/featured_7.jpg";
 import featured8 from "../static/featured-issue/featured_8.jpg";
 import featured9 from "../static/featured-issue/featured_9.jpg";
+import featured10 from "../static/featured-issue/featured_10.jpg";
+
+
 import "../styles/Gallery.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -37,8 +40,8 @@ class Gallery extends React.Component {
       featured7,
       featured8,
       featured9,
+      featured10
     ];
-    // const galleryImages = ImageGallery(vault)
     const galleryImages = images.map(img => <div className="img-container">
       <LazyLoadImage className="gallery-img" src={img} onDragStart={handleDragStart} alt={img}/>
     </div>)
