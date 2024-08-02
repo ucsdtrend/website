@@ -29,7 +29,7 @@ class TeamGrid extends React.Component {
       <div className="team-grid-section">
         <Container className="team-grid-container">
           <Row className="top-margin-section">
-            <h4>TREND Team</h4>
+            <h2>TREND Team</h2>
           </Row>
           <Row className="top-margin-subsection">
             <h3>2023 - 2024</h3>
