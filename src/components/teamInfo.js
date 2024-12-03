@@ -1,27 +1,27 @@
 /**export const teamInfo = [
   {
-    picture: require("../static/team/Gianina_Fan.jpg"),
-    name: "Gigi Fan",
+    picture: require("../static/team/Alexandra_Citra.jpg"),
+    name: "Alexandra Citra",
     position: "Editor in Chief"
   },
   {
-    picture: require("../static/team/Vince_Hilahan.jpg"),
-    name: "Vince Hilahan",
+    picture: require("../static/team/Leanna_Gower.jpg"),
+    name: "Leanna Gower",
     position: "Editor in Chief"
-  },
-  {
-    picture: require("../static/team/Vince_Hilahan.jpg"),
-    name: "Vince Hilahan",
-    position: "Photographer"
-  },
-  {
-    picture: require("../static/team/Maya_Rosado.jpg"),
-    name: "Maya Rosado",
-    position: "Photographer"
   },
   {
     picture: require("../static/team/Aidan_Sidikpramana.jpg"),
     name: "Aidan Sidikpramana",
+    position: "Photographer"
+  },
+  {
+    picture: require("../static/team/Alyssa_Verheem.jpg"),
+    name: "Alyssa Verheem",
+    position: "Photographer"
+  },
+  {
+    picture: require("../static/team/Davis_Gabriel.jpg"),
+    name: "Davis Gabriel",
     position: "Photographer"
   },
   {
@@ -35,8 +35,8 @@
     position: "Photographer"
   },
   {
-    picture: require("../static/team/Sabina_Jozwik.jpg"),
-    name: "Sabina Jozwik",
+    picture: require("../static/team/Isabel_Rademaker.jpg"),
+    name: "Isabel Rademaker",
     position: "Photographer"
   },
   {
@@ -45,8 +45,28 @@
     position: "Photographer"
   },
   {
-    picture: require("../static/team/Alexandra_Citra.jpg"),
-    name: "Alexandra Citra",
+    picture: require("../static/team/Jacobo_Cortes.jpg"),
+    name: "Jacobo Cortes",
+    position: "Photographer"
+  },
+  {
+    picture: require("../static/team/Natalie_Kong.jpg"),
+    name: "Natalie Kong",
+    position: "Photographer"
+  },
+  {
+    picture: require("../static/team/Silvia_Lee.jpg"),
+    name: "Silvia Lee",
+    position: "Photographer"
+  },
+  {
+    picture: require("../static/team/Vanessa_Mak.jpg"),
+    name: "Vanessa Mak",
+    position: "Photographer"
+  },
+  {
+    picture: require("../static/team/Ahliyah_Luna.jpg"),
+    name: "Ahliyah Luna",
     position: "Writer"
   },
   {
@@ -55,8 +75,8 @@
     position: "Writer",
   },
   {
-    picture: require("../static/team/Yalini_Thillaikumaran.jpg"),
-    name: "Yalini Thillaikumaran",
+    picture: require("../static/team/Alex_Lara.jpg"),
+    name: "Alex Lara",
     position: "Writer",
   },
   {
@@ -65,13 +85,13 @@
     position: "Writer"
   },
   {
-    picture: require("../static/team/Sophia_Regier.jpg"),
-    name: "Sophia Regier",
+    picture: require("../static/team/Julian_Aguilar.jpg"),
+    name: "Julian Aguilar",
     position: "Writer"
   },
   {
-    picture: require("../static/team/Chloe_Soribello.jpg"),
-    name: "Chloe Soribello",
+    picture: require("../static/team/Preeya_Govil.jpg"),
+    name: "Preeya Govil",
     position: "Writer"
   },
   {
@@ -80,8 +100,18 @@
     position: "Writer"
   },
   {
-    picture: require("../static/team/Jackie_DAmato.jpg"),
-    name: "Jackie D'Amato",
+    picture: require("../static/team/Sophia_Regier.jpg"),
+    name: "Sophia Regier",
+    position: "Writer"
+  },
+  {
+    picture: require("../static/team/Sydney_McDonald.jpg"),
+    name: "Sydney McDonald",
+    position: "Writer"
+  },
+  {
+    picture: require("../static/team/Beatriz_Chen.jpg"),
+    name: "Beatriz Chen",
     position: "Graphic Designer"
   },
   {
@@ -90,13 +120,13 @@
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Isabelle_Liang.jpg"),
-    name: "Isabelle Liang",
+    picture: require("../static/team/Jamie_Lim.jpg"),
+    name: "Jamie Lim",
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Jaime_Hayer.jpg"),
-    name: "Jaime Hayer",
+    picture: require("../static/team/Jasmine_Nguyen.jpg"),
+    name: "Jasmine Nguyen",
     position: "Graphic Designer"
   },
   {
@@ -105,28 +135,43 @@
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Varsha_Sampath.jpg"),
-    name: "Varsha Sampath",
+    picture: require("../static/team/Jon_Picinich.jpg"),
+    name: "Jon Picinich",
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Niko_Perez.jpg"),
-    name: "Nikolas Perez",
+    picture: require("../static/team/Krista_Lopez.jpg"),
+    name: "Krista Lopez",
+    position: "Graphic Designer"
+  },
+  {
+    picture: require("../static/team/Lauren_Cho.jpg"),
+    name: "Lauren Cho",
+    position: "Graphic Designer"
+  },
+  {
+    picture: require("../static/team/Sravya_Nimmagadda.jpg"),
+    name: "Sravya Nimmagadda",
+    position: "Graphic Designer"
+  },
+  {
+    picture: require("../static/team/Andrew_Alvarado.jpg"),
+    name: "Andrew Alvarado",
     position: "External"
   },
   {
-    picture: require("../static/team/Maggie_Blaisdell.jpg"),
-    name: "Maggie Blaisdell",
+    picture: require("../static/team/Anica_Xie.jpg"),
+    name: "Anica Xie",
     position: "External"
   },
   {
-    picture: require("../static/team/Diane_Ji.jpg"),
-    name: "Diane Ji",
+    picture: require("../static/team/Ashley_djunaedi.jpg"),
+    name: "Ashley djunaedi",
     position: "External"
   },
   {
-    picture: require("../static/team/Nimisha_Singh.jpg"),
-    name: "Nimisha Singh",
+    picture: require("../static/team/Dani_Rodriguez_Arzate.jpg"),
+    name: "Dani Rodriguez Arzate",
     position: "External"
   },
   {
@@ -135,23 +180,48 @@
     position: "External"
   },
   {
-    picture: require("../static/team/Yuehan_Xiong.jpg"),
-    name: "Yuehan Xiong",
+    picture: require("../static/team/Jasmine_Lauresta.jpg"),
+    name: "Jasmine Lauresta",
     position: "External"
   },
   {
-    picture: require("../static/team/Antonella_Crawley.jpg"),
-    name: "Antonella Crawley",
+    picture: require("../static/team/Leah_Jenkins.jpg"),
+    name: "Leah Jenkins",
+    position: "External"
+  },
+  {
+    picture: require("../static/team/Lizabeth_Wong.jpg"),
+    name: "Lizabeth Wong",
+    position: "External"
+  },
+  {
+    picture: require("../static/team/Rita_Xiong.jpg"),
+    name: "Rita Xiong",
+    position: "External"
+  },
+  {
+    picture: require("../static/team/Sanju_Artham.jpg"),
+    name: "Sanju Artham",
+    position: "External"
+  },
+  {
+    picture: require("../static/team/Viviana_Espino.jpg"),
+    name: "Viviana Espino",
+    position: "External"
+  },
+  {
+    picture: require("../static/team/Andy_Metcalf.jpg"),
+    name: "Andy Metcalf",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Leanna_Gower.jpg"),
-    name: "Leanna Gower",
+    picture: require("../static/team/Ann_Yang.jpg"),
+    name: "Ann Yang",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Emma_Burward_Kunde.jpg"),
-    name: "Emma Burward-Kunde",
+    picture: require("../static/team/Cameron_Cao.jpg"),
+    name: "Cameron Cao",
     position: "Marketing"
   },
   {
@@ -170,29 +240,34 @@
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Yu_Ishii.jpg"),
-    name: "Yu Ishii",
+    picture: require("../static/team/Eric_Wang.jpg"),
+    name: "Eric Wang",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Reece_Kelly.jpg"),
-    name: "Reece Kelly",
+    picture: require("../static/team/Isabelle_Liang.jpg"),
+    name: "Isabelle Liang",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Natalie_Marrewa.jpg"),
-    name: "Natalie Marrewa",
-    position: "Stylist",
+    picture: require("../static/team/Kadie_Qi.jpg"),
+    name: "Kadie Qi",
+    position: "Marketing"
   },
   {
-    picture: require("../static/team/Evan_Wang.jpg"),
-    name: "Evan Wang",
-    position: "Stylist",
+    picture: require("../static/team/Kevin_Tran.jpg"),
+    name: "Kevin Tran",
+    position: "Marketing"
   },
   {
-    picture: require("../static/team/Hayley_Simpson.jpg"),
-    name: "Hayley Simpson",
-    position: "Stylist"
+    picture: require("../static/team/Maggie_Blaisdell.jpg"),
+    name: "Maggie Blaisdell",
+    position: "Marketing"
+  },
+  {
+    picture: require("../static/team/Rylee_Boyles.jpg"),
+    name: "Rylee Boyles",
+    position: "Marketing"
   },
   {
     picture: require("../static/team/Mia_Elliott.jpg"),
@@ -200,20 +275,90 @@
     position: "Stylist"
   },
   {
-    picture: require("../static/team/Mateo_Ignacio.jpg"),
-    name: "Mateo Ignacio",
+    picture: require("../static/team/Aimi_Kim.jpg"),
+    name: "Aimi Kim",
+    position: "Stylist",
+  },
+  {
+    picture: require("../static/team/Anthony_Mercado.jpg"),
+    name: "Anthony Mercado",
+    position: "Stylist",
+  },
+  {
+    picture: require("../static/team/Daniel_Nepomuceno.jpg"),
+    name: "Daniel Nepomuceno",
+    position: "Stylist"
+  },
+  {
+    picture: require("../static/team/Jersey_Rosetes.jpg"),
+    name: "Jersey Rosetes",
+    position: "Stylist"
+  },
+  {
+    picture: require("../static/team/John_Noah_Pope.jpg"),
+    name: "John Noah Pope",
+    position: "Stylist"
+  },
+  {
+    picture: require("../static/team/Ky'en_dokes.jpg"),
+    name: "Ky'en dokes",
+    position: "Stylist"
+  },
+  {
+    picture: require("../static/team/Nel_Satriya.jpg"),
+    name: "Nel Satriya",
+    position: "Stylist"
+  },
+  {
+    picture: require("../static/team/Talia_Thessen.jpg"),
+    name: "Talia Thessen",
+    position: "Stylist"
+  },
+  {
+    picture: require("../static/team/Amy_Wong.jpg"),
+    name: "Amy Wong",
+    position: "Stylist: MUA"
+  },
+  {
+    picture: require("../static/team/Kaylie_Camacho.jpg"),
+    name: "Kaylie Camacho",
+    position: "Stylist: MUA"
+  },
+  {
+    picture: require("../static/team/Zander_Vilaysane.jpg"),
+    name: "Zander Vilaysane",
     position: "Web Developer",
     linkedin: "https://www.linkedin.com/in/mateoign/"
   },
   {
-    picture: require("../static/team/Uyen_Tran.jpg"),
-    name: "Uyen Tran",
+    picture: require("../static/team/Bryant_Tan.jpg"),
+    name: "Bryant Tan",
     position: "Web Developer",
     linkedin: "https://www.linkedin.com/in/uyen-tran21/"
   },
   {
-    picture: require("../static/team/Ann_Yang.jpg"),
-    name: "Ann Yang",
+    picture: require("../static/team/Catherine_Hoang.jpg"),
+    name: "Catherine Hoang",
+    position: "Web Developer"
+  },
+  {
+    picture: require("../static/team/Edna_Ho.jpg"),
+    name: "Edna Ho",
+    position: "Web Developer"
+  },
+  {
+    picture: require("../static/team/Jay_Gao.jpg"),
+    name: "Jay Gao",
+    position: "Web Developer"
+  },
+  {
+    picture: require("../static/team/Nelson_Chen.jpg"),
+    name: "Nelson Chen",
+    position: "Web Developer"
+  },
+  {
+    picture: require("../static/team/Olivia_Garrett.jpg"),
+    name: "Olivia Garrett",
     position: "Web Developer"
   },
   
