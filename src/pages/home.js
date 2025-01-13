@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <div>
         {/* <FeaturedIssue/> */}
-        <HomepageVideo/>
+        <HomepageVideo />
         <FeaturedIssue/>
         <WhoWeAre/>
         {/* <FeaturedBlog/> */}

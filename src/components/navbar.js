@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
 import { BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaMedium } from "react-icons/fa";
@@ -9,7 +9,20 @@ class Navbar extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { windowWidth: window.innerWidth, menuOpen: false };
+    this.state = { 
+      windowWidth: window.innerWidth, 
+      menuOpen: false,
+      isScrolled: false};
+
+    this.handleScroll = this.handleScroll.bind(this);
+  }
+
+  handleScroll() {
+    if (window.scrollY > 475) {  //trigger y-value
+      this.setState({ isScrolled: true });
+    } else {
+      this.setState({ isScrolled: false });
+    }
   }
 
   handleResize = (e) => {
@@ -17,10 +30,12 @@ class Navbar extends React.Component {
   };
 
   componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
     window.addEventListener("resize", this.handleResize);
   }
 
   componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
     window.addEventListener("resize", this.handleResize);
   } 
 
@@ -40,7 +55,7 @@ class Navbar extends React.Component {
     const { windowWidth } = this.state; 
     
     return (
-      <div className='navbar-container'>
+      <div className={`navbar-container ${this.state.isScrolled ? 'scrolled' : ''}`}>
           {windowWidth > 800 ? (
             <div className='horizontal-content-container'>
               <div className='navbar-logo-container'>
@@ -86,9 +101,6 @@ class Navbar extends React.Component {
           ):(
             <div>
             <div className='vertical-content-container'>
-
-              
-
               <div className='navbar-logo-container'>
                 <NavLink to="/">
                   <a href={"../pages/home.js"}>

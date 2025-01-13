@@ -1,14 +1,20 @@
 @import "./Constants.scss";
 
 .navbar-container {
-  position: left;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background-color: $color-blog;
+  background-color: transparent;
   z-index: 1;
+  transition: background-color 0.3s ease;
   // border-bottom: 2px solid $color-black;
+
+  &.scrolled {
+    background-color: $color-blog; /* Change to whatever color you like */
+  }
 }
+
 
 .horizontal-content-container {
   display: flex;
