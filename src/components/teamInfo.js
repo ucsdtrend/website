@@ -1,4 +1,4 @@
-export const teamInfo = [
+/**export const teamInfo = [
   {
     picture: require("../static/team/Alexandra_Citra.jpg"),
     name: "Alexandra Citra",
@@ -377,4 +377,4 @@ export const teamInfo = [
   //   name: "Will Doan",
   //   position: "Photographer"
   // },
-];
+];**/
