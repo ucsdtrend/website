@@ -1,16 +1,16 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import filmStrip1 from "../static/film-strip/film-strip-1.jpg";
-import filmStrip2 from "../static/film-strip/film-strip-2.jpg";
+import filmStrip1 from "../static/film-strip/film-strip-1.JPG";
+import filmStrip2 from "../static/film-strip/film-strip-2.JPG";
 import filmStrip3 from "../static/film-strip/film-strip-3.jpg";
-import filmStrip4 from "../static/film-strip/film-strip-4.jpg";
-import filmStrip5 from "../static/film-strip/film-strip-5.jpg";
-import filmStrip6 from "../static/film-strip/film-strip-6.jpg";
-import filmStrip7 from "../static/film-strip/film-strip-7.jpg";
-import filmStrip8 from "../static/film-strip/film-strip-8.jpg";
-import filmStrip9 from "../static/film-strip/film-strip-9.jpg";
-import filmStrip10 from "../static/film-strip/film-strip-10.jpg";
+import filmStrip4 from "../static/film-strip/film-strip-4.JPG";
+import filmStrip5 from "../static/film-strip/film-strip-5.JPG";
+import filmStrip6 from "../static/film-strip/film-strip-6.JPG";
+import filmStrip7 from "../static/film-strip/film-strip-7.JPG";
+import filmStrip8 from "../static/film-strip/film-strip-8.JPG";
+import filmStrip9 from "../static/film-strip/film-strip-9.JPG";
+import filmStrip10 from "../static/film-strip/film-strip-10.JPG";
 
 import "../styles/FilmStrip.scss";
 import { LazyLoadImage } from "react-lazy-load-image-component";

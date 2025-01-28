@@ -32,7 +32,7 @@ class TeamGrid extends React.Component {
             <h2>TREND Team</h2>
           </Row>
           <Row className="top-margin-subsection">
-            <h3>2023 - 2024</h3>
+            <h3>2024 - 2025</h3>
           </Row>
             <div className="team">
               <Row className="top-margin-section">
@@ -58,7 +58,7 @@ class TeamGrid extends React.Component {
               </Row>
 
               <Row className="top-margin-section">
-                <h4>Photographers</h4>
+                <h4>Photography</h4>
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
@@ -80,7 +80,7 @@ class TeamGrid extends React.Component {
               </Row>
 
               <Row className="top-margin-section">
-                <h4>Writer</h4>
+                <h4>Writing</h4>
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
@@ -102,7 +102,7 @@ class TeamGrid extends React.Component {
               </Row>
 
               <Row className="top-margin-section">
-                <h4>Graphic Designers</h4>
+                <h4>Graphic Design</h4>
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
@@ -168,7 +168,7 @@ class TeamGrid extends React.Component {
               </Row>
 
               <Row className="top-margin-section">
-                <h4>Stylists</h4>
+                <h4>Styling</h4>
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
@@ -190,7 +190,7 @@ class TeamGrid extends React.Component {
               </Row>
               
               <Row className="top-margin-section">
-                <h4>Web Developers</h4>
+                <h4>Web Development</h4>
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
