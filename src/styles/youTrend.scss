@@ -1,0 +1,166 @@
+@import "./Constants.scss";
+
+.youTrend-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100vw; /* Prevent the container from exceeding the viewport width */
+  box-sizing: border-box;
+}
+
+/* 📌 Top Header Section */
+.header {
+  display: flex;
+  justify-content: flex-end; /* Push text to the right */
+  align-items: center;
+  padding: 20px;
+  min-height: 150px; /* Adjust height to fit text */
+  width: 100%; /* Full width of the parent */
+  // max-width: 1200px; /* Constrain the header to a maximum width */
+  margin: 0 auto; /* Center the header on the page */
+  position: relative; /* Needed for absolute positioning inside */
+  outline: 2px dashed red; /* Debugging outline */
+  box-sizing: border-box;
+}
+
+/* 📌 Right-aligned text in header */
+.text-content {
+  text-align: right;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  right: 40px; /* Moves text to the right */
+  outline: 2px dashed blue; /* Debugging outline */
+}
+
+.title {
+  font-size: 24px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* 📌 Social Media Icons - Always in a Row */
+.social-icons {
+  display: flex;
+  flex-direction: row; /* Ensures icons are always side-by-side */
+  margin-top: 10px;
+  justify-content: flex-start; /* Aligns icons to the left under subtext */
+  gap: 10px; /* Adds space between icons */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+/* 📌 Image Grid Layout */
+.image-grid {
+  outline: 2px dashed red; /* Debugging outline */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+//   padding: 20px;
+  width: 100%;
+  //max-width: 1200px;
+  margin: 0 auto; /* Center grid on page */
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gray-bg {
+  background-color: #e0e0e0;
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+/* 📌 RESPONSIVE MEDIA QUERIES */
+
+/* 📱 Tablet View (≤ 1024px) */
+@media screen and (max-width: 1024px) {
+  .header {
+    min-height: 130px;
+    padding: 15px;
+    max-width: 100%; /* Allow full width of smaller screens */
+  }
+
+  .text-content {
+    right: 20px; /* Slightly reduce right margin */
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtext {
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns instead of 4 */
+    grid-template-rows: repeat(3, 1fr); /* Adjusted for better fit */
+  }
+}
+
+/* 📱 Mobile View (≤ 768px) */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: auto;
+    padding: 10px;
+    max-width: 100%; /* Prevent overflow on small screens */
+  }
+
+  .text-content {
+    position: static; /* Remove absolute positioning */
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .social-icons {
+    justify-content: center; /* Center icons under text */
+    flex-wrap: wrap; /* Allows icons to wrap if needed */
+  }
+
+  .icon {
+    width: 22px;
+    height: 22px;
+    margin: 5px;
+  }
+
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: auto; /* Let rows adjust dynamically */
+    gap: 5px;
+  }
+}
