@@ -6,7 +6,7 @@ class HomepageVideo extends React.Component {
   render() {
 
     return (
-      <div className="Video">
+      <div className="Video" id>
         <video width="100%" playsInline autoPlay muted loop>
         <source src={video} type="video/mp4"/>
         </video>

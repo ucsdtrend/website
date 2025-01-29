@@ -37,7 +37,17 @@
 .horizontal-links-container {
   display: flex;
   flex: 1;
-  gap: $spacer-1;
+  gap: $spacer-3;
+}
+
+.horizontal-links-container p {
+    padding: 1rem;
+    border-radius: 1.5rem;
+    transition: 0.4s all ease;
+  
+    &:hover {
+      background-color: rgba(248, 249, 251, 0.2);
+    }
 }
 
 .vertical-links-container {
@@ -63,7 +73,9 @@ a {
   text-decoration: none;
   color: $color-white;
   font-size: 2.4rem;
+  font-weight: lighter !important;
 }
+
 
 .bm-burger-bars {
   display: flex;

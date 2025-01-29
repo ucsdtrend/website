@@ -18,7 +18,16 @@ class Navbar extends React.Component {
   }
 
   handleScroll() {
-    if (window.scrollY > 475) {  //trigger y-value
+    const screenWidth = window.innerWidth;
+
+    let scrollThreshold = 20;
+    if (screenWidth <= 768) {
+      scrollThreshold = 7; 
+    }
+
+    const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+
+    if (scrollPercentage > scrollThreshold) {  //trigger y-value
       this.setState({ isScrolled: true });
     } else {
       this.setState({ isScrolled: false });
@@ -69,12 +78,12 @@ class Navbar extends React.Component {
 
               <div className='horizontal-links-container' id="navbar-pages">
                 <NavLink to="/issues">
-                  <h4><a href={"../pages/issues.js"}>ISSUES</a></h4>
+                  <p><a href={"../pages/issues.js"}>Issues</a></p>
                 </NavLink>
-                <h4><a className="blog" href={medium}> BLOG
-                  </a></h4>
+                <p><a className="blog" href={medium}> Blog
+                  </a></p>
                 <NavLink to="/team">
-                  <h4><a href={"../pages/team.js"}>TEAM</a></h4>
+                  <p><a href={"../pages/team.js"}>Team</a></p>
                 </NavLink>
               </div>
               
