@@ -8,7 +8,7 @@ const WhoWeAre = () => {
     <div className="who-we-are-container">
       <div className="content">
         <div className="image-large">
-          <img src={AllStaffPic} alt="Large Image Placeholder" />
+          <img src={AllStaffPic} alt="Large Placeholder" />
         </div>
         <div className="text-section">
           <h2 className="title">Who We Are</h2>
@@ -17,7 +17,7 @@ const WhoWeAre = () => {
           </p>
         </div>
         <div className="image-small">
-          <img src={ExecPic} alt="Small Image Placeholder" />
+          <img src={ExecPic} alt="Small Placeholder" />
         </div>
       </div>
     </div>

@@ -1,5 +1,38 @@
 @import "./Constants.scss";
 
-.footer-container {
-  background-color: $color-blog-wt;
+#footer-section {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: $spacer-2;
+  margin-bottom: $spacer-2;
+  margin-left: $spacer-2;
+  margin-right: $spacer-2;
+  color: $color-white;
 }
+
+.footer-name-container {
+  margin-top: 2%;
+  color: $color-white;
+}
+
+.email-container {
+  justify-content: end;
+  padding-right: 2px;
+  text-align: end;
+  color: $color-white;
+}
+
+.horizontal-links-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap: $spacer-2;
+}
+
+// .links-row {
+//   display: flex;
+//   justify-content: center;
+//   margin: 0;
+//   padding: 0;
+// }
