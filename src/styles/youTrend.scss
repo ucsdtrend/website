@@ -19,7 +19,7 @@
   // max-width: 1200px; /* Constrain the header to a maximum width */
   margin: 0 auto; /* Center the header on the page */
   position: relative; /* Needed for absolute positioning inside */
-  outline: 2px dashed red; /* Debugging outline */
+  // outline: 2px dashed red; /* Debugging outline */
   box-sizing: border-box;
 }
 
@@ -32,11 +32,11 @@
   align-items: flex-end;
   position: absolute;
   right: 40px; /* Moves text to the right */
-  outline: 2px dashed blue; /* Debugging outline */
+  //outline: 2px dashed blue; /* Debugging outline */
 }
 
 .title {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .bold {
@@ -44,15 +44,15 @@
 }
 
 .subtext {
-  font-size: 14px;
-  margin-top: 5px;
+  font-size: 15px;
+  margin-top: -5px;
 }
 
 /* 📌 Social Media Icons - Always in a Row */
 .social-icons {
   display: flex;
   flex-direction: row; /* Ensures icons are always side-by-side */
-  margin-top: 10px;
+  margin-top: 5px;
   justify-content: flex-start; /* Aligns icons to the left under subtext */
   gap: 10px; /* Adds space between icons */
 }
@@ -64,7 +64,7 @@
 
 /* 📌 Image Grid Layout */
 .image-grid {
-  outline: 2px dashed red; /* Debugging outline */
+  //outline: 2px dashed red; /* Debugging outline */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);

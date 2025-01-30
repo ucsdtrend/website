@@ -2,6 +2,16 @@ import React from "react";
 import "../styles/youTrend.scss";
 import { BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaMedium } from "react-icons/fa";
+import img1 from "../static/youTrend-imgs/img-1.png";
+import img2 from "../static/youTrend-imgs/img-2.png";
+import img3 from "../static/youTrend-imgs/img-3.png";
+import img4 from "../static/youTrend-imgs/img-4.png";
+import img5 from "../static/youTrend-imgs/img-5.png";
+import img6 from "../static/youTrend-imgs/img-6.png";
+import img7 from "../static/youTrend-imgs/img-7.png";
+import img8 from "../static/youTrend-imgs/img-8.png";
+
+const images = [img1, img2, img3, img4, img5, img6, img7, img8];
 
 class YouTrend extends React.Component {
   render() {
@@ -32,18 +42,15 @@ class YouTrend extends React.Component {
 
         {/* Image Grid Section */}
         <div className="image-grid">
-          {[...Array(8)].map((_, index) => (
-            <div
-              key={index}
-              className={`grid-item ${index % 2 === 0 ? "gray-bg" : "white-bg"}`}
-            >
-              <img
-                src={`image-${index + 1}.jpg`} // Replace with actual image paths
-                alt={`Grid Image ${index + 1}`}
-              />
-            </div>
-          ))}
-        </div>
+  {images.map((imgSrc, index) => (
+    <div
+      key={index}
+      className={`grid-item ${index % 2 === 0 ? "gray-bg" : "white-bg"}`}
+    >
+      <img src={imgSrc} alt={`Grid Image ${index + 1}`} />
+    </div>
+  ))}
+</div>
       </div>
     );
   }

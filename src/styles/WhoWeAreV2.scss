@@ -1,0 +1,37 @@
+@import "./Constants.scss";
+
+#who-we-are-section {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: $spacer-4;
+  margin-bottom: $spacer-4;
+  margin-left: $spacer-2;
+  margin-right: $spacer-2;
+  // background-color: $color-blog;
+  color: $color-white;
+}
+
+.who-we-are-description {
+  margin-top: $spacer-2;
+  color: $color-white;
+}
+
+.who-we-are-img {
+  height: auto;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.issues-description {
+  margin-top: $spacer-3;
+}
+
+.img-container {
+  margin-top: $spacer-2;
+  
+}
+
+.issues-link {
+  color: $color-white;
+}

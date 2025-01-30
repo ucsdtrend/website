@@ -1,6 +1,7 @@
 import React from "react";
 import FeaturedIssue from "../components/featuredIssue";
 import WhoWeAre from "../components/whoWeAre";
+import WhoWeAreV2 from "../components/WhoWeAreV2";
 import HomepageVideo from "../components/homepageVideo.js"
 import Blogs from "../components/blogs.js"
 import Footer from "../components/footer.js"
@@ -18,7 +19,7 @@ class Home extends React.Component {
         <HomepageVideo/>
         <FeaturedIssue/>
         <Blogs/>
-        <WhoWeAre/>
+        <WhoWeAreV2/>
         <YouTrend/>
         <Footer/>
         {/* <FeaturedBlog/> */}
