@@ -11,7 +11,7 @@
   // border-bottom: 2px solid $color-black;
 
   &.scrolled {
-    background-color: $color-blog; /* Change to whatever color you like */
+    background-color: $color-nav; /* Change to whatever color you like */
   }
 }
 
@@ -37,7 +37,7 @@
 .horizontal-links-container {
   display: flex;
   flex: 1;
-  gap: $spacer-3;
+  gap: $spacer-2;
 }
 
 .horizontal-links-container p {

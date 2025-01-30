@@ -86,6 +86,7 @@
     margin: 0; 
     padding: 0; 
     transition: box-shadow 0.3s ease-in-out;
+    border-radius: 5px;
 
     &:hover {
         box-shadow: 0px 0px 15px rgba(249, 248, 248, 0.3);

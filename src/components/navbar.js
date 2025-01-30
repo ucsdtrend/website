@@ -85,6 +85,8 @@ class Navbar extends React.Component {
                 <NavLink to="/team">
                   <p><a href={"../pages/team.js"}>Team</a></p>
                 </NavLink>
+                <p><a className="contact" href={"mailto:trenducsd@gmail.com"}> Contact Us
+                  </a></p>
               </div>
               
               {/* <div className='navbar-logo-container'>
@@ -132,6 +134,8 @@ class Navbar extends React.Component {
                 <NavLink to="/team" onTouchEnd={() => this.handleCloseMenu()}>
                   <h4><a href={"../pages/team.js"}>TEAM</a></h4>
                 </NavLink>
+                <h4><a className="contact" href={"mailto:trenducsd@gmail.com"}> CONTACT US
+                </a></h4>
                 
                 <div className="vertical-links-container">
                   <a className="vertical-socials" href={instagram}>
