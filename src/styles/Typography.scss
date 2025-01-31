@@ -50,6 +50,14 @@ html {
   font-family: "Montserrat Italic";
   src: url("./fonts/Montserrat-Italic.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Alte Haas Grotesk Regular";
+  src: url("./fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Alte Haas Grotesk Bold";
+  src: url("./fonts/AlteHaasGroteskBold.ttf") format("truetype");
+}
 h1 {
   font-family: "Anton Regular" ;
   font-weight: 700;
@@ -60,8 +68,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat Medium" ;
-  font-weight: 700;
+  font-family: "Alte Haas Grotesk Regular" ;
+  font-weight: 400;
   font-size: 4.8rem;
   line-height: 4.8rem;
   margin-top: 0;
@@ -116,7 +124,7 @@ h7 {
 
 
 p {
-  font-family: "Raleway Regular" ;
+  font-family: "Alte Haas Grotesk Regular" ;
   font-weight: 50;
   font-size: 2rem;
   line-height: 3rem;
