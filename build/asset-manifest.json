@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.097550d2.css",
-    "main.js": "/static/js/main.ab65c566.js",
-    "static/js/453.5873f9c9.chunk.js": "/static/js/453.5873f9c9.chunk.js",
+    "main.css": "/static/css/main.d983f009.css",
+    "main.js": "/static/js/main.8d0ed1d6.js",
+    "static/js/787.0395afd9.chunk.js": "/static/js/787.0395afd9.chunk.js",
     "static/media/homepage_video.mp4": "/static/media/homepage_video.defd267546dbdab3c627.mp4",
     "static/media/film-strip-2.jpg": "/static/media/film-strip-2.d79daaaf042ed92cba97.jpg",
     "static/media/film-strip-5.jpg": "/static/media/film-strip-5.c5889a84692dc0836e8a.jpg",
@@ -23,6 +23,7 @@
     "static/media/sincerely-yours.jpg": "/static/media/sincerely-yours.79a133d5296b2f56cc01.jpg",
     "static/media/featured_10.jpg": "/static/media/featured_10.132277752ec2e9fc2f8b.jpg",
     "static/media/featured_1.jpg": "/static/media/featured_1.eacfc12ad00b73e37d69.jpg",
+    "static/media/img3.png": "/static/media/img3.cc70ea80ede41d5e1ff2.png",
     "static/media/film-strip-8.jpg": "/static/media/film-strip-8.6469c3a929a175a94b9a.jpg",
     "static/media/featured_9.jpg": "/static/media/featured_9.3be1f786265bb30a6c9f.jpg",
     "static/media/out-of-bounds.jpg": "/static/media/out-of-bounds.2b69040f41c2c0f103bd.jpg",
@@ -32,6 +33,7 @@
     "static/media/featured_7.jpg": "/static/media/featured_7.57d36cdb2abea0989ff4.jpg",
     "static/media/featured_5.jpg": "/static/media/featured_5.98079ad77535480d3d61.jpg",
     "static/media/film-strip-10.jpg": "/static/media/film-strip-10.881fb4d8458a1d8e725a.jpg",
+    "static/media/diorama.jpg": "/static/media/diorama.937b38b4ce37a5e781c0.jpg",
     "static/media/Montserrat-Italic.ttf": "/static/media/Montserrat-Italic.f4a742d68090a0bfc33f.ttf",
     "static/media/Montserrat-ExtraBold.ttf": "/static/media/Montserrat-ExtraBold.6c8b198832c88c649faa.ttf",
     "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
@@ -43,15 +45,19 @@
     "static/media/Anton-Regular.ttf": "/static/media/Anton-Regular.170b842f9a8cd6150a0d.ttf",
     "static/media/revival.jpg": "/static/media/revival.c7696bc8dda8b48c7156.jpg",
     "static/media/tide.jpg": "/static/media/tide.06a233d959d9fb9a6a76.jpg",
+    "static/media/img2.png": "/static/media/img2.2b54fafb7d6037e2c1fe.png",
+    "static/media/AlteHaasGroteskBold.ttf": "/static/media/AlteHaasGroteskBold.51e503d8635aaf81c93d.ttf",
+    "static/media/AlteHaasGroteskRegular.ttf": "/static/media/AlteHaasGroteskRegular.6ae6623ec966c59db9f2.ttf",
     "static/media/metamorphosis.jpg": "/static/media/metamorphosis.682a168ed5b83004121f.jpg",
     "static/media/vault.jpg": "/static/media/vault.223fb01caec4d24674c5.jpg",
+    "static/media/img1.png": "/static/media/img1.2c0a8bb92baf63261522.png",
     "index.html": "/index.html",
-    "main.097550d2.css.map": "/static/css/main.097550d2.css.map",
-    "main.ab65c566.js.map": "/static/js/main.ab65c566.js.map",
-    "453.5873f9c9.chunk.js.map": "/static/js/453.5873f9c9.chunk.js.map"
+    "main.d983f009.css.map": "/static/css/main.d983f009.css.map",
+    "main.8d0ed1d6.js.map": "/static/js/main.8d0ed1d6.js.map",
+    "787.0395afd9.chunk.js.map": "/static/js/787.0395afd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.097550d2.css",
-    "static/js/main.ab65c566.js"
+    "static/css/main.d983f009.css",
+    "static/js/main.8d0ed1d6.js"
   ]
 }
