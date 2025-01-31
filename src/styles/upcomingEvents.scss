@@ -71,6 +71,7 @@
 
 .images-container {
     max-width: 250px; /* Adjust as needed */
+    width: auto;
     height: auto;
     border-radius: 8px;
     transition: box-shadow 0.3s ease-in-out;
@@ -93,6 +94,7 @@
     padding: 0 1.5rem;
     padding-top: 16rem;
     color: white;
+    line-height: 1;
 }
 
 .event-title {
@@ -125,6 +127,7 @@
 }
 
 .event-date {
+    display: block;
     font-size: 18px;
 }
 
