@@ -10,7 +10,7 @@ export const teamInfo = [
     position: "Editor in Chief"
   },
   {
-    picture: require("../static/team/Aidan_Sidikpramana.JPG"),
+    picture: require("../static/team/Aidan_Sidikpramana.jpg"),
     name: "Aidan Sidikpramana",
     position: "Photographer"
   },
@@ -20,7 +20,7 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
-    picture: require("../static/team/Laura_Liang.JPG"),
+    picture: require("../static/team/Laura_Liang.jpg"),
     name: "Laura Liang",
     position: "Photographer"
   },
@@ -55,7 +55,7 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
-    picture: require("../static/team/Ryan_Pocinich.JPG"),
+    picture: require("../static/team/Ryan_Pocinich.jpg"),
     name: "Ryan Pocinich",
     position: "Writer",
   },
@@ -120,7 +120,7 @@ export const teamInfo = [
     position: "Graphic Designer"
   },
   {
-    picture: require("../static/team/Renee_Agatep.JPG"),
+    picture: require("../static/team/Renee_Agatep.jpg"),
     name: "Renee Agatep",
     position: "Graphic Designer"
   },
@@ -200,12 +200,12 @@ export const teamInfo = [
     position: "External"
   },
   {
-    picture: require("../static/team/Ishani_Solanki.JPG"),
+    picture: require("../static/team/Ishani_Solanki.jpg"),
     name: "Ishani Solanki ",
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Jasleen_Sahota.JPG"),
+    picture: require("../static/team/Jasleen_Sahota.jpg"),
     name: "Jasleen Sahota",
     position: "Marketing"
   },
@@ -215,7 +215,7 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Ann_Yang.JPG"),
+    picture: require("../static/team/Ann_Yang.jpg"),
     name: "Ann Yang",
     position: "Marketing"
   },
@@ -225,7 +225,7 @@ export const teamInfo = [
     position: "Marketing"
   },
   { 
-    picture: require("../static/team/Dilan_Adhikari.JPG"),
+    picture: require("../static/team/Dilan_Adhikari.jpg"),
     name: "Dilan Adhikari",
     position: "Marketing"
   },
@@ -235,7 +235,7 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Isabelle_Liang.JPG"),
+    picture: require("../static/team/Isabelle_Liang.jpg"),
     name: "Isabelle Liang",
     position: "Marketing"
   },
@@ -250,7 +250,7 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Maggie_Blaisdell.JPG"),
+    picture: require("../static/team/Maggie_Blaisdell.jpg"),
     name: "Maggie Blaisdell",
     position: "Marketing"
   },
@@ -260,7 +260,7 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
-    picture: require("../static/team/Mia_Elliott.JPG"),
+    picture: require("../static/team/Mia_Elliott.jpg"),
     name: "Mia Elliott",
     position: "Stylist"
   },

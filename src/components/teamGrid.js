@@ -40,7 +40,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Editor in Chief') {
+                      if (teamMember.position === 'Editor in Chief') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -62,7 +62,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Photographer') {
+                      if (teamMember.position === 'Photographer') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -84,7 +84,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Writer') {
+                      if (teamMember.position === 'Writer') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -106,7 +106,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Graphic Designer') {
+                      if (teamMember.position === 'Graphic Designer') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -128,7 +128,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'External') {
+                      if (teamMember.position === 'External') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -150,7 +150,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Marketing') {
+                      if (teamMember.position === 'Marketing') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -172,7 +172,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Stylist') {
+                      if (teamMember.position === 'Stylist') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
@@ -194,7 +194,7 @@ class TeamGrid extends React.Component {
               </Row>
               <Row className>
                 {teamInfo.map((teamMember, idx) => {
-                      if (teamMember.position == 'Web Developer') {
+                      if (teamMember.position === 'Web Developer') {
                         return (
                           <React.Fragment key={teamMember.name}>
                             <Col xs={6} sm={6} md={3} l={4} key={idx}>
