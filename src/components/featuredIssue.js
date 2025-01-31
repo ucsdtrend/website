@@ -43,7 +43,7 @@ class FeaturedIssue extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h2 className="issue-title">Dive into our issues</h2>
+                <p className="issue-title">Dive into our issues</p>
 
               </a>
               <button
@@ -52,7 +52,10 @@ class FeaturedIssue extends React.Component {
                   (window.location.href = "/issues")
                 }
               >
-                More issues <span className="arrow">→</span>
+                More issues <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="11" height="11" fill="currentColor" class="arrow-icon">
+                                <path d="M3.41 2H16V0H1a1 1 0 0 0-1 1v16h2V3.41l28.29 28.3 1.41-1.41z"/>
+                            </svg>
+
               </button>
             </Col>
           </Row>

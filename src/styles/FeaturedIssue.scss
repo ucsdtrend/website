@@ -57,15 +57,19 @@ h2, p {
 }
 
 .explore-button {
-  margin-top: 14rem; /* Space above the button */
-  padding: 1.5rem 1.5rem; /* Adjust button size */
+  margin-top: 13.5rem; /* Space above the button */
+  padding: 1rem 0rem; /* Adjust button size */
   color: $color-blog-wt; /* Replace with your desired text color */
   border: 1px solid $color-blog-wt;
   border-radius: 1rem; /* Optional: Rounded corners */
-  font-size: 2rem; /* Button font size */
+  font-size: 18px; /* Button font size */
   cursor: pointer; /* Change cursor to pointer on hover */
   background: $color-blog-blk;
   transition: all 0.3s ease-in-out;
+  padding-left: 12px;
+  padding-right: 14px;
+  max-width: 154px;
+  width: auto;
 }
 
 .explore-button:hover {
@@ -82,3 +86,9 @@ h2, p {
   align-items: flex-end;
 }
 
+.arrow-icon {
+  margin-left: 12px;
+  transform: rotate(90deg);
+  padding: 0;
+  margin-right: 0;
+}
