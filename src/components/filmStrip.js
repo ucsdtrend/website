@@ -1,19 +1,19 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/scss/alice-carousel.scss";
-import filmStrip1 from "../static/film-strip/film-strip-1.JPG";
-import filmStrip2 from "../static/film-strip/film-strip-2.JPG";
-import filmStrip3 from "../static/film-strip/film-strip-3.jpg";
-import filmStrip4 from "../static/film-strip/film-strip-4.JPG";
-import filmStrip5 from "../static/film-strip/film-strip-5.JPG";
-import filmStrip6 from "../static/film-strip/film-strip-6.JPG";
-import filmStrip7 from "../static/film-strip/film-strip-7.JPG";
-import filmStrip8 from "../static/film-strip/film-strip-8.JPG";
-import filmStrip9 from "../static/film-strip/film-strip-9.JPG";
-import filmStrip10 from "../static/film-strip/film-strip-10.JPG";
+// import filmStrip1 from "../film-strip/film-strip-1.JPG";
+// import filmStrip2 from "../film-strip/film-strip-2.JPG";
+// import filmStrip3 from "../film-strip/film-strip-3.jpg";
+// import filmStrip4 from "../film-strip/film-strip-4.JPG";
+// import filmStrip5 from "../film-strip/film-strip-5.JPG";
+// import filmStrip6 from "../film-strip/film-strip-6.JPG";
+// import filmStrip7 from "../film-strip/film-strip-7.JPG";
+// import filmStrip8 from "../film-strip/film-strip-8.JPG";
+// import filmStrip9 from "../film-strip/film-strip-9.JPG";
+// import filmStrip10 from "../film-strip/film-strip-10.JPG";
 
 import "../styles/FilmStrip.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
 import "../styles/FeaturedIssueGallery.scss";
 
 
@@ -30,16 +30,16 @@ class FilmStrip extends React.Component {
     const handleDragStart = (e) => e.preventDefault();
 
     const images = [
-      filmStrip1,
-      filmStrip2,
-      filmStrip3,
-      filmStrip4,
-      filmStrip5,
-      filmStrip6,
-      filmStrip7,
-      filmStrip8,
-      filmStrip9,
-      filmStrip10
+      "/film-strip/film-strip-1.JPG",
+      "/film-strip/film-strip-2.JPG",
+      "/film-strip/film-strip-3.jpg",
+      "/film-strip/film-strip-4.JPG",
+      "/film-strip/film-strip-5.JPG",
+      "/film-strip/film-strip-6.JPG",
+      "/film-strip/film-strip-7.JPG",
+      "/film-strip/film-strip-8.JPG",
+      "/film-strip/film-strip-9.JPG",
+      "/film-strip/film-strip-10.JPG",
     ];
 
     const filmStripImages = images.map(img => <div className="img-container">
