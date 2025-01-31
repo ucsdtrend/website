@@ -49,7 +49,7 @@ class FeaturedIssue extends React.Component {
               <button
                 className="explore-button"
                 onClick={() =>
-                  window.open("https://issuu.com/trenducsd/docs/trend_fw23-24_1_", "_blank")
+                  (window.location.href = "/issues")
                 }
               >
                 More issues <span className="arrow">→</span>
