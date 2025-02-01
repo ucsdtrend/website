@@ -43,7 +43,7 @@ class FeaturedIssue extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p className="issue-title">Dive into our issues</p>
+                <p className="featured-issue-title">Dive into our issues</p>
 
               </a>
               <button
@@ -63,7 +63,7 @@ class FeaturedIssue extends React.Component {
           {/* Main content (responsive layout for large and small screens) */}
           {windowWidth > 800 ? (
             <Row align="flex-end" justify="end">
-              <p className="issue-description">
+              <p className="feautred-issue-description">
                       MIRAGE: THE ELUSIVE IN-BETWEEN LINES ON A MAP <br />
                       OUT OF BOUNDS <br />
                       SPRING ISSUE <br />
@@ -71,7 +71,7 @@ class FeaturedIssue extends React.Component {
                     </p>
               <Col md={5}>
                 <a className="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank" rel="noopener noreferrer">
-                  <div className="img-container">
+                  <div className="featured-issues-img-container">
                     <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>
                 </a>
@@ -82,7 +82,7 @@ class FeaturedIssue extends React.Component {
             <Row align="center" justify="end">
               <Col md={5}>
                 <a className="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank" rel="noopener noreferrer">
-                  <div className="img-container">
+                  <div className="featured-issues-img-container">
                     <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>
                 </a>

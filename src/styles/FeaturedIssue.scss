@@ -1,6 +1,6 @@
 @import "./Constants.scss";
 
-.img-container {
+.featured-issues-img-container {
   position: relative; // Ensure the container is a positioned parent
   display: flex;
   justify-content: flex-end;
@@ -29,7 +29,7 @@
   height: auto;
 }
 
-.issue-title {
+.featured-issue-title {
   margin-top: $spacer-1;
   color: $color-blog-wt;
 }
@@ -42,7 +42,7 @@ h2, p {
 }
 
 .title-container {
-  .issue-title {
+  .featured-issue-title {
     font-size: 6rem; /* Adjust size as needed */
     margin: 0; /* Remove any default margins */
     text-align: left; /* Ensure the text aligns left */
@@ -50,7 +50,7 @@ h2, p {
   }
 }
 
-.issue-title {
+.featured-issue-title {
   position: absolute;
   top: 5rem;
   left: 0;
@@ -79,7 +79,7 @@ h2, p {
   cursor: pointer;
 }
 
-.issue-description {
+.featured-issue-description {
   display: flex;
   text-align: end;
   justify-content: flex-end;
