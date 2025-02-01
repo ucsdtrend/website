@@ -68,8 +68,10 @@ h2, p {
   transition: all 0.3s ease-in-out;
   padding-left: 12px;
   padding-right: 14px;
-  max-width: 154px;
+  max-width: 148px;
   width: auto;
+  font-family: "Alte Haas Grotesk Regular" ;
+  font-weight: 400;
 }
 
 .explore-button:hover {
@@ -84,6 +86,7 @@ h2, p {
   text-align: end;
   justify-content: flex-end;
   align-items: flex-end;
+  padding-bottom: 2rem;
 }
 
 .arrow-icon {

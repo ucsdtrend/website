@@ -63,7 +63,7 @@ class FeaturedIssue extends React.Component {
           {/* Main content (responsive layout for large and small screens) */}
           {windowWidth > 800 ? (
             <Row align="flex-end" justify="end">
-              <p className="feautred-issue-description">
+              <p className="featured-issue-description">
                       MIRAGE: THE ELUSIVE IN-BETWEEN LINES ON A MAP <br />
                       OUT OF BOUNDS <br />
                       SPRING ISSUE <br />
