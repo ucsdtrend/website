@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import '../styles/FeaturedIssue.scss';
 import FeaturedIssueGallery from "./featuredIssueGallery";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import cover from "../static/issues/out-of-bounds.png";
+import cover from "../static/issues/Diorama_Master.jpg";
 
 
 
@@ -61,16 +61,17 @@ class FeaturedIssue extends React.Component {
           </Row>
 
           {/* Main content (responsive layout for large and small screens) */}
+          {/* HREF IN ISSUE-LINK TEMP REMOVED UNTIL ISSUU IS LIVE */}
           {windowWidth > 800 ? (
             <Row align="flex-end" justify="end">
               <p className="feautred-issue-description">
-                      MIRAGE: THE ELUSIVE IN-BETWEEN LINES ON A MAP <br />
-                      OUT OF BOUNDS <br />
-                      SPRING ISSUE <br />
-                      VOL. 25
+                      REALM OF INTERSECTING NARRATIVES AND LIMINAL SPACES <br />
+                      DIORAMA <br />
+                      FALL / WINTER ISSUE <br />
+                      VOL. 26
                     </p>
               <Col md={5}>
-                <a className="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank" rel="noopener noreferrer">
+                <a className="issue-link" target="_blank" rel="noopener noreferrer">
                   <div className="featured-issues-img-container">
                     <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>
@@ -81,7 +82,7 @@ class FeaturedIssue extends React.Component {
           ) : (
             <Row align="center" justify="end">
               <Col md={5}>
-                <a className="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank" rel="noopener noreferrer">
+                <a className="issue-link" target="_blank" rel="noopener noreferrer">
                   <div className="featured-issues-img-container">
                     <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>

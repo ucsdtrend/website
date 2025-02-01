@@ -1,0 +1,71 @@
+@import "./Constants.scss";
+
+.home-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; // Prevents background elements from overflowing
+}
+
+// 🎨 Background Image 3 (Multiple Icons Scattered)
+.background-icons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; // Ensures it doesn't interfere with clicks
+
+  .icon {
+    position: absolute;
+    width: 1000px; // Default size for large screens
+    height: 1000px;
+    background-image: url("../static/wht-blur-icon-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.35;
+    transition: all 0.3s ease-in-out; // Smooth scaling transition
+  }
+
+  // Random placements for icons
+  .icon-1 { top: 14%; left: 30%; }
+  .icon-2 { top: 29%; right: 50%; }
+  .icon-3 { top: 47%; left: 24%; }
+  .icon-4 { top: 62%; right: 45%; }
+
+  // 📱 Tablet Screens (1024px and below)
+  @media (max-width: 1024px) {
+    .icon {
+      width: 700px; // Reduce size for tablets
+      height: 700px;
+    }
+    
+    .icon-1 { top: 12%; left: 25%; }
+    .icon-2 { top: 27%; right: 40%; }
+    .icon-3 { top: 45%; left: 20%; }
+    .icon-4 { top: 60%; right: 38%; }
+  }
+
+  // 📱 Mobile Screens (768px and below)
+  @media (max-width: 768px) {
+    .icon {
+      width: 400px; // Reduce size for mobile
+      height: 400px;
+    }
+    
+    .icon-1 { top: 10%; left: 20%; }
+    .icon-2 { top: 25%; right: 30%; }
+    .icon-3 { top: 40%; left: 18%; }
+    .icon-4 { top: 55%; right: 35%; }
+  }
+
+  // 📱 Small Mobile Screens (480px and below)
+  @media (max-width: 480px) {
+    .icon {
+      width: 250px; // Further reduce for small screens
+      height: 250px;
+    }
+
+    .icon-1 { top: 8%; left: 15%; }
+    .icon-2 { top: 22%; right: 25%; }
+    .icon-3 { top: 38%; left: 15%; }
+    .icon-4 { top: 50%; right: 30%; }
+  }
+}

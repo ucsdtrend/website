@@ -1,22 +1,53 @@
 @import "./Constants.scss";
 
+// 🌟 Featured Issues Image Container
 .featured-issues-img-container {
-  position: relative; // Ensure the container is a positioned parent
+  position: relative;
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
+  width: 90%;
+  margin-top: -20%;
 
   .who-we-are-img {
-    width: 100%; // Ensure the image fills the container
+    width: 100%;
     height: auto;
     display: block;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.2);
   }
-  
+
+  // 📱 Tablet Screens (1024px and below)
+  @media (max-width: 1024px) {
+    justify-content: center;
+    margin-top: 0.5rem;
+    width: 100%;
+
+    .who-we-are-img {
+      max-width: 85%;
+    }
+  }
+
+  // 📱 Mobile Screens (768px and below)
+  @media (max-width: 768px) {
+    margin-top: 2.5rem;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+
+    .who-we-are-img {
+      max-width: 75%;
+    }
+  }
+
+  // 📱 Small Mobile Screens (480px and below)
+  @media (max-width: 480px) {
+    .who-we-are-img {
+      max-width: 60%;
+    }
+  }
 }
 
-
-
-
+// 🌟 Featured Issue Container (Strictly Scoped to This Section)
 .featured-issue-container {
   top: 0;
   left: 0;
@@ -27,68 +58,100 @@
   padding-bottom: $spacer-1;
   background-color: $color-blog-blk;
   height: auto;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 
-.featured-issue-title {
-  margin-top: $spacer-1;
-  color: $color-blog-wt;
-}
+  // ✅ Ensures ONLY this section has white text
+  .featured-issue-title,
+  .featured-issue-description,
+  .explore-button,
+  h1, h2, h3, h4, h5, h6, p, span {
+    color: $color-blog-wt !important; 
+  }
 
-h2, p {
-  display: inline-block;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  color: $color-blog-wt;
-}
-
-.title-container {
-  .featured-issue-title {
-    font-size: 6rem; /* Adjust size as needed */
-    margin: 0; /* Remove any default margins */
-    text-align: left; /* Ensure the text aligns left */
-    padding: 1rem; /* Add padding for spacing from the edges */
+  @media (max-width: 1024px) {
+    align-items: center;
+    text-align: center;
   }
 }
 
+// 🌟 Featured Issue Title
 .featured-issue-title {
-  position: absolute;
-  top: 5rem;
-  left: 0;
+  margin-top: $spacer-3;
+  font-size: 6rem;
+  text-align: left;
+
+  @media (max-width: 1024px) {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 2rem;
+  }
 }
 
+// 🌟 Button Container
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media (max-width: 1024px) {
+    align-items: center;
+  }
+}
+
+// 🌟 Explore Button
 .explore-button {
-  margin-top: 13.5rem; /* Space above the button */
-  padding: 1rem 0rem; /* Adjust button size */
-  color: $color-blog-wt; /* Replace with your desired text color */
+  margin-top: 3.5rem;
+  padding: 0.8rem 2rem;
   border: 1px solid $color-blog-wt;
-  border-radius: 1rem; /* Optional: Rounded corners */
-  font-size: 18px; /* Button font size */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 1rem;
+  font-size: 18px;
+  cursor: pointer;
   background: $color-blog-blk;
   transition: all 0.3s ease-in-out;
-  padding-left: 12px;
-  padding-right: 14px;
-  max-width: 154px;
-  width: auto;
+  max-width: 200px;
+
+  &:hover {
+    background: $color-blog-wt;
+    color: $color-blog-blk;
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 2.5rem;
+    font-size: 16px;
+    max-width: 180px;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 4.5rem;
+    font-size: 14px;
+    max-width: 160px;
+  }
 }
 
-.explore-button:hover {
-  background: $color-blog-wt; /* Swap background */
-  color: $color-blog-blk; /* Swap text color */
-  border: 1px solid $color-blog-wt;
-  cursor: pointer;
-}
-
+// 🌟 Featured Issue Description
 .featured-issue-description {
   display: flex;
   text-align: end;
   justify-content: flex-end;
   align-items: flex-end;
-}
 
-.arrow-icon {
-  margin-left: 12px;
-  transform: rotate(90deg);
-  padding: 0;
-  margin-right: 0;
+  @media (max-width: 1024px) {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }

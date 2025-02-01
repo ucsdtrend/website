@@ -1,4 +1,4 @@
-/**export const teamInfo = [
+export const teamInfo = [
   {
     picture: require("../static/team/Alexandra_Citra.jpg"),
     name: "Alexandra Citra",
@@ -350,19 +350,4 @@
     position: "Web Developer"
   },
   
-  // {
-  //   picture: require("../static/team/Merav_Price.JPG"),
-  //   name: "Merav Price",
-  //   position: "Writer"
-  // },
-  // {
-  //   picture: require("../static/team/Venice_Poggi.JPG"),
-  //   name: "Venice Poggi",
-  //   position: "Stylist"
-  // },
-  // {
-  //   picture: require("../static/team/Will_Doan.JPG"),
-  //   name: "Will Doan",
-  //   position: "Photographer"
-  // },
-];**/
+];

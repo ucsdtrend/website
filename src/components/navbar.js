@@ -20,7 +20,7 @@ class Navbar extends React.Component {
   handleScroll() {
     const screenWidth = window.innerWidth;
 
-    let scrollThreshold = 20;
+    let scrollThreshold = 12;
     if (screenWidth <= 768) {
       scrollThreshold = 7; 
     }
@@ -80,7 +80,7 @@ class Navbar extends React.Component {
                 <NavLink to="/issues">
                   <p><a href={"../pages/issues.js"}>Issues</a></p>
                 </NavLink>
-                <p><a className="blog" href={medium}> Blog
+                <p><a className="blog" href={medium} target="_blank" rel="noopener noreferrer"> Blog
                   </a></p>
                 <NavLink to="/team">
                   <p><a href={"../pages/team.js"}>Team</a></p>
