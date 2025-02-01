@@ -37,15 +37,8 @@ class FeaturedIssue extends React.Component {
         <Container className="title-container" fluid>
           <Row>
             <Col>
-              <a
-                className="issue-link"
-                href="https://issuu.com/trenducsd/docs/trend_fw23-24_1_"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
                 <p className="featured-issue-title">Dive into our issues</p>
 
-              </a>
               <button
                 className="explore-button"
                 onClick={() =>
@@ -70,22 +63,18 @@ class FeaturedIssue extends React.Component {
                       VOL. 25
                     </p>
               <Col md={5}>
-                <a className="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank" rel="noopener noreferrer">
                   <div className="featured-issues-img-container">
                     <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>
-                </a>
               </Col>
             </Row>
 
           ) : (
             <Row align="center" justify="end">
               <Col md={5}>
-                <a className="issue-link" href="https://issuu.com/trenducsd/docs/outofbounds" target="_blank" rel="noopener noreferrer">
                   <div className="featured-issues-img-container">
                     <LazyLoadImage className="who-we-are-img" src={cover} />
                   </div>
-                </a>
               </Col>
             </Row>
 
