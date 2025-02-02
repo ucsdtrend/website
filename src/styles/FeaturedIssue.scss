@@ -102,6 +102,7 @@ h2, p {
       text-align: center; /* Centers text */
       align-items: center; /* Ensures flex children are centered */
       padding: 0 5%; /* Adjusts side spacing */
+      outline: 3px solid red;
 
       .featured-issue-title {
         text-align: center; /* Centers text */
@@ -109,7 +110,8 @@ h2, p {
         padding: 0 5%; /* Adjusts side spacing */
         white-space: initial; /* Ensure text wraps on mobile */
         word-break: break-word;
-        line-height: 1.4;
+        line-height: 0.9;
+        margin-top: -9%;
       }
   }
 
