@@ -63,6 +63,7 @@ h2, p {
   border: 1px solid $color-blog-wt;
   border-radius: 1rem; /* Optional: Rounded corners */
   font-size: 18px; /* Button font size */
+  font-weight: 50 !important;
   cursor: pointer; /* Change cursor to pointer on hover */
   background: $color-blog-blk;
   transition: all 0.3s ease-in-out;
@@ -108,6 +109,7 @@ h2, p {
         padding: 0 5%; /* Adjusts side spacing */
         white-space: initial; /* Ensure text wraps on mobile */
         word-break: break-word;
+        line-height: 1.4;
       }
   }
 
