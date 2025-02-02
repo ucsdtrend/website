@@ -9,7 +9,6 @@
   margin-top: 8%;
 }
 
-/* 📌 Top Header Section */
 .header {
   display: flex;
   justify-content: flex-end; /* Push text to the right */
@@ -24,7 +23,6 @@
   box-sizing: border-box;
 }
 
-/* 📌 Right-aligned text in header */
 .text-content {
   text-align: right;
   color: white;
@@ -49,7 +47,6 @@
   margin-top: -5px;
 }
 
-/* 📌 Social Media Icons - Always in a Row */
 .social-icons {
   display: flex;
   flex-direction: row; /* Ensures icons are always side-by-side */
@@ -63,7 +60,6 @@
   height: 30px;
 }
 
-/* 📌 Image Grid Layout */
 .image-grid {
   //outline: 2px dashed red; /* Debugging outline */
   display: grid;
@@ -96,9 +92,6 @@
   background-color: #ffffff;
 }
 
-/* 📌 RESPONSIVE MEDIA QUERIES */
-
-/* 📱 Tablet View (≤ 1024px) */
 @media screen and (max-width: 1024px) {
   .header {
     min-height: 130px;
@@ -129,7 +122,6 @@
   }
 }
 
-/* 📱 Mobile View (≤ 768px) */
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;

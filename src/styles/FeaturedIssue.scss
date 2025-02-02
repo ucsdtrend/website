@@ -3,19 +3,19 @@
 .featured-issues-img-container {
   position: relative; // Ensure the container is a positioned parent
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
 
   .who-we-are-img {
-    width: 100%; // Ensure the image fills the container
+    margin-top: 5%;
+    width: 85%; // Ensure the image fills the container
     height: auto;
     display: block;
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.2);
   }
   
 }
-
-
-
 
 .featured-issue-container {
   top: 0;
@@ -94,4 +94,19 @@ h2, p {
   transform: rotate(90deg);
   padding: 0;
   margin-right: 0;
+}
+
+@media (max-width: 768px) {
+  .title-container {
+      text-align: center; /* Centers text */
+      align-items: center; /* Ensures flex children are centered */
+      padding: 0 5%; /* Adjusts side spacing */
+
+      .featured-issue-title {
+        text-align: center; /* Centers text */
+        align-items: center; /* Ensures flex children are centered */
+        padding: 0 5%; /* Adjusts side spacing */
+      }
+  }
+
 }

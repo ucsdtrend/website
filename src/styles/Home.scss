@@ -6,7 +6,6 @@
   overflow: hidden; // Prevents background elements from overflowing
 }
 
-// 🎨 Background Image 3 (Multiple Icons Scattered)
 .background-icons {
   position: absolute;
   width: 100%;
@@ -24,13 +23,11 @@
     transition: all 0.3s ease-in-out; // Smooth scaling transition
   }
 
-  // Random placements for icons
   .icon-1 { top: 14%; left: 30%; }
   .icon-2 { top: 29%; right: 50%; }
   .icon-3 { top: 47%; left: 24%; }
   .icon-4 { top: 62%; right: 45%; }
 
-  // 📱 Tablet Screens (1024px and below)
   @media (max-width: 1024px) {
     .icon {
       width: 700px; // Reduce size for tablets
@@ -43,7 +40,6 @@
     .icon-4 { top: 60%; right: 38%; }
   }
 
-  // 📱 Mobile Screens (768px and below)
   @media (max-width: 768px) {
     .icon {
       width: 400px; // Reduce size for mobile
@@ -56,7 +52,6 @@
     .icon-4 { top: 55%; right: 35%; }
   }
 
-  // 📱 Small Mobile Screens (480px and below)
   @media (max-width: 480px) {
     .icon {
       width: 250px; // Further reduce for small screens

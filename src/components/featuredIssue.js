@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import '../styles/FeaturedIssue.scss';
 import FeaturedIssueGallery from "./featuredIssueGallery";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import cover from "../static/issues/out-of-bounds.png";
+import cover from "../static/issues/Diorama_Master.jpg";
 
 
 
@@ -57,10 +57,10 @@ class FeaturedIssue extends React.Component {
           {windowWidth > 800 ? (
             <Row align="flex-end" justify="end">
               <p className="featured-issue-description">
-                      MIRAGE: THE ELUSIVE IN-BETWEEN LINES ON A MAP <br />
-                      OUT OF BOUNDS <br />
-                      SPRING ISSUE <br />
-                      VOL. 25
+                      REALM OF INTERSECTING NARRATIVES AND LIMINAL SPACES <br />
+                      DIORAMA <br />
+                      FALL / WINTER ISSUE <br />
+                      VOL. 26
                     </p>
               <Col md={5}>
                   <div className="featured-issues-img-container">

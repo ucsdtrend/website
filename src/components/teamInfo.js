@@ -161,7 +161,7 @@ export const teamInfo = [
   },
   {
     picture: require("../static/team/Ashley_djunaedi.JPG"),
-    name: "Ashley djunaedi",
+    name: "Ashley Djunaedi",
     position: "External"
   },
   {
@@ -291,7 +291,7 @@ export const teamInfo = [
   },
   {
     picture: require("../static/team/Ky_en_dokes.JPG"),
-    name: "Ky'en dokes",
+    name: "Ky'en Dokes",
     position: "Stylist"
   },
   {

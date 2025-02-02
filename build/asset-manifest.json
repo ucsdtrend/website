@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3dea8884.css",
-    "main.js": "/static/js/main.f536a659.js",
+    "main.css": "/static/css/main.b3319b6f.css",
+    "main.js": "/static/js/main.4a7fbdf2.js",
     "static/js/787.0395afd9.chunk.js": "/static/js/787.0395afd9.chunk.js",
     "static/media/homepage_video.mp4": "/static/media/homepage_video.defd267546dbdab3c627.mp4",
     "static/media/film-strip-4.jpg": "/static/media/film-strip-4.5f2969a23e4b64848ee0.jpg",
@@ -92,6 +92,7 @@
     "static/media/Grace_Morton.jpg": "/static/media/Grace_Morton.3a6055ae0acb6b2deab1.jpg",
     "static/media/unveiled.jpg": "/static/media/unveiled.e7c95ceebd8b84ca32ef.jpg",
     "static/media/Julian_Aguilar.jpg": "/static/media/Julian_Aguilar.363f51cf48e9f6cf8ccf.jpg",
+    "static/media/out-of-bounds.png": "/static/media/out-of-bounds.0a9336bb2d44c53380f0.png",
     "static/media/Sydney_McDonald.jpg": "/static/media/Sydney_McDonald.dc37fd3cff77f3d3e15e.jpg",
     "static/media/Preeya_Govil.jpeg": "/static/media/Preeya_Govil.460d98c093d60e275582.jpeg",
     "static/media/dream-theory.jpg": "/static/media/dream-theory.c854ac9da4ab636d299d.jpg",
@@ -130,12 +131,12 @@
     "static/media/vault.jpg": "/static/media/vault.223fb01caec4d24674c5.jpg",
     "static/media/img1.png": "/static/media/img1.2c0a8bb92baf63261522.png",
     "index.html": "/index.html",
-    "main.3dea8884.css.map": "/static/css/main.3dea8884.css.map",
-    "main.f536a659.js.map": "/static/js/main.f536a659.js.map",
+    "main.b3319b6f.css.map": "/static/css/main.b3319b6f.css.map",
+    "main.4a7fbdf2.js.map": "/static/js/main.4a7fbdf2.js.map",
     "787.0395afd9.chunk.js.map": "/static/js/787.0395afd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dea8884.css",
-    "static/js/main.f536a659.js"
+    "static/css/main.b3319b6f.css",
+    "static/js/main.4a7fbdf2.js"
   ]
 }

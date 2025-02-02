@@ -77,9 +77,6 @@
   line-height: 1.5;
 }
 
-/* 📌 Responsive Adjustments */
-
-/* 🔹 Mid-Size Screens (900px - 1024px) */
 @media screen and (max-width: 1200px) {
   .content {
     grid-template-columns: 1fr 1fr; /* Keep two columns but evenly split */
@@ -104,7 +101,6 @@
   }
 }
 
-/* 🔹 Tablet View (768px - 900px) */
 @media screen and (max-width: 900px) {
   .content {
     grid-template-columns: 1fr; /* Switch to single column */
@@ -140,7 +136,6 @@
   }
 }
 
-/* 🔹 Mobile View (≤ 480px) */
 @media screen and (max-width: 480px) {
   .content {
     grid-template-columns: 1fr;
@@ -149,8 +144,8 @@
 
   .text-section {
     padding: 0 5%;
+    
   }
-
   .image-large img,
   .image-small img {
     width: 100%;
