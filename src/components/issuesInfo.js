@@ -1,4 +1,9 @@
 export const issuesInfo = [
+  { // ADD LINK ATTRIBUTE BACK WHEN ISSUU IS LIVE
+    picture: require("../static/issues/Diorama_Master.jpg"),
+    title: "Diorama",
+    description: "Last year, we released METAMORPHOSIS, delving into growth and revolution, and then OUT OF BOUNDS, where we celebrated what it means to be different and push boundaries. Throughout these explorations, we kept coming back to an idea: Movement and transformation are likely best leaning on the edge. They lie not in resolution but in process. With this issue, we explore DIORAMA—a realm of intersecting narratives and liminal spaces, those in-betweens that lie at the heart of our existence.",
+  },
   {
     picture: require("../static/issues/out-of-bounds.jpg"),
     title: "Out of Bounds",

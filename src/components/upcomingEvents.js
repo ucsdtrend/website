@@ -9,7 +9,7 @@ class upcomingEvents extends React.Component {
         const events = [
             {
                 title: "Diorama",
-                description: "Join us next Friday for our F/W 2025 issue launch party! With this issue, we explore DIORAMA—a realm of intersecting narratives and liminal spaces, those in-betweens that lie at the heart of our existence. Come celebrate our team’s work, get insight into different pieces in the zine, and buy your copy!",
+                description: "Join us Friday for our F/W 2025 issue launch party! With this issue, we explore DIORAMA—a realm of intersecting narratives and liminal spaces, those in-betweens that lie at the heart of our existence. Come celebrate our team’s work, get insight into different pieces in the zine, and buy your copy!",
                 image: event1,
                 location: "The Forum @ Price Center",
                 date: "31 January 2025",
