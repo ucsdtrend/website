@@ -46,7 +46,7 @@ h2, p {
     font-size: 4.5rem; /* Adjust size as needed */
     margin: 0; /* Remove any default margins */
     text-align: left; /* Ensure the text aligns left */
-    padding: 1rem; /* Add padding for spacing from the edges */
+    padding: 1.15rem; /* Add padding for spacing from the edges */
   }
 }
 
@@ -57,10 +57,10 @@ h2, p {
 }
 
 .explore-button {
-  margin-top: 13.5rem; /* Space above the button */
+  margin-top: 12.5rem; /* Space above the button */
   padding: 1rem 0rem; /* Adjust button size */
   color: $color-blog-wt; /* Replace with your desired text color */
-  border: 1px solid $color-blog-wt;
+  border: 0.5px solid $color-blog-wt;
   border-radius: 1rem; /* Optional: Rounded corners */
   font-size: 18px; /* Button font size */
   font-weight: 50 !important;
@@ -68,7 +68,7 @@ h2, p {
   background: $color-blog-blk;
   transition: all 0.5s ease;
   padding-left: 12px;
-  padding-right: 14px;
+  padding-right: 12px;
   max-width: 154px;
   width: auto;
   font-family: "Alte Haas Grotesk Regular" ;
@@ -103,14 +103,19 @@ h2, p {
       padding: 0 5%; /* Adjusts side spacing */
 
       .featured-issue-title {
+        position: relative;
         text-align: center; /* Centers text */
         align-items: center; /* Ensures flex children are centered */
         padding: 0 5%; /* Adjusts side spacing */
         white-space: initial; /* Ensure text wraps on mobile */
         word-break: break-word;
         line-height: 0.9;
-        margin-top: -9%;
+        margin-top: -2%;
       }
+  }
+
+  .explore-button {
+    margin-top: 8rem;
   }
 
 }
