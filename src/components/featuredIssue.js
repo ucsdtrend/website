@@ -43,9 +43,9 @@ class FeaturedIssue extends React.Component {
                 className="explore-button"
                 onClick={() =>
                   (window.location.href = "/issues")
-                }
-              >
-                More issues <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="11" height="11" fill="currentColor" class="arrow-icon">
+                }>
+                  More issues
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="11" height="11" fill="currentColor" class="arrow-icon">
                                 <path d="M3.41 2H16V0H1a1 1 0 0 0-1 1v16h2V3.41l28.29 28.3 1.41-1.41z"/>
                             </svg>
 
