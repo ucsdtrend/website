@@ -43,7 +43,7 @@ h2, p {
 
 .title-container {
   .featured-issue-title {
-    font-size: 6rem; /* Adjust size as needed */
+    font-size: 4.5rem; /* Adjust size as needed */
     margin: 0; /* Remove any default margins */
     text-align: left; /* Ensure the text aligns left */
     padding: 1rem; /* Add padding for spacing from the edges */
@@ -66,13 +66,12 @@ h2, p {
   font-weight: 50 !important;
   cursor: pointer; /* Change cursor to pointer on hover */
   background: $color-blog-blk;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease;
   padding-left: 12px;
   padding-right: 14px;
   max-width: 154px;
   width: auto;
   font-family: "Alte Haas Grotesk Regular" ;
-  font-weight: 400;
 }
 
 .explore-button:hover {
