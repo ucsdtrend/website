@@ -163,7 +163,11 @@ export const teamInfo = [
     name: "Sydney McDonald",
     position: "Writer"
   },
-  
+  {
+    picture: () => import("../../static/team/Thanh_Le.JPG"),
+    name: "Thanh Le",
+    position: "Writer"
+  },
   {
     picture: () => import("../../static/team/Jon_Picinich.jpg"),
     name: "Jon Picinich",
