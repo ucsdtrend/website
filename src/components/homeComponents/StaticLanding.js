@@ -9,6 +9,9 @@ import bg5 from "../../static/youTrend-imgs/img-5.png";
 import bg6 from "../../static/youTrend-imgs/img-6.png";
 import bg7 from "../../static/youTrend-imgs/img-7.png";
 import bg8 from "../../static/youTrend-imgs/img-8.png";
+import bg9 from "../../static/youTrend-imgs/img-9.png";
+import bg10 from "../../static/youTrend-imgs/img-10.png";
+
 
 function getTimeLeft(targetMs) {
   const now = Date.now();
@@ -23,17 +26,82 @@ function getTimeLeft(targetMs) {
   return { diff, days, hours, minutes, seconds };
 }
 
+//new Date("2026-02-13T19:00:00").getTime()
 export default function StaticLanding() {
   const launchDate = useMemo(
     () => new Date("2026-02-13T19:00:00").getTime(),
     []
   );
   const [timeLeft, setTimeLeft] = useState(() => getTimeLeft(launchDate));
+  const [timerVisible, setTimerVisible] = useState(false);
+  const [statementVisible, setStatementVisible] = useState(false);
+  const [countdownComplete, setCountdownComplete] = useState(false); 
+  const [coversVisible, setCoversVisible] = useState(false);
+
 
   useEffect(() => {
-    const id = setInterval(() => setTimeLeft(getTimeLeft(launchDate)), 250);
-    return () => clearInterval(id);
-  }, [launchDate]);
+  const id = setInterval(() => {
+    const newTime = getTimeLeft(launchDate);
+    setTimeLeft(newTime);
+    
+    if (newTime.diff === 0) {
+      setCountdownComplete(true);
+      setTimeout(() => setCoversVisible(true), 100);
+    }
+  }, 250);
+  return () => clearInterval(id);
+}, [launchDate]);
+
+  useEffect(() => {
+    const el = document.getElementById("launch-timer");
+    if (!el) {
+      console.log("Timer element not found");
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        console.log("Intersecting:", entry.isIntersecting);
+        setTimerVisible(entry.isIntersecting);
+      },
+      {
+        threshold: 0.6,
+        rootMargin: "0px",
+      }
+    );
+
+    observer.observe(el);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    const el = document.getElementById("artist-statement");
+    if (!el) {
+      console.log("Statement element not found");
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        console.log("Intersecting:", entry.isIntersecting);
+        setStatementVisible(entry.isIntersecting);
+      },
+      {
+        threshold: 0.3,
+        rootMargin: "0px",
+      }
+    );
+
+    observer.observe(el);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
 
   const scrollToTimer = () => {
     const el = document.getElementById("launch-timer");
@@ -78,7 +146,8 @@ export default function StaticLanding() {
         </div>
 
         {/* Timer content */}
-        <div className="timer-section__overlay">
+        {!countdownComplete && (
+          <div className={`timer-section__overlay ${timerVisible ? "fade-in" : ""}`}>
           <div className="timer-section__subtitle">coming soon</div>
 
           <div className="timer-grid">
@@ -128,11 +197,22 @@ export default function StaticLanding() {
   <span className="arrow">⌄</span>
 </button>
         </div>
+      )}
+
+      {countdownComplete && (
+         <div className={`cover-photos-overlay ${coversVisible ? "fade-in" : ""}`}>
+      <div className="cover-photos-grid">
+        <img src={bg9} alt="Front Cover" className="cover-photo" />
+        <img src={bg10} alt="Back Cover" className="cover-photo" />
+      </div>
+    </div>
+      )}
+
       </section>
 
       {/* ARTIST STATEMENT */}
       <section className="statement-section" id="artist-statement">
-        <div className="statement-section__overlay">
+        <div className={`statement-section__overlay ${statementVisible ? "fade-in" : ""}`}>
           <h2 className="statement-section__header">
             <span className="statement-name">A Statement from Dan Nepomuceno</span>
             <span className="statement-role">(Co-Editor in Chief)</span>
