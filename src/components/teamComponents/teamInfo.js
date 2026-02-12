@@ -1,5 +1,7 @@
 export const teamInfo = [
-  {
+?=
+
+m{
     picture: () => import("../../static/team/Dan_Nepomuceno.JPEG"),
     name: "Dan Nepomuceno",
     position: "Editor in Chief",
@@ -385,53 +387,80 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Venice_Poggi.jpeg"),
     name: "Venice Poggi",
-    position: "Stylist"
+    position: "Stylist",
+    pronouns: "they/them",
+    major: "Structural Engineering",
+    about: "Haiiii I love Trend"
   },
   {
     picture: () => import("../../static/team/Noah_Pope.jpeg"),
     name: "John Noah Pope",
-    position: "Stylist",
+    position: "Stylist"
   },
   {
     //change
     picture: () => import("../../static/team/Anthony_Mercado.jpeg"),
     name: "Anthony Mercado",
-    position: "Stylist",
+    position: "Stylist"
   },
   {
     picture: () => import("../../static/team/Kaylie_Camacho.jpeg"),
     name: "Kaylie Camacho",
-    position: "Stylist"
+    position: "Stylist",
+    pronouns: "she/they",
+    major: "Math-Computer Science",
+    about: "This is my second year in TREND and I have loved getting to experiment with makeup and expand upon my style. I am hugely inspired by drag as an art form! Outside of TREND my hobbies are knitting, crocheting, and escape rooms!"
   },
   {
     picture: () => import("../../static/team/Talia_Thessen.jpeg"),
     name: "Talia Thessen",
-    position: "Stylist"
+    position: "Stylist",
+    pronouns: "she/her",
+    major: "Sociology",
+    about: "I love to horseback ride, rock climb, cook, listen to music and draw! I’m so excited to get to create new concepts full of sweetness for my final year at UCSD <3"
+
   },
   {
     picture: () => import("../../static/team/Miguel_Orozco.jpeg"),
     name: "Miguel Orozco",
-    position: "Stylist"
+    position: "Stylist",
+    pronouns: "he/him",
+    major: "Media Industry Communications ",
+    about: "Hey my name’s Miguel, and i’m all about the arts, fashion, and music. I’m also a very spontaneous person who enjoys the thrill. I love to design clothing and this year i’m looking forward to finally bringing my designs to life ;)"
   },
   {
     picture: () => import("../../static/team/Kevin_Garcia.jpeg"),
     name: "Kevin Garcia",
     position: "Stylist"
+    pronouns: "he/she/they",
+    major: "Political Science: Data Analytics",
+    about: "Hiii my name's Kev and I'm so excited to explore and develop my styling with TREND this year. I love thrift shopping, trying new cafes, and supporting my communities in any way I can.",
+    portfolio: @desertprincexx
   },
   {
     picture: () => import("../../static/team/Sophie_Zhang.jpeg"),
     name: "Sophie Zhang",
     position: "Stylist"
+    pronouns: "she/they/he",
+    major: "Studio Art Major", 
+    minor: "Critical Gender Studies minor"
+    about: "Hi! Im so excited to be TREND’s writing director this year! I love crafting, my cat, Ladybird, and watching Bob’s Burgers with a cup of hot chocolate!"
   },
   { 
     picture: () => import("../../static/team/Perla_Perez.JPG"),
     name: "Perla Perez",
     position: "Stylist"
+    pronouns: "she/her",
+    major: "Communications",
+    about: "Hi everyone my name is Perla ! I am a third-year transfer from Pasadena City College and some of my interests in include going to concerts/festivals and making jewlery. What im looking forward to meeting and creating new friends, stylish shoots and overall having an amazing time with the team!",
+    portfolio: "https://www.canva.com/design/DAG0ma1-Y-Y/hTDFg9DHPu2jRX1vEu5MAg/edit?utm_content=DAG0ma1-Y-Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
   },
   {
     picture: () => import("../../static/team/Katie_Chang.jpeg"),
     name: "Katie Chang",
     position: "Stylist"
+    major: "Studio Arts",
+    about: "I love being creative in every aspect of my life whether that's through fashion, event planning, visual arts, or baking! This year, I hope to explore my personal style and work with other cool artists. "
   },
   {
     picture: () => import("../../static/team/Matthew_Caram.JPG"),
@@ -441,7 +470,11 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Mariah_DeMordaunt.JPEG"),
     name: "Mariah DeMordaunt",
-    position: "Stylist"
+    position: "Stylist",
+    pronouns: "she/her",
+    major: "Cognitive Science w/ Spec. in Design & Interaction",
+    about: "Hi, I’m Mariah! Outside of fashion, some things I love to do are sing, draw, cook, and visit new places. This year in TREND, I’m looking forward to working with other amazing creatives to create stunning visuals and sharing love for fashion with UCSD!",
+    portfolio: "https://mdemordaunt.wixsite.com/mariah"
   },
   {
     picture: () => import("../../static/team/Taira_Sakamoto.jpg"),
@@ -454,12 +487,20 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Angelo_Belardo.jpg"),
     name: "Angelo Belardo",
-    position: "Web Developer"
+    position: "Web Developer",
+    pronouns: "he/him",
+    major: "ICAM",
+    minor: "Computer Science and Cognitive Science",
+    portfolio: "Hi I'm Angelo! I have many hobbies like rock climbing, playing guitar, going to the gym, and am literally interested in anything that involves going out. I'm a co-director of Web Development so my hopes for TREND this year involve getting close with them and other teams!"
   },
   {
     picture: () => import("../../static/team/Nadine_Arugulles.jpg"),
     name: "Nadine Arguelles",
-    position: "Web Developer"
+    position: "Web Developer",
+    pronouns: "any/all",
+    major: "Cognitive Science",
+    about: "Lover of photography, design, and development. Usually forgets exactly 1 thing when leaving the house.",
+    portfolio: "\n\tMy Insta: https://www.instagram.com/_nadine.aa/ \n\tMy Linkedin: https://www.linkedin.com/in/undefinedvisuals/ \n\tMy github: https://github.com/LumpiYuh"
   },
   {
     picture: () => import("../../static/team/Brina_Wang.jpg"),
@@ -469,22 +510,38 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Kaylie_Lai.jpg"),
     name: "Kaylie Lai",
-    position: "Web Developer"
+    position: "Web Developer",
+    pronouns: "she/her",
+    major: "Cognitive Science with a specialization in Design & Interaction",
+    about: "rOutside of design, some of my hobbies include drawing, eating carbs, and hanging out with friends! This year, I look forward to meeting cool people in TREND and designing a super awesome website :)",
+    portfolio: "https://kaylielai.framer.website/"
   },
   {
     picture: () => import("../../static/team/Breck_Abugan.jpg"),
     name: "Breck Abugan",
     position: "Web Developer"
+    pronouns: "they/them",
+    major: "Cognitive Science With a Specialization in Design & Interaction",
+    about: "My name is Breck Abugan and this is my first year in TREND. Creatively, I enjoy scrapbooking, reading, and embroidery. At UCSD, I'm a part of ERC's student council, running club, and karate club! Aside from both magazine releases, I'm looking forward to working and shopping at Thrifty Thursdays.",
+    portfolio: "https://breckabugan.weebly.com/"
   },
     {
-    //change
     picture: () => import("../../static/team/Roxanne_Wang.jpg"),
     name: "Roxanne Wang",
     position: "Web Developer"
+    pronouns: "she/her",
+    major: "Data Science",
+    minor: "Business Analytics",
+    about: "I’m a data science major with a minor in business analytics, and I’m really excited to join Trend this year. I’m looking forward to learning new things and meeting new people."
   },
   {
     picture: () => import("../../static/team/Elisa_Le.jpg"),
     name: "Elisa Le",
-    position: "Web Developer"
+    position: "Web Developer",
+    pronouns: "she/her"
+    major: "Cognitive Science with a specialization in Machine Learning and Neural Computation",
+    minor: "Business Analytics",
+    about: "Hi, I'm Elisa! I'm interested in human centered design and web development. I am looking forward to being on TREND and showcasing my creativity!",
+    portfolio: "\n\tlinkedin: www.linkedin.com/in/elisaale \n\thttps://elisale.framer.website/?editSite"
   },
-];
+]
