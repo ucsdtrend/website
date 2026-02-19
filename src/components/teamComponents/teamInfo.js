@@ -1,7 +1,6 @@
 export const teamInfo = [
-?=
 
-m{
+{
     picture: () => import("../../static/team/Dan_Nepomuceno.JPEG"),
     name: "Dan Nepomuceno",
     position: "Editor in Chief",
@@ -65,15 +64,6 @@ m{
     pronouns: "he/him",
     major: "ICAM",
     about: "Multi disciplinary artist wannabe"
-  },
-  {
-    picture: () => import("../../static/team/Sharon_Heo.JPG"),
-    name: "Sharon Heo",
-    position: "Photographer",
-    pronouns: "she/her",
-    major: "Media Industries",
-    about: "I love eating food with friends, reading, listening to music, watching movies + the stars, and studying!! looking forward to being my untethered self in trend this year :- )",
-    portfolio: "\n\tPortfolio: sharonyheo.wixsite.com/portfolio/gallery"
   },
   {
     picture: () => import("../../static/team/Muhammad_Hilmans.JPG"),
@@ -345,6 +335,11 @@ m{
     position: "Marketing"
   },
   {
+    picture: () => import("../../static/team/Maya_Thankamushy.jpeg"),
+    name: "Maya Thankamushy",
+    position: "Marketing"
+  },
+  {
     picture: () => import("../../static/team/Nicoletta_Gagliano.jpeg"),
     name: "Nicoletta Gagliano",
     position: "Marketing"
@@ -418,10 +413,6 @@ m{
     pronouns: "she/her",
     major: "Sociology",
     about: "I love to horseback ride, rock climb, cook, listen to music and draw! I’m so excited to get to create new concepts full of sweetness for my final year at UCSD <3"
-<<<<<<< HEAD
-=======
-
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
   },
   {
     picture: () => import("../../static/team/Miguel_Orozco.jpeg"),
@@ -434,44 +425,25 @@ m{
   {
     picture: () => import("../../static/team/Kevin_Garcia.jpeg"),
     name: "Kevin Garcia",
-<<<<<<< HEAD
     position: "Stylist",
     pronouns: "he/she/they",
     major: "Political Science: Data Analytics",
     about: "Hiii my name's Kev and I'm so excited to explore and develop my styling with TREND this year. I love thrift shopping, trying new cafes, and supporting my communities in any way I can.",
     portfolio: "@desertprincexx"
-=======
-    position: "Stylist"
-    pronouns: "he/she/they",
-    major: "Political Science: Data Analytics",
-    about: "Hiii my name's Kev and I'm so excited to explore and develop my styling with TREND this year. I love thrift shopping, trying new cafes, and supporting my communities in any way I can.",
-    portfolio: @desertprincexx
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
   },
   {
     picture: () => import("../../static/team/Sophie_Zhang.jpeg"),
     name: "Sophie Zhang",
-<<<<<<< HEAD
     position: "Stylist",
     pronouns: "she/they/he",
     major: "Studio Art Major", 
     minor: "Critical Gender Studies minor",
-=======
-    position: "Stylist"
-    pronouns: "she/they/he",
-    major: "Studio Art Major", 
-    minor: "Critical Gender Studies minor"
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     about: "Hi! Im so excited to be TREND’s writing director this year! I love crafting, my cat, Ladybird, and watching Bob’s Burgers with a cup of hot chocolate!"
   },
   { 
     picture: () => import("../../static/team/Perla_Perez.JPG"),
     name: "Perla Perez",
-<<<<<<< HEAD
     position: "Stylist",
-=======
-    position: "Stylist"
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     pronouns: "she/her",
     major: "Communications",
     about: "Hi everyone my name is Perla ! I am a third-year transfer from Pasadena City College and some of my interests in include going to concerts/festivals and making jewlery. What im looking forward to meeting and creating new friends, stylish shoots and overall having an amazing time with the team!",
@@ -480,12 +452,7 @@ m{
   {
     picture: () => import("../../static/team/Katie_Chang.jpeg"),
     name: "Katie Chang",
-<<<<<<< HEAD
     position: "Stylist",
-    pronouns: "she/her",
-=======
-    position: "Stylist"
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     major: "Studio Arts",
     about: "I love being creative in every aspect of my life whether that's through fashion, event planning, visual arts, or baking! This year, I hope to explore my personal style and work with other cool artists. "
   },
@@ -518,7 +485,7 @@ m{
     pronouns: "he/him",
     major: "ICAM",
     minor: "Computer Science and Cognitive Science",
-    portfolio: "Hi I'm Angelo! I have many hobbies like rock climbing, playing guitar, going to the gym, and am literally interested in anything that involves going out. I'm a co-director of Web Development so my hopes for TREND this year involve getting close with them and other teams!"
+    about: "Hi I'm Angelo! I have many hobbies like rock climbing, playing guitar, going to the gym, and am literally interested in anything that involves going out. I'm a co-director of Web Development so my hopes for TREND this year involve getting close with them and other teams!"
   },
   {
     picture: () => import("../../static/team/Nadine_Arugulles.jpg"),
@@ -540,21 +507,13 @@ m{
     position: "Web Developer",
     pronouns: "she/her",
     major: "Cognitive Science with a specialization in Design & Interaction",
-<<<<<<< HEAD
-    about: "Outside of design, some of my hobbies include drawing, eating carbs, and hanging out with friends! This year, I look forward to meeting cool people in TREND and designing a super awesome website :)",
-=======
     about: "rOutside of design, some of my hobbies include drawing, eating carbs, and hanging out with friends! This year, I look forward to meeting cool people in TREND and designing a super awesome website :)",
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     portfolio: "https://kaylielai.framer.website/"
   },
   {
     picture: () => import("../../static/team/Breck_Abugan.jpg"),
     name: "Breck Abugan",
-<<<<<<< HEAD
     position: "Web Developer",
-=======
-    position: "Web Developer"
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     pronouns: "they/them",
     major: "Cognitive Science With a Specialization in Design & Interaction",
     about: "My name is Breck Abugan and this is my first year in TREND. Creatively, I enjoy scrapbooking, reading, and embroidery. At UCSD, I'm a part of ERC's student council, running club, and karate club! Aside from both magazine releases, I'm looking forward to working and shopping at Thrifty Thursdays.",
@@ -563,11 +522,7 @@ m{
     {
     picture: () => import("../../static/team/Roxanne_Wang.jpg"),
     name: "Roxanne Wang",
-<<<<<<< HEAD
     position: "Web Developer",
-=======
-    position: "Web Developer"
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     pronouns: "she/her",
     major: "Data Science",
     minor: "Business Analytics",
@@ -577,11 +532,7 @@ m{
     picture: () => import("../../static/team/Elisa_Le.jpg"),
     name: "Elisa Le",
     position: "Web Developer",
-<<<<<<< HEAD
     pronouns: "she/her",
-=======
-    pronouns: "she/her"
->>>>>>> 33d4b9b81a9f82a8f582ae904bfcd2682e167b13
     major: "Cognitive Science with a specialization in Machine Learning and Neural Computation",
     minor: "Business Analytics",
     about: "Hi, I'm Elisa! I'm interested in human centered design and web development. I am looking forward to being on TREND and showcasing my creativity!",

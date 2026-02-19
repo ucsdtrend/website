@@ -28,8 +28,8 @@ const Polaroid = ({ picture, name, position, pronouns, major, minor, about, port
               src={imageSrc}
               alt={name}
               effect="blur"
-              width ="300"
-              height ="400"
+              width ={300}
+              height ={400}
               decoding ="async"
               fetchPriority="low"
             />
