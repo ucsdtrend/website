@@ -327,27 +327,45 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Cameron_Cao.jpeg"),
     name: "Cameron Cao",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her",
+    major: "Communication",
+    minor: "Marketing",
+    about: "I am a lover of all forms of media music, movies, art, anime I enjoy it all! Creatively I’m often inspired by my childhood memories and nostalgia and love to showcase it through my work!"
   },
   {
     picture: () => import("../../static/team/Andy_Metcalf.jpeg"),
     name: "Andy Metcalf",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "he/him",
+    major: "Business Economics and Cognitive Science Design",
+    about: "Hello I'm Andy like Toy Story. I'm excited to create more patchwork garments and create content with fashion!"
   },
   {
     picture: () => import("../../static/team/Maya_Thankamushy.jpeg"),
     name: "Maya Thankamushy",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her",
+    major: "Communication and Business Psychology",
+    about: "Hello! I’m Maya and I’m from the LA area! I love going on walks and exploring new places. I also love listening to music, watching movies, and rating those movies on my Letterboxd!"
   },
   {
     picture: () => import("../../static/team/Nicoletta_Gagliano.jpeg"),
     name: "Nicoletta Gagliano",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her",
+    major: "Visual Arts Media",
+    minor: "Mathematics and Speculative Design",
+    about: "Nicoletta Gagliano is a Visual Arts Media student who enjoys photography, concerts, and exploring new restaurants. She’s looking forward to meeting new creatives through TREND!",
+    portfolio: "https://rosettarietastone.my.canva.site/nicoletta-gagliano/"
   },
   { 
     picture: () => import("../../static/team/Nikole_Munoz.jpeg"),
     name: "Nikole Munoz",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her",
+    major: "Business Psychology",
+    about: "When I’m not studying, I’m usually baking, shopping at the Silver Lake flea market, or exploring new cafes with my friends. I’ve recently found a passion for recording the small and big moments of my life, channeling my creativity through video editing and building a digital time capsule of memories. I hope to one day lead the creative direction of marketing campaigns, and I’m excited to build my own creative community in TREND and be inspired by everyone’s amazing ideas."
   },
   {
     picture: () => import("../../static/team/Eric_Wang.jpeg"),
@@ -362,7 +380,10 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Chista_Irani.jpeg"),
     name: "Chista Irani",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her",
+    major: "International business",
+    about: "Hi! I’m Chista and I’m from Palo Alto, Bay Area. I love listening to and writing music, reading, hiking traveling, and baking."
   },
   {
     picture: () => import("../../static/team/Kevin_Tran.JPG"),
@@ -372,12 +393,19 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Ashley_Djunaedi.jpeg"),
     name: "Ashley Djunaedi",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her",
+    major: "Media Industries and Communication",
+    about: "Lover of all things vintage and sustainable"
   },
   {
     picture: () => import("../../static/team/Rylee_Boyles.jpeg"),
     name: "Rylee Boyles",
-    position: "Marketing"
+    position: "Marketing",
+    pronouns: "she/her/hers",
+    major: "Cog Sci Design Interaction & ICAM",
+    about: "Hi i'm Rylee a graduating senior, I love thrifting, design, going on runs. This year I look forward to all the great outfits and photoshoots TREND showcases!",
+    portfolio: "https://silver-topic-533675.framer.app/" 
   },
   {
     picture: () => import("../../static/team/Shayla_Nguyen.jpeg"),
