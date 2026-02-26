@@ -119,11 +119,6 @@ export const teamInfo = [
     position: "Writer"
   },
   {
-    picture: () => import("../../static/team/Emma_Cho.jpg"),
-    name: "Emma Cho",
-    position: "Writer",
-  },
-  {
     picture: () => import("../../static/team/Camille_de_la_Cruz.jpeg"),
     name: "Camille de la Cruz",
     position: "Writer"
@@ -190,6 +185,25 @@ export const teamInfo = [
     name: "Amber Chi",
     position: "Graphic Designer"
   },
+  {
+    picture: () => import("../../static/team/Amanda_Wu.jpg"),
+    name: "Amanda Wu",
+    position: "Graphic Designer",
+    pronouns: "she/her",
+    major: "Business Economics",
+    minor: "Supply chain and Marketing",
+    about: "I joined TREND to discover opportunities to create and be expressive in my graphic design. In my free time, I love board game nights with friends, curating Spotify playlists for every mood and occasion, and trying new recipes in the kitchen!"
+  },
+  /*
+  {
+    picture: () => import("../../static/team/Amber_Chi.jpg"),
+    name: "Beatriz Chen",
+    position: "Graphic Designer",
+    pronouns: "she/they",
+    major: "CogSci Design and International Business",
+    about: "Hello my name is Beatriz and graphic design is my passion. In my free time I enjoy staying active, cafe hopping, and traveling! If you have any good food spots, do let me know too!"
+  },
+  */
   {
     picture: () => import("../../static/team/Viviana_Espino.JPG"),
     name: "Viviana Espino",
