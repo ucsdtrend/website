@@ -380,6 +380,15 @@ export const teamInfo = [
     position: "Marketing"
   },
   {
+    picture: () => import("../../static/team/Shayla_Nguyen.jpeg"),
+    name: "Shayla Nguyen",
+    position: "Marketing",
+    pronouns: "she/they",
+    major: "Cognitive Science Spec. Neuroscience",
+    minor: "Cinematic Arts",
+    about: "I love watching films, editing videos, eating food! I am looking forward to pushing out more creative videos and photoshoots for TREND this year!"
+  },
+  {
     picture: () => import("../../static/team/Venice_Poggi.jpeg"),
     name: "Venice Poggi",
     position: "Stylist",
