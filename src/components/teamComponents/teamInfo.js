@@ -25,12 +25,6 @@ export const teamInfo = [
     position: "Photographer"
   },
   {
-    //Old picture
-    picture: () => import("../../static/team/Isabel_Rademaker.JPG"),
-    name: "Isabel Rademaker", 
-    position: "Photographer"
-  },
-  {
     picture: () => import("../../static/team/Jersey_Rosetes.JPG"),
     name: "Jersey Rosetes",
     position: "Photographer",
@@ -50,11 +44,6 @@ export const teamInfo = [
   {
     picture: () => import("../../static/team/Silvia_Lee1.JPG"),
     name: "Silvia Lee",
-    position: "Photographer"
-  },
-  {
-    picture: () => import("../../static/team/Vanessa_Mak.JPG"),
-    name: "Wai Shan Vanessa Mak",
     position: "Photographer"
   },
   {
@@ -107,6 +96,12 @@ export const teamInfo = [
     pronouns: "she/her",
     major: "ICAM Visual Arts + Computer Science minor",
     about: "Lately I’ve been into film development, sleeping in, and deep dives on internet subcultures. Super excited to work with all the creative people on our team this year!"
+  },
+  {
+    //Old picture
+    picture: () => import("../../static/team/Isabel_Rademaker.JPG"),
+    name: "Isabel Rademaker", 
+    position: "Photographer"
   },
   {
     picture: () => import("../../static/team/Sophia_Regier.jpeg"),
