@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5636],{3255:(e,t,s)=>{e.exports=s.p+"static/media/Niyati_Patel.bc9f6e39077bc22e18e7.jpg"}}]);

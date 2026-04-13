@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[7153],{7153:(e,s,t)=>{e.exports=t.p+"static/media/Thanh_Le.cbe23bdc6ec5b9a9132c.JPG"}}]);

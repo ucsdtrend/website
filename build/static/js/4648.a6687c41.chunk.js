@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4648],{2267:(e,s,t)=>{e.exports=t.p+"static/media/Muhammed_Hilman.1b7b1e6c0da30eea9e42.JPG"}}]);

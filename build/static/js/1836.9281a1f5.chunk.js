@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1836],{1836:(e,s,t)=>{e.exports=t.p+"static/media/Sharon_Heo.1db1e33ae6c5d28f7673.JPG"}}]);

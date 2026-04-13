@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[9705],{9705:(e,s,t)=>{e.exports=t.p+"static/media/Amy_Wong.68cda1d63d5899ae6ffb.jpeg"}}]);

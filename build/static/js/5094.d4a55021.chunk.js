@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5094],{5094:(e,s,t)=>{e.exports=t.p+"static/media/Dan_Nepomuceno.fcc04a6adb85d8d88afd.CR3"}}]);

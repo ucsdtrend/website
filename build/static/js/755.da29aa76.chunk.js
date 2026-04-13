@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[755],{755:(e,t,s)=>{e.exports=s.p+"static/media/Matthew_Caram.318fedd769624ba80547.JPG"}}]);

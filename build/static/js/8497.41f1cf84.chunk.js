@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8497],{8497:(e,s,a)=>{e.exports=a.p+"static/media/Muhammad_Hilmans.52b04eaa6d4f20739e17.JPG"}}]);
