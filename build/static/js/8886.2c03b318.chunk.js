@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8886],{8886:(e,s,t)=>{e.exports=t.p+"static/media/Aimi_Kim.df7d03c7c8a6c6f61351.jpeg"}}]);

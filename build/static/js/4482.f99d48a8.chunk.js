@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4482],{4482:(e,t,s)=>{e.exports=s.p+"static/media/Katie_Chang.33cb4b400e64d16ca0cd.jpeg"}}]);

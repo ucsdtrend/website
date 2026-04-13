@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8712],{8712:(e,t,a)=>{e.exports=a.p+"static/media/Nel_Satriya.63240521fa9613aa1ff3.jpg"}}]);

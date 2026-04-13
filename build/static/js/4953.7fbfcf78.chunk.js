@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4953],{4953:(e,s,t)=>{e.exports=t.p+"static/media/Viviana_Espino.55166f213cb2dd0d199b.jpeg"}}]);

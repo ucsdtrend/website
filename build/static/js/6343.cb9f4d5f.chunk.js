@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[6343],{6343:(e,s,t)=>{e.exports=t.p+"static/media/Sophie_Zhang.746287767677c9b76ed3.jpeg"}}]);

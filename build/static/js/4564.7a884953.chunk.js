@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[4564],{4564:(e,s,t)=>{e.exports=t.p+"static/media/Roxanne_Wang.a0e2985628ad358b2917.jpg"}}]);

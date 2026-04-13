@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5090],{5090:(e,t,s)=>{e.exports=s.p+"static/media/Kshitij_Uddagatti.5452a38d31ea7033e3c7.JPG"}}]);

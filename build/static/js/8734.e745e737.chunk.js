@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[8734],{8734:(e,s,a)=>{e.exports=a.p+"static/media/Carlos_Rocha.aee3fa2c060064c93a48.JPG"}}]);
