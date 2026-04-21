@@ -292,3 +292,86 @@
     flex: 1;
   }
 }
+
+/* ========================= */
+/* HERO CONTACT SECTION */
+/* ========================= */
+
+.contact-hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Background image */
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-position: center 70%;
+  display: block;
+}
+
+/* Dark overlay */
+.contact-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Big faded text */
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Alte Haas Grotesk";
+
+  transform: translate(-50%, -50%) scaleY(1.15);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  
+  font-size: 16vw;
+  color: rgba(255, 255, 255, 0.5);
+
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Foreground content */
+.hero-content {
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  color: white;
+  z-index: 2;
+  max-width: 500px;
+}
+
+/* Override your existing social styles ONLY inside hero */
+.hero-content .social-list {
+  margin-top: 2rem;
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+
+  &::before {
+    display: none;
+  }
+}
+
+.hero-content .social-item {
+  font-size: 2rem;
+  color: white;
+  background: none;
+  padding: 0;
+
+  &:hover {
+    transform: scale(1.2);
+    background: none;
+  }
+}
