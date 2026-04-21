@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[9469],{9469:(e,s,t)=>{e.exports=t.p+"static/media/Ryan_Freudiger.62da866dc89d1145a418.jpg"}}]);

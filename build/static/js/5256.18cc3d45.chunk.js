@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[5256],{5256:(e,s,a)=>{e.exports=a.p+"static/media/Maya_Thankamushy.4031e6e3b2a456232fde.jpeg"}}]);

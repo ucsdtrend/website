@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2427],{2427:(e,s,t)=>{e.exports=t.p+"static/media/Shayla_Nguyen.279aeb9a8f92045f7490.jpeg"}}]);

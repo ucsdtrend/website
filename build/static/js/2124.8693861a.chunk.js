@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[2124],{2124:(e,s,t)=>{e.exports=t.p+"static/media/Emma_Cho.0d92734072f67295c608.jpg"}}]);

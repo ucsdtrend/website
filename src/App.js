@@ -8,7 +8,22 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Footer from "./components/footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
+function AnalyticsTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-8FREDLXLV5', {
+        page_path: location.pathname,
+      });
+    }
+  }, [location]);
+
+  return null;
+}
 
 // setConfiguration({
 //   gutterWidth: 30,
@@ -19,6 +34,7 @@ function App() {
   return (
     <div className="App" data-testid="App-element">
       <BrowserRouter>
+        <AnalyticsTracker />
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>} />
@@ -29,7 +45,6 @@ function App() {
         </Routes>
         <Footer/>
       </BrowserRouter>
-      
     </div>
   );
 }

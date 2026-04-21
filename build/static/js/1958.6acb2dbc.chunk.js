@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrend_website=self.webpackChunktrend_website||[]).push([[1958],{1958:(e,s,t)=>{e.exports=t.p+"static/media/Maikle_Low.2b703bba8c32d67edb3c.JPG"}}]);

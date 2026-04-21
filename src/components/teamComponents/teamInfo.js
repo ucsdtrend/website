@@ -554,7 +554,7 @@ export const teamInfo = [
     pronouns: "she/her",
     major: "Cognitive Science with a specialization in Design & Interaction",
     about: "rOutside of design, some of my hobbies include drawing, eating carbs, and hanging out with friends! This year, I look forward to meeting cool people in TREND and designing a super awesome website :)",
-    portfolio: "https://kaylielai.framer.website/"
+    portfolio: "https://kaylielai.com/"
   },
   {
     picture: () => import("../../static/team/Breck_Abugan.jpg"),
