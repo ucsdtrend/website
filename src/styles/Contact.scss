@@ -327,15 +327,18 @@
   left: 49.5%;
   transform: translate(-50%, -50%);
 
-  font-family: "Alte Haas Grotesk";
 
-  transform: translate(-50%, -50%) scaleY(1.15);
+  font-family: "Anton", sans-serif;
+
+
+  transform: translate(-50%, -50%) scaleY(1.4);
   line-height: 1;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
   font-weight: 900;
   
-  font-size: 16vw;
+  font-size: 15vw;
   color: rgba(255, 255, 255, 0.5);
+
 
   white-space: nowrap;
   pointer-events: none;
