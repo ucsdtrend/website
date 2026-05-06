@@ -1,3 +1,247 @@
+import React, { useState } from "react";
+import "../../styles/StaticLanding.scss";
+
+// Replace these paths with the actual PNG files
+import model from "../../static/dress-to-impress/model.JPEG";
+
+import hat1 from "../../static/dress-to-impress/hat-1.jpg";
+import top1 from "../../static/dress-to-impress/top-1.jpg";
+import top2 from "../../static/dress-to-impress/top-2.jpg";
+import bottom1 from "../../static/dress-to-impress/bottom-1.jpg";
+import shoes1 from "../../static/dress-to-impress/shoes-1.jpg";
+import accessory1 from "../../static/dress-to-impress/accessory-1.jpg";
+
+const clothingItems = [
+  {
+    id: "hat-1",
+    name: "Hat",
+    category: "hat",
+    image: hat1,
+    x: 168,
+    y: 28,
+    width: 120,
+  },
+  {
+    id: "top-1",
+    name: "Top 1",
+    category: "top",
+    image: top1,
+    x: 145,
+    y: 155,
+    width: 170,
+  },
+  {
+    id: "top-2",
+    name: "Top 2",
+    category: "top",
+    image: top2,
+    x: 145,
+    y: 155,
+    width: 170,
+  },
+  {
+    id: "bottom-1",
+    name: "Bottom",
+    category: "bottom",
+    image: bottom1,
+    x: 145,
+    y: 300,
+    width: 170,
+  },
+  {
+    id: "shoes-1",
+    name: "Shoes",
+    category: "shoes",
+    image: shoes1,
+    x: 162,
+    y: 505,
+    width: 135,
+  },
+  {
+    id: "accessory-1",
+    name: "Accessory",
+    category: "accessory",
+    image: accessory1,
+    x: 250,
+    y: 190,
+    width: 90,
+  },
+];
+
+const categories = [
+  {
+    label: "Headwear",
+    value: "hat",
+  },
+  {
+    label: "Tops",
+    value: "top",
+  },
+  {
+    label: "Bottoms",
+    value: "bottom",
+  },
+  {
+    label: "Shoes",
+    value: "shoes",
+  },
+  {
+    label: "Accessories",
+    value: "accessory",
+  },
+];
+
+export default function StaticLanding() {
+  const [outfit, setOutfit] = useState([]);
+  const [activeCategory, setActiveCategory] = useState("top");
+
+  const addClothingItem = (item) => {
+    setOutfit((currentOutfit) => {
+      const withoutSameCategory = currentOutfit.filter(
+        (piece) => piece.category !== item.category
+      );
+
+      return [...withoutSameCategory, item];
+    });
+  };
+
+  const handleDragStart = (event, item) => {
+    event.dataTransfer.setData("clothingItem", JSON.stringify(item));
+  };
+
+  const handleDrop = (event) => {
+    event.preventDefault();
+
+    const itemData = event.dataTransfer.getData("clothingItem");
+
+    if (!itemData) {
+      return;
+    }
+
+    const item = JSON.parse(itemData);
+    addClothingItem(item);
+  };
+
+  const handleDragOver = (event) => {
+    event.preventDefault();
+  };
+
+  const removeClothingItem = (category) => {
+    setOutfit((currentOutfit) =>
+      currentOutfit.filter((piece) => piece.category !== category)
+    );
+  };
+
+  const resetOutfit = () => {
+    setOutfit([]);
+  };
+
+  const activeItems = clothingItems.filter(
+    (item) => item.category === activeCategory
+  );
+
+  return (
+    <main className="dress-page">
+      <section className="dress-hero">
+        <div className="dress-copy">
+          <p className="dress-kicker">TREND</p>
+          <h1>Dress Our EIC's!</h1>
+          <p className="dress-description">
+            Drag pieces onto the models.
+          </p>
+        </div>
+
+        <div className="dress-game">
+          <aside className="wardrobe-panel wardrobe-panel-left">
+            <h2>Wardrobe</h2>
+
+            <div className="category-tabs">
+              {categories.map((category) => (
+                <button
+                  key={category.value}
+                  className={
+                    activeCategory === category.value ? "active" : ""
+                  }
+                  onClick={() => setActiveCategory(category.value)}
+                >
+                  {category.label}
+                </button>
+              ))}
+            </div>
+
+            <div className="clothing-list">
+              {activeItems.map((item) => (
+                <button
+                  key={item.id}
+                  className="clothing-item"
+                  draggable
+                  onDragStart={(event) => handleDragStart(event, item)}
+                  onClick={() => addClothingItem(item)}
+                >
+                  <img src={item.image} alt={item.name} />
+                  <span>{item.name}</span>
+                </button>
+              ))}
+            </div>
+
+            <p className="mobile-hint">
+              Tap an item on mobile, or drag it on desktop.
+            </p>
+          </aside>
+
+          <section
+            className="model-stage"
+            onDrop={handleDrop}
+            onDragOver={handleDragOver}
+          >
+            <div className="stage-frame">
+              <img className="model-base" src={model} alt="Dress up model" />
+
+              {outfit.map((item) => (
+                <img
+                  key={item.category}
+                  className={`worn-piece worn-piece-${item.category}`}
+                  src={item.image}
+                  alt={item.name}
+                  style={{
+                    left: `${item.x}px`,
+                    top: `${item.y}px`,
+                    width: `${item.width}px`,
+                  }}
+                />
+              ))}
+            </div>
+          </section>
+
+          <aside className="wardrobe-panel wardrobe-panel-right">
+            <h2>Current Look</h2>
+
+            <div className="outfit-list">
+              {outfit.length === 0 ? (
+                <p className="empty-outfit">No pieces added yet.</p>
+              ) : (
+                outfit.map((item) => (
+                  <div className="outfit-row" key={item.category}>
+                    <span>{item.name}</span>
+                    <button onClick={() => removeClothingItem(item.category)}>
+                      remove
+                    </button>
+                  </div>
+                ))
+              )}
+            </div>
+
+            <button className="reset-look-button" onClick={resetOutfit}>
+              Reset Look
+            </button>
+          </aside>
+        </div>
+      </section>
+    </main>
+  );
+}
+/*COALESCENCE LANDING PAGE COMPONENT - USE FOR FUTURE ISSUES AS WELL*/
+/*
 import React, { useEffect, useMemo, useState } from "react";
 import landingImg from "../../static/landing/COALESCENCE_LANDING.jpg";
 import "../../styles/StaticLanding.scss";
@@ -11,8 +255,8 @@ import bg7 from "../../static/youTrend-imgs/img-7.png";
 import bg8 from "../../static/youTrend-imgs/img-8.png";
 import bg9 from "../../static/youTrend-imgs/img-9.png";
 import bg10 from "../../static/youTrend-imgs/img-10.png";
-
-
+*/
+/*
 function getTimeLeft(targetMs) {
   const now = Date.now();
   const diff = Math.max(0, targetMs - now);
@@ -25,8 +269,8 @@ function getTimeLeft(targetMs) {
 
   return { diff, days, hours, minutes, seconds };
 }
-
-//new Date("2026-02-13T19:00:00").getTime()
+*/
+/*
 export default function StaticLanding() {
   const launchDate = useMemo(
     () => new Date("2026-02-13T19:00:00").getTime(),
@@ -107,10 +351,11 @@ export default function StaticLanding() {
     const el = document.getElementById("launch-timer");
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
-
+*/
+  /*
   return (
     <div className="coalescence-page">
-      {/* HERO */}
+      
       <section className="static-landing">
         <img src={landingImg} alt="" className="static-landing__image" />
 
@@ -131,9 +376,9 @@ export default function StaticLanding() {
         </div>
       </section>
 
-      {/* TIMER SECTION */}
+      
       <section className="timer-section" id="launch-timer">
-        {/* Collage background */}
+        
         <div className="timer-background" aria-hidden="true">
           <div className="bg" style={{ backgroundImage: `url(${bg1})` }} />
           <div className="bg" style={{ backgroundImage: `url(${bg2})` }} />
@@ -145,7 +390,7 @@ export default function StaticLanding() {
           <div className="bg" style={{ backgroundImage: `url(${bg8})` }} />
         </div>
 
-        {/* Timer content */}
+        
         {!countdownComplete && (
           <div className={`timer-section__overlay ${timerVisible ? "fade-in" : ""}`}>
           <div className="timer-section__subtitle">coming soon</div>
@@ -210,7 +455,7 @@ export default function StaticLanding() {
 
       </section>
 
-      {/* ARTIST STATEMENT */}
+      
       <section className="statement-section" id="artist-statement">
         <div className={`statement-section__overlay ${statementVisible ? "fade-in" : ""}`}>
           <h2 className="statement-section__header">
@@ -250,3 +495,4 @@ export default function StaticLanding() {
     </div>
   );
 }
+*/
