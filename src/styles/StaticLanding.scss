@@ -1,3 +1,315 @@
+.dress-page {
+  min-height: 100vh;
+  width: 100%;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.12), transparent 34%),
+    linear-gradient(135deg, #171312 0%, #2a211d 45%, #0f0e0d 100%);
+  color: #f7efe7;
+  overflow-x: hidden;
+}
+
+.dress-hero {
+  min-height: 100vh;
+  padding: 96px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dress-copy {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.dress-kicker {
+  margin: 0 0 10px;
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: rgba(247, 239, 231, 0.72);
+}
+
+.dress-copy h1 {
+  margin: 0;
+  font-size: clamp(42px, 8vw, 96px);
+  line-height: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.dress-description {
+  margin: 18px auto 0;
+  max-width: 520px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(247, 239, 231, 0.78);
+}
+
+.dress-game {
+  display: grid;
+  grid-template-columns: minmax(220px, 300px) minmax(360px, 520px) minmax(220px, 300px);
+  gap: 28px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.wardrobe-panel {
+  border: 1px solid rgba(247, 239, 231, 0.35);
+  background: rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  min-height: 520px;
+}
+
+.wardrobe-panel h2 {
+  margin: 0 0 18px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.category-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.category-tabs button,
+.reset-look-button,
+.outfit-row button {
+  border: 1px solid rgba(247, 239, 231, 0.45);
+  background: transparent;
+  color: #f7efe7;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.category-tabs button {
+  padding: 11px 12px;
+  text-align: left;
+  font-size: 11px;
+}
+
+.category-tabs button:hover,
+.category-tabs button.active,
+.reset-look-button:hover,
+.outfit-row button:hover {
+  background: #f7efe7;
+  color: #171312;
+}
+
+.clothing-list {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.clothing-item {
+  min-height: 130px;
+  border: 1px solid rgba(247, 239, 231, 0.35);
+  background: rgba(255, 255, 255, 0.04);
+  color: #f7efe7;
+  cursor: grab;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.clothing-item:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.clothing-item:active {
+  cursor: grabbing;
+}
+
+.clothing-item img {
+  max-width: 88px;
+  max-height: 88px;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.clothing-item span {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.mobile-hint {
+  margin: 18px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(247, 239, 231, 0.62);
+}
+
+.model-stage {
+  min-height: 620px;
+  border: 1px solid rgba(247, 239, 231, 0.65);
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    rgba(0, 0, 0, 0.24);
+  background-size: 28px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.stage-frame {
+  position: relative;
+  width: 460px;
+  height: 620px;
+}
+
+.model-base {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 600px;
+  max-width: 100%;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+.worn-piece {
+  position: absolute;
+  z-index: 3;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+}
+
+.worn-piece-hat {
+  z-index: 5;
+}
+
+.worn-piece-top,
+.worn-piece-accessory {
+  z-index: 4;
+}
+
+.worn-piece-bottom {
+  z-index: 3;
+}
+
+.worn-piece-shoes {
+  z-index: 2;
+}
+
+.outfit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.empty-outfit {
+  margin: 0;
+  color: rgba(247, 239, 231, 0.65);
+  font-size: 13px;
+}
+
+.outfit-row {
+  border-bottom: 1px solid rgba(247, 239, 231, 0.2);
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.outfit-row span {
+  font-size: 13px;
+}
+
+.outfit-row button {
+  padding: 6px 8px;
+  font-size: 9px;
+}
+
+.reset-look-button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 12px;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 1100px) {
+  .dress-hero {
+    padding: 88px 24px 32px;
+  }
+
+  .dress-game {
+    grid-template-columns: 1fr;
+  }
+
+  .wardrobe-panel {
+    min-height: auto;
+  }
+
+  .wardrobe-panel-left {
+    order: 2;
+  }
+
+  .model-stage {
+    order: 1;
+    min-height: 560px;
+  }
+
+  .wardrobe-panel-right {
+    order: 3;
+  }
+
+  .category-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .clothing-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .stage-frame {
+    transform: scale(0.88);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dress-hero {
+    padding: 78px 14px 24px;
+  }
+
+  .dress-copy h1 {
+    letter-spacing: 4px;
+  }
+
+  .clothing-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .model-stage {
+    min-height: 500px;
+  }
+
+  .stage-frame {
+    transform: scale(0.74);
+  }
+}
+//COALESCENCE LANDING PAGE STYLES
+/*
 @font-face {
   font-family: "Bootzy TM";
   src: url("./fonts/BootzyTM.woff2") format("woff2"),
@@ -31,7 +343,7 @@
   object-position: center;
 }
 
-/* dark vignette for readability */
+
 .static-landing::after {
   content: "";
   position: absolute;
@@ -62,7 +374,7 @@
   font-weight: 400;
   line-height: 0.9;
 
-  /* mobile-first sizing */
+
   font-size: clamp(64px, 14vw, 180px);
 
   color: #fff;
@@ -72,7 +384,7 @@
     margin: 0;
 }
 
-/* each word on its own line */
+
 
 .coalesce {
   display: block;
@@ -86,7 +398,7 @@
 
 
 
-/* optional: subtle opacity difference */
+
 .coalesce.top { animation-delay: 0.2s; }
 .coalesce.middle { animation-delay: 0.6s; }
 .coalesce.bottom { animation-delay: 1s; }
@@ -122,14 +434,14 @@
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* hover / focus */
+
 .static-landing__cta:hover .arrow,
 .static-landing__cta:focus-visible .arrow {
   transform: translateY(4px);
   opacity: 1;
 }
 
-/* desktop polish */
+
 @media (min-width: 900px) {
   .static-landing__title {
     font-size: clamp(140px, 12vw, 240px);
@@ -139,7 +451,7 @@
   width: 100%;
 }
 
-/* Timer section = its own full screen */
+
 .timer-section {
   position: relative;
   min-height: 100svh;
@@ -147,7 +459,7 @@
   width: 100%;
   overflow: hidden;
 
-  /* optional: reuse the collage background vibe */
+
   background: #111;
 }
 
@@ -163,7 +475,7 @@
   padding: 24px 16px;
   text-align: center;
 
-  /* readability */
+
   background: rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(4px);
 }
@@ -192,7 +504,7 @@
   filter: saturate(0.95) contrast(0.95);
 }
 
-/* dark overlay for readability */
+
 .timer-background::after {
   content: "";
   position: absolute;
@@ -219,7 +531,7 @@
   transform: scale(0.99);
 }
 
-/* Mobile: 2 columns x 4 rows */
+
 @media (max-width: 768px) {
   .timer-background {
     grid-template-columns: repeat(2, 1fr);
@@ -227,7 +539,7 @@
   }
 }
 
-/* mobile-first timer layout */
+
 .timer-grid {
   width: min(980px, 100%);
   display: grid;
@@ -297,7 +609,7 @@
   opacity: 1;
 }
 
-/*Cover Photos (After timer finishes)*/
+
 .cover-photos-overlay {
   position: relative;
   z-index: 2;
@@ -321,7 +633,7 @@
   width: 100%;
   max-width: 800px;
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+  grid-template-columns: repeat(1, 1fr); 
   gap: 24px;
 }
 
@@ -333,14 +645,14 @@
   border-radius: 8px;
 }
 
-/* desktop: 4 columns like your screenshot */
+
 @media (min-width: 900px) {
   .timer-grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 28px;
   }
 }
-/* Desktop-only scroll snap */
+
 @media (min-width: 900px) {
   .coalescence-page {
     scroll-snap-type: y mandatory;
@@ -362,14 +674,14 @@
 
 
 
-/* Statement section */
+
 .statement-section {
   position: relative;
   min-height: auto;
   width: 100%;
   overflow: hidden;
 
-  /* keep it cohesive with the timer vibe */
+
   background: #0f0f0f;
 }
 
@@ -431,7 +743,7 @@
   margin-top: 6px;
   white-space: nowrap;
 }
-/* Desktop spacing */
+
 @media (min-width: 900px) {
   .statement-section__overlay {
     padding: 96px 24px;
@@ -477,3 +789,4 @@
     filter: blur(6px);
   }
 }
+*/
