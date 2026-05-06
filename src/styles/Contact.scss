@@ -297,10 +297,15 @@
 /* HERO CONTACT SECTION */
 /* ========================= */
 
+/* ========================= */
+/* HERO CONTACT SECTION */
+/* ========================= */
+
 .contact-hero {
   position: relative;
   width: 100%;
-  height: auto;
+  min-height: 100vh;
+  background-color: #2a2a2a; // ✅ grey background
   overflow: hidden;
 }
 
@@ -310,56 +315,43 @@
   height: auto;
   object-position: center 70%;
   display: block;
+  //opacity: 0.9; // optional: cleaner look
 }
 
-/* Dark overlay */
-.contact-hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.1);
-}
-
-/* Big faded text */
+/* Big faded text (CENTERED, independent) */
 .overlay-text {
   position: absolute;
   top: 50%;
-  left: 49.5%;
-  transform: translate(-50%, -50%);
-
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(1.4);
 
   font-family: "Anton", sans-serif;
-
-
-  transform: translate(-50%, -50%) scaleY(1.4);
+  font-size: 15vw;
   line-height: 1;
   letter-spacing: -0.025em;
   font-weight: 900;
-  
-  font-size: 15vw;
-  color: rgba(255, 255, 255, 0.5);
 
-
+  color: rgba(255, 255, 255, 0.60);
   white-space: nowrap;
   pointer-events: none;
   z-index: 1;
 }
 
-/* Foreground content */
+/* Foreground wrapper (DON'T push this anymore) */
 .hero-content {
-  position: absolute;
-  bottom: 10%;
-  left: 8%;
-  color: white;
+  position: relative;
   z-index: 2;
-  max-width: 500px;
 }
 
-/* Override your existing social styles ONLY inside hero */
+/* ✅ Anchor icons to bottom instead of pushing everything */
 .hero-content .social-list {
-  margin-top: 2rem;
+  position: absolute;
+  bottom: 80px;              // adjust this
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
-  gap: 20px;
+  gap: 40px;
   padding-left: 0;
 
   &::before {
@@ -367,6 +359,7 @@
   }
 }
 
+/* Icon styling */
 .hero-content .social-item {
   font-size: 2rem;
   color: white;
@@ -377,4 +370,16 @@
     transform: scale(1.2);
     background: none;
   }
+}
+
+.contact-social-section {
+  background-color: #2a2a2a;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-social-section .social-list {
+  display: flex;
+  gap: 40px;
 }
