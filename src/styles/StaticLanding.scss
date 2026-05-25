@@ -1,3 +1,275 @@
+// ============================================================
+// SPRING / SUMMER "DRESS-UP" LANDING  (new issue landing)
+// ============================================================
+
+.dressup-page {
+  position: relative;
+  // Lock to exactly one viewport so nothing overflows
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  // Dark crumpled-paper base
+  background-color: #1a1a1a;
+  background-image:
+    radial-gradient(ellipse 55% 40% at 12% 20%, rgba(85,85,85,0.22) 0%, transparent 55%),
+    radial-gradient(ellipse 45% 35% at 88% 12%, rgba(65,65,65,0.18) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 45% at 55% 82%, rgba(75,75,75,0.15) 0%, transparent 55%),
+    radial-gradient(ellipse 38% 30% at 4%  75%, rgba(55,55,55,0.12) 0%, transparent 45%),
+    radial-gradient(ellipse 50% 38% at 96% 88%, rgba(70,70,70,0.15) 0%, transparent 50%),
+    radial-gradient(ellipse 35% 25% at 50% 50%, rgba(40,40,40,0.1)  0%, transparent 60%);
+}
+
+// SVG fractal-noise overlay for paper grain
+.dressup-noise {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='250' height='250' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 250px 250px;
+}
+
+// ── Decorative sketch stars ─────────────────────────────────
+.dressup-star {
+  position: absolute;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.star-tl  { top: 8%;     left: 4%;    width: 56px;  height: 56px; transform: rotate(-8deg);  }
+.star-tr  { top: 5%;     right: 26%;  width: 48px;  height: 48px; transform: rotate(14deg);  }
+.star-bl  { bottom: 10%; left: 25%;   width: 42px;  height: 42px; transform: rotate(-12deg); }
+.star-br  { bottom: 8%;  right: 3%;   width: 52px;  height: 52px; transform: rotate(22deg);  }
+.star-mid { top: 48%;    left: 2%;    width: 32px;  height: 32px; transform: rotate(5deg);   }
+
+// ── Main 3-column grid ──────────────────────────────────────
+// The layout fills the full viewport height; padding-top accounts
+// for the fixed navbar (~68px). We use stretch so each column
+// can manage its own internal height independently.
+.dressup-layout {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 2.2fr 1.3fr 2.5fr;
+  grid-template-rows: 1fr;          // single row that fills height
+  gap: 20px;
+  padding: 72px 32px 20px;
+  height: 100%;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+// ── LEFT PANEL ──────────────────────────────────────────────
+// Flex column: title block (fixed) → slot section (fills rest)
+.dressup-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+  min-height: 0;
+}
+
+// Title label – white torn-paper block
+.dressup-title-block {
+  flex-shrink: 0;                   // never shrink to feed the grid
+  background: #ffffff;
+  padding: 14px 22px 12px;
+  clip-path: polygon(0 0, 100% 1%, 99% 100%, 1% 99%);
+  box-shadow: 3px 4px 12px rgba(0,0,0,0.45);
+  width: fit-content;
+  max-width: 100%;
+}
+
+.dressup-heading {
+  font-family: "Anton Regular", Anton, Impact, "Arial Narrow", sans-serif !important;
+  font-size: clamp(36px, 4.8vw, 72px) !important;
+  line-height: 1 !important;
+  color: #111 !important;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dressup-heading-badge {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: clamp(28px, 3.2vw, 46px);
+  height: clamp(28px, 3.2vw, 46px);
+
+  svg { width: 100%; height: 100%; }
+}
+
+.dressup-tagline {
+  font-family: "Alte Haas Grotesk Regular", "Courier New", monospace !important;
+  font-size: 11px !important;
+  line-height: 1.5 !important;
+  color: #555 !important;
+  margin: 8px 0 0 !important;
+}
+
+// ── Slot section (arrows + grid) ────────────────────────────
+// flex: 1 + min-height: 0 lets this section fill leftover space
+// without ever pushing past the viewport boundary.
+.dressup-slot-section {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.dressup-arrow {
+  flex-shrink: 0;
+  background: transparent;
+  border: none;
+  color: rgba(220, 220, 220, 0.55);
+  font-size: 9px;
+  cursor: pointer;
+  padding: 2px 12px;
+  line-height: 1;
+  transition: color 0.2s ease;
+
+  &:hover { color: rgba(255, 255, 255, 0.9); }
+}
+
+// The grid itself grows to fill the space between the two arrows
+.dressup-grid {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  gap: 8px;
+  width: 100%;
+}
+
+// Left panel: 2 columns × 2 rows
+.dressup-grid--2x2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+// Right panel: 2 columns × 3 rows
+.dressup-grid--2x3 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+// Slots size themselves via the grid – no fixed height or
+// aspect-ratio that could overflow the viewport.
+.dressup-slot {
+  background: rgba(52, 52, 52, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  min-height: 0;                    // allow shrinking freely
+  transition: border-color 0.2s ease, background 0.2s ease;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.22);
+    background: rgba(65, 65, 65, 0.9);
+  }
+}
+
+// ── CENTER: Model cutout ─────────────────────────────────────
+.dressup-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 0;
+}
+
+// Cutout grows up to 78% of the column height; the polygon
+// mirrors the irregular silhouette from the design mockup.
+.dressup-model-cutout {
+  width: 88%;
+  max-width: 240px;
+  height: 78%;
+  background: rgba(200, 200, 200, 0.07);
+  border: 2px dashed rgba(255, 255, 255, 0.18);
+  clip-path: polygon(
+    18%  0%,
+    82%  1%,
+    96%  8%,
+    99%  88%,
+    88%  100%,
+    12%  99%,
+    2%   90%,
+    1%   8%
+  );
+}
+
+// ── RIGHT PANEL ──────────────────────────────────────────────
+.dressup-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 0;
+
+  // The slot section inside should fill available height
+  .dressup-slot-section {
+    width: 100%;
+    height: 80%;           // don't stretch all the way to edges
+  }
+}
+
+// ── Responsive ───────────────────────────────────────────────
+@media screen and (max-width: 1024px) {
+  .dressup-layout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding: 76px 24px 32px;
+    height: auto;
+    min-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .dressup-page { height: auto; overflow: visible; }
+
+  .dressup-center {
+    grid-column: 1 / -1;
+    order: -1;
+    height: 40vh;
+  }
+
+  .dressup-left  { grid-column: 1; height: auto; }
+  .dressup-right { grid-column: 2; height: auto; }
+
+  .dressup-slot-section { flex: none; }
+  .dressup-grid { flex: none; }
+
+  .dressup-grid--2x2 { grid-template-rows: repeat(2, 90px); }
+  .dressup-grid--2x3 { grid-template-rows: repeat(3, 90px); }
+}
+
+@media screen and (max-width: 640px) {
+  .dressup-layout {
+    grid-template-columns: 1fr;
+    padding: 72px 16px 24px;
+    gap: 24px;
+  }
+
+  .dressup-center { grid-column: 1; }
+  .dressup-left   { grid-column: 1; }
+  .dressup-right  { grid-column: 1; }
+
+  .dressup-heading {
+    font-size: clamp(38px, 10vw, 56px) !important;
+  }
+}
+
+// ============================================================
+// LEGACY – original dress-up game styles (kept for reference)
+// ============================================================
+
 .dress-page {
   min-height: 100vh;
   width: 100%;
@@ -718,75 +990,5 @@
   margin: 0 0 18px 0;
   letter-spacing: 0.01em;
 
-  display: flex;
-  flex-direction: column;
-}
-
-.statement-section__body {
-  font-family: "Montserrat", system-ui, sans-serif;
-  font-size: clamp(15px, 3.8vw, 18px);
-  line-height: 1.75;
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.statement-section__body p {
-  margin: 0 0 18px 0;
-}
-
-.statement-section__body p:last-child {
-  margin-bottom: 0;
-}
-.statement-role {
-  font-weight: 400;
-  font-size: 0.75em;
-  opacity: 0.75;
-  margin-top: 6px;
-  white-space: nowrap;
-}
-
-@media (min-width: 900px) {
-  .statement-section__overlay {
-    padding: 96px 24px;
-  }
-}
-// Mobile adjustments
-@media (max-width: 480px) {
-  .statement-section__overlay {
-    padding: 44px 14px;
-  }
-
-  .statement-section__header {
-    font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 14px;
-  }
-
-  .statement-section__body {
-    font-size: 15px;
-    line-height: 1.65;
-  }
-}
-
-@keyframes flowIn {
-  0% {
-    opacity: 0;
-    transform: translateY(40px);
-    filter: blur(6px);
-  }
-  25% {
-    opacity: 1;
-    transform: translateY(0);
-    filter: blur(0);
-  }
-  70% {
-    opacity: 1;
-    transform: translateY(0);
-    filter: blur(0);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-30px);
-    filter: blur(6px);
-  }
-}
+  display
 */
